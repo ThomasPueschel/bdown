@@ -26,13 +26,18 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Primate morphology"
+    tag = "Primate morphology"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
-
+    name = "African palaeoecology"
+    tag = "African  palaeoecology"
+    
+  [[content.filter_button]]
+    name = "New morpho-functional tools"
+    tag = "New morpho-functional tools"
+    
+    
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

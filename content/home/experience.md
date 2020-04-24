@@ -18,27 +18,34 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Postdoctoral Research Officer- Leverhulme Early Career Fellowship"
+  company = "School of Anthropology and Museum Ethnography, University of Oxford"
+  company_url = "https://www.anthro.ox.ac.uk/"
+  location = "Oxford, UK."
+  date_start = "2018-10-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+Project: 'This study has teeth: exploring human origins and Climate Change through time.'
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  title = "College advisor"
+  company = "St Antony's College"
+  company_url = "https://www.sant.ox.ac.uk/"
+  location = "Oxford, UK."
+  date_start = "2018-10-01"
+  date_end = ""
+  description = """Pastoral duties at St Anthony’s College where I advise students, both at the levels of MSc and DPhil."""
+  
+[[experience]]
+  title = "Research Officer"
+  company = "The University of Manchester"
+  company_url = "https://www.ees.manchester.ac.uk/"
+  location = "Manchester, UK."
+  date_start = "2018-04-01"
+  date_end = "2018-09-30"
+  description = """Postdoctoral position within the NERC project: 'The co-evolution of human hands and tool using behaviour' led by Prof. William Sellers."""
+  
 +++
+
+

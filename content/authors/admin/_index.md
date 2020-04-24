@@ -1,48 +1,52 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: My main interest is to study primate and human evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork.
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Adaptive Organismal Biology
+    institution: The University of Manchester
+    year: 2018
+  - course: MSc in Human Evolution
+    institution: The University of York, Hull York Medical School
+    year: 2013
+  - course: BSc in Biological Anthropology
+    institution: Universidad de Chile
+    year: 2011
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Primate evolution
+- Palaeontology and Palaeoanthropology
+- Morphometrics
+- Biomechanics
+- Phylogenetic comparative methods
 organizations:
-- name: Stanford University
+- name: University of Oxford
   url: ""
-role: Professor of Artificial Intelligence
+role: Leverhulme Early Career Fellow
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/ThomasPuschel
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?hl=en&user=v8oXbxgAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ThomasPueschel
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Thomas_Pueschel
 superuser: true
-title: Nelson Bighetti
+title: Thomas A. Püschel
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My main interest is to study primate and human evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My research covers a broad range of topics, and I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
