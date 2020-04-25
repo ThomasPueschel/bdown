@@ -30,7 +30,7 @@ math: true
 projects:
 - internal-project
 publishDate: "2019-04-10T00:00:00Z"
-summary: An example talk using Academic's Markdown slides feature.
+summary: AAPA 2020 podium presentation
 tags: []
 title: Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox
 url_code: ""
