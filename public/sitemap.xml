@@ -43,7 +43,7 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>/publication/gettting/</loc>
+    <loc>/publication/getting/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,6 +138,21 @@
   </url>
   
   <url>
+    <loc>/author/german-manriquez/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/martin-friess/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/acd/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
@@ -150,6 +165,16 @@
   <url>
     <loc>/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ajpa/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/william-i-sellers/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -195,11 +220,6 @@
   <url>
     <loc>/category/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

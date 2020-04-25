@@ -5,12 +5,36 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
+      <link>/publication/getting/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/getting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
+      <link>/publication/acd/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/acd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
+      <link>/publication/ajpa/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ajpa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An example journal article</title>

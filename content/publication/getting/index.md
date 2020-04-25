@@ -8,10 +8,10 @@ authors:
 - Sergio Almécija
 - William I. Sellers
 date: "2019-04-25T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.3389/feart.2020.00079"
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://doi.org/10.3389/feart.2020.00079)'
+  caption: '(https://doi.org/10.3389/feart.2020.00079)'
   focal_point: ""
   preview_only: false
 links:
@@ -19,10 +19,10 @@ links:
   url: https://doi.org/10.3389/feart.2020.00079
 projects:
 - internal-project
-publication: In *Frontiers in Earth Science*
+publication: In *Frontiers in Earth Science*, 8, (2020)
 publication_short: 
 publication_types:
-- "1"
+- "2"
 publishDate: "2019-04-25T00:00:00Z"
 slides: 
 summary: platyrrhine, semi-terrestriality, machine-learning, geometric morphometrics, finite element analysis,Paralouatta, talus
