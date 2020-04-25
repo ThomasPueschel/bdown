@@ -29,6 +29,14 @@
     </item>
     
     <item>
+      <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
+      <link>/publication/acd/</link>
+      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/acd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
       <link>/publication/getting/</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
@@ -86,10 +94,10 @@ date: 2019-09-01
     </item>
     
     <item>
-      <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
-      <link>/publication/acd/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/acd/</guid>
+      <title>Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of Pterostichus melas melas (Coleptera Carabidae)</title>
+      <link>/publication/benitez_2018/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/benitez_2018/</guid>
       <description></description>
     </item>
     
@@ -98,6 +106,14 @@ date: 2019-09-01
       <link>/publication/ajpa/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
       <guid>/publication/ajpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
+      <link>/publication/bucchi/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/bucchi/</guid>
       <description></description>
     </item>
     
@@ -243,6 +259,22 @@ date: 2019-09-01
 &lt;p&gt;Released under the 
 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/publication/benitez2015/</link>
+      <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/benitez2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Shape Variance Geometric Morphometric Applications in Evolutionary Biology</title>
+      <link>/publication/benitez2014/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/benitez2014/</guid>
+      <description></description>
     </item>
     
   </channel>

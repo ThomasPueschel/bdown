@@ -4,7 +4,7 @@ authors:
 - admin
 - Martin Friess
 - Germán Manríquez
-date: "2019-01-24T00:00:00Z"
+date: "2020-01-24T00:00:00Z"
 doi: "https://doi.org/10.1371/journal.pone.0227362"
 featured: false
 image:
@@ -12,7 +12,7 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Link to paper
+- name: Online version
   url: https://doi.org/10.1371/journal.pone.0227362
 projects:
 - internal-project
@@ -20,7 +20,7 @@ publication: In *PlOS One* 15, e0227362 (2020)
 publication_short: 
 publication_types:
 - "2"
-publishDate: "2019-01-24T00:00:00Z"
+publishDate: "2020-01-24T00:00:00Z"
 slides: 
 summary: Artificial deformed skulls, modularity, integration, morphometrics
 tags:

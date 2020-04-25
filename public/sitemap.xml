@@ -83,6 +83,21 @@
   </url>
   
   <url>
+    <loc>/author/german-manriquez/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/martin-friess/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/acd/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -153,18 +168,43 @@
   </url>
   
   <url>
-    <loc>/author/german-manriquez/</loc>
-    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    <loc>/author/bozena-baric/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/martin-friess/</loc>
-    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    <loc>/author/darija-lemic/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/acd/</loc>
-    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    <loc>/publication/benitez_2018/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/helena-viric-gasparic/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hugo-benitez/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ivana-pajac-zivkovic/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/renatabazok/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tomislav-kos/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,6 +224,11 @@
   
   <url>
     <loc>/publication/ajpa/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bucchi/</loc>
     <lastmod>2016-10-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -260,6 +305,16 @@
   <url>
     <loc>/tag/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/benitez2015/</loc>
+    <lastmod>2015-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/benitez2014/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

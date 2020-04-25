@@ -13,7 +13,7 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Link to paper
+- name: Online version
   url:  https://doi.org/10.1038/s41598-020-63739-5
 projects:
 - internal-project
