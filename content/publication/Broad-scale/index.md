@@ -17,7 +17,7 @@ links:
   url:  https://doi.org/10.1038/s41598-020-63739-5
 projects:
 - internal-project
-publication: In *Scientific Reports* 0, 6793 (2020)
+publication: In *Scientific Reports* 10, 6793 (2020)
 publication_short: 
 publication_types:
 - "2"

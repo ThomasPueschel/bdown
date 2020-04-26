@@ -19,7 +19,57 @@
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/biren-a.-patel/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/getting/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jordi-marce-nogue/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/justin-gladman/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sergio-almecija/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/thomas-a.-puschel/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/william-i.-sellers/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,32 +78,7 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/broad-scale/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jordi-marce-nogue/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/thomas-a.-puschel/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,31 +148,6 @@
   </url>
   
   <url>
-    <loc>/author/biren-a.-patel/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/getting/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/justin-gladman/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/sergio-almecija/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/william-i.-sellers/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/example/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
   </url>
@@ -165,6 +165,16 @@
   <url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/interface/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/rene-bobe/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -223,12 +233,62 @@
   </url>
   
   <url>
-    <loc>/publication/ajpa/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+    <loc>/author/josep-fortuny/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/soledad-de-esteban-trivigno/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/intervals/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/jhe/</loc>
+    <lastmod>2017-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/mandible_diet/</loc>
+    <lastmod>2017-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/thomas-kaiser/</loc>
+    <lastmod>2017-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/davud-rubilar-rogers/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hans-p.-puschel/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/hans/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ana-bucchi/</loc>
+    <lastmod>2016-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/bucchi/</loc>
+    <lastmod>2016-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ajpa/</loc>
     <lastmod>2016-10-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -283,6 +343,36 @@
   </url>
   
   <url>
+    <loc>/publication-type/6/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/francisco-rothhmammer/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mauricio-moraga/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/libro_chile/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sergio-flores/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tomas-gonzalez/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
@@ -313,8 +403,48 @@
   </url>
   
   <url>
+    <loc>/author/hector-vargas/</loc>
+    <lastmod>2015-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/benitez2014/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hugo-a.benitez/</loc>
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/marina-buketa/</loc>
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/diabrotica/</loc>
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/raffaella-bravi/</loc>
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/renata-bazok/</loc>
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/femur/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/puschel2014/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

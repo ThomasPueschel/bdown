@@ -5,12 +5,20 @@
     <link>/author/jordi-marce-nogue/</link>
       <atom:link href="/author/jordi-marce-nogue/index.xml" rel="self" type="application/rss+xml" />
     <description>Jordi Marcé-Nogué</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Jordi Marcé-Nogué</title>
       <link>/author/jordi-marce-nogue/</link>
     </image>
+    
+    <item>
+      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
+      <link>/publication/getting/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/getting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
@@ -29,10 +37,26 @@
     </item>
     
     <item>
-      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
-      <link>/publication/getting/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/getting/</guid>
+      <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
+      <link>/publication/interface/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
+      <link>/publication/intervals/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/intervals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
+      <link>/publication/mandible_diet/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/mandible_diet/</guid>
       <description></description>
     </item>
     

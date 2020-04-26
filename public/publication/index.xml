@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
+      <link>/publication/getting/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/getting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
@@ -37,10 +45,10 @@
     </item>
     
     <item>
-      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
-      <link>/publication/getting/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/getting/</guid>
+      <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
+      <link>/publication/interface/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/interface/</guid>
       <description></description>
     </item>
     
@@ -53,6 +61,46 @@
     </item>
     
     <item>
+      <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
+      <link>/publication/intervals/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/intervals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
+      <link>/publication/jhe/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/jhe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
+      <link>/publication/mandible_diet/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/mandible_diet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile</title>
+      <link>/publication/hans/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/hans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity</title>
+      <link>/publication/bucchi/</link>
+      <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/bucchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
       <link>/publication/ajpa/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
@@ -61,10 +109,10 @@
     </item>
     
     <item>
-      <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
-      <link>/publication/bucchi/</link>
-      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi/</guid>
+      <title>Origen y evolución de la población chilena el punto de vista biológico. in Prehistoria en Chile Desde sus Primeros Habitantes hasta los Incas</title>
+      <link>/publication/libro_chile/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/libro_chile/</guid>
       <description></description>
     </item>
     
@@ -81,6 +129,30 @@
       <link>/publication/benitez2014/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       <guid>/publication/benitez2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphological integration and modularity in Diabrotica virgifera virgifera LeConte (Coleoptera Chrysomelidae) hind wings</title>
+      <link>/publication/diabrotica/</link>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/diabrotica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Femoral Functional Adaptation A Comparison Between Hunter Gatherers and Farmers Using Geometric Morphometrics</title>
+      <link>/publication/femur/</link>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/femur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modularity and Morphological Integration in Human Skulls a Geometric Morphometric Approach</title>
+      <link>/publication/puschel2014/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/puschel2014/</guid>
       <description></description>
     </item>
     

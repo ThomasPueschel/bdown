@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soledad De Esteban-Trivigno | Thomas A. Püschel</title>
+    <link>/author/soledad-de-esteban-trivigno/</link>
+      <atom:link href="/author/soledad-de-esteban-trivigno/index.xml" rel="self" type="application/rss+xml" />
+    <description>Soledad De Esteban-Trivigno</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Soledad De Esteban-Trivigno</title>
+      <link>/author/soledad-de-esteban-trivigno/</link>
+    </image>
+    
+    <item>
+      <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
+      <link>/publication/intervals/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/intervals/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@ authors:
 - Biren A. Patel
 - Sergio Almécija
 - William I. Sellers
-date: "2019-04-25T00:00:00Z"
+date: "2020-04-25T00:00:00Z"
 doi: "https://doi.org/10.3389/feart.2020.00079"
 featured: true
 image:
@@ -23,7 +23,7 @@ publication: In *Frontiers in Earth Science*, 8, (2020)
 publication_short: 
 publication_types:
 - "2"
-publishDate: "2019-04-25T00:00:00Z"
+publishDate: "2020-04-25T00:00:00Z"
 slides: 
 summary: platyrrhine, semi-terrestriality, machine-learning, geometric morphometrics, finite element analysis,Paralouatta, talus
 tags:
