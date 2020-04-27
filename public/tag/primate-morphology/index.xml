@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Primate morphology | Thomas A. Püschel</title>
+    <link>/tag/primate-morphology/</link>
+      <atom:link href="/tag/primate-morphology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Primate morphology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Primate morphology</title>
+      <link>/tag/primate-morphology/</link>
+    </image>
+    
+    <item>
+      <title>Primate morphology</title>
+      <link>/project/primate_morphology/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/primate_morphology/</guid>
+      <description>&lt;p&gt;##Primate evolutionary morphology##&lt;/p&gt;
+&lt;p&gt;An important part of my research has been devoted to the study of the key adaptations defining different stages of anthropoid evolution. I am interested in the selective pressures responsible for specific evolutionary transitions, in particular (but not limited to) the split between the lineages leading to humans and apes, and the adaptive radiation of New World monkeys. For some of this work I was awarded two scholarships by the Chilean National Research and Development Agency, as well as a European Synthesis Grant. This work can be further divided into the following topics:&lt;/p&gt;
+&lt;p&gt;•	Adaptive radiation of New World monkeys: Platyrrhines are a diverse group of primates that presently occupy a broad range of tropical-equatorial environments in the Americas. I am particularly interested in the phenotypic adaptations, the main drivers of diversification, the role and importance of abiotic and biotic factors, and the processes that underlie the adaptive radiation of this highly diverse group, since their origin ~35-45 million years ago. I use 3D morphometrics and phylogenetic comparative analyses to identify major shifts in phenotypic evolution (in different anatomical structures) through time and to determine whether phenotypic shifts are synchronous with key geological, climatic or other environmental changes.&lt;/p&gt;
+&lt;p&gt;•	Primate post-cranial adaptive evolution: As a result of the varying demands and constraints of the diverse ecological niches where primates live, their behaviours are congruently complex, plastic and diverse, which means that the relationship between a particular morphology and certain behaviour are not straightforward. Consequently, I want to understand the evolution of primate locomotor behaviours and their anatomical correlates, and how we can apply this knowledge to the fossil record. My research is hypothesis-driven and relies on an interdisciplinary approach that integrates experimental methods with traditional and state-of-the-art morphometrics, computational biomechanics, and may use data acquired from live animals, cadaveric materials, extant and fossil skeletons, and 3D imaging (e.g. CT data).&lt;/p&gt;
+&lt;p&gt;•	The evolution of the ape and human hands: Inferring the locomotor behaviour of the last common ancestor (LCA) of African apes and humans is still a divisive subject. An African great-ape-like ancestor using knuckle-walking is the most parsimonious hypothesis for the LCA, despite diverse conflicting lines of evidence. Using morphometrics, computational biomechanics, and phylogenetic comparative methods, my colleagues and I have been working in modelling the evolution of human and ape hand morphology6,7. This is fundamental to understand the origins of the modern human hand and its precision grip capabilities, tool use, and the locomotor repertoire of the LCA.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

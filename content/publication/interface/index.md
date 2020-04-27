@@ -8,7 +8,7 @@ authors:
 - William I Sellers
 date: "2018-09-26T00:00:00Z"
 doi: "https://doi.org/10.1098/rsif.2018.0520"
-featured: true
+featured: false
 image:
   caption: '(https://doi.org/10.1098/rsif.2018.0520)'
   focal_point: ""

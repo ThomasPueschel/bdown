@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am palaeoprimatologist and vertebrate palaeobiologist mainly focused in primate and mammalian evolution. My main interest is to study evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+bio: I am palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
 education:
   courses:
   - course: PhD in Adaptive Organismal Biology
@@ -23,8 +23,8 @@ interests:
 - Phylogenetic comparative methods
 - Palaeoecology
 organizations:
-- name: University of Oxford
-  url: ""
+- name: Primate Models for Behavioural Evolution Lab
+  url: "https://primobevolab.web.ox.ac.uk/"
 role: Leverhulme Early Career Fellow
 social:
 - icon: envelope
@@ -36,12 +36,13 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=v8oXbxgAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/ThomasPueschel
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/ThomasPueschel
 - icon: researchgate
   icon_pack: fab
   link: https://www.researchgate.net/profile/Thomas_Pueschel
+
 superuser: true
 title: Thomas A. Püschel
 user_groups:
@@ -49,5 +50,5 @@ user_groups:
 - Visitors
 ---
 
-I am palaeoprimatologist and vertebrate palaeobiologist mainly focused in primate and mammalian evolution. My main interest is to study evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+I am palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
 

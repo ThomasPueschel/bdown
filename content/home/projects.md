@@ -21,23 +21,27 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
+  # [[content.filter_button]]
+  #   name = "All"
+  #   tag = "*"
+    
   [[content.filter_button]]
-    name = "All"
-    tag = "*"
+    name = "Paleo-Primate Project"
+    tag = "PPPG"    
   
   [[content.filter_button]]
     name = "Primate morphology"
     tag = "Primate morphology"
+    
+  [[content.filter_button]]
+    name = "New tools"
+    tag = "New tools"
   
   [[content.filter_button]]
     name = "African palaeoecology"
-    tag = "African  palaeoecology"
+    tag = "palaeoecology"
     
-  [[content.filter_button]]
-    name = "New morpho-functional tools"
-    tag = "New morpho-functional tools"
-    
-    
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
@@ -47,7 +51,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false

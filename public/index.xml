@@ -55,6 +55,227 @@
     </item>
     
     <item>
+      <title>Intervals&#39; method tutorial</title>
+      <link>/post/tutorial_intervals/</link>
+      <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
+      <guid>/post/tutorial_intervals/</guid>
+      <description>
+
+
+&lt;div id=&#34;tutorial-how-to-use-r-to-analyse-data-from-fea-using-the-intervals-method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tutorial: How to use R to analyse data from FEA using the intervals’ method&lt;/h2&gt;
+&lt;p&gt;We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods. As a case study, several armadillo mandibles are analysed, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ca. unicinctus&lt;/em&gt;: Specialist insectivore&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ch. truncatus&lt;/em&gt;: Generalist insectivore-fossorial&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;D. novemcinctus&lt;/em&gt;: Generalist insectivore&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ca. tatouay&lt;/em&gt;: Generalist insectivore-fossorial&lt;/p&gt;
+&lt;p&gt;Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them. In the provided example, four armadillo mandibles will be analysed which correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time.&lt;/p&gt;
+&lt;p&gt;When using this method, please cite the following reference: Marcé-Nogué, J., De Esteban-Trivigno, S., Püschel, T.A., Fortuny, J., 2017. The intervals method: a new approach to analyse finite element outputs using multivariate statistics. PeerJ 5, e3793. &lt;a href=&#34;https://doi.org/10.7717/peerj.3793&#34; class=&#34;uri&#34;&gt;https://doi.org/10.7717/peerj.3793&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The R scripts and data files to run the method outlined below can be download from &lt;a href=&#34;https://figshare.com/articles/intervals-method-files_rar/12025866&#34; class=&#34;uri&#34;&gt;https://figshare.com/articles/intervals-method-files_rar/12025866&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let’s get started!&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Set the input parameters for the method (these values are defined by the user):
+Fixed Upper Threshold FTupper&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;FTupper = 0.1;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Number of intervals: NIntervals&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NIntervals = 25;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Read the data.
+The data must be stored as .csv files in the same folder of the script
+Each .csv file must contain three rows with: a) the number of the element, b) area/volume of the element and c) von mises stress, respectively.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;file.name = list.files(pattern=&amp;quot;*.csv&amp;quot;)
+NFiles = length(file.name)&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create the matrix of intervals
+Each row with the area percentage for each interval and each file of the matrix
+with the different models included&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data.intervals = matrix(file.name,ncol = NIntervals, nrow = NFiles)
+
+for (f in 1:NFiles) {
+
+  data.values = data.matrix(read.csv(file.name[f], header = TRUE, sep = &amp;quot;,&amp;quot;));
+
+  # Get the number of mesh elements of the model
+
+  NElements = nrow(data.values);
+
+  # Create the internal matrix to store the intervals and other data
+
+  Counter.matrix = matrix(0,ncol = NIntervals, nrow = 5);
+
+  # Compute the range values for each interval (Tlower and Tupper)
+
+  Range.values = seq(0, FTupper, by=FTupper/(NIntervals-1));
+
+  # Start the Loop
+
+  for (i in 1:NElements) {
+    for (j in 1:NIntervals) {
+      if (j == 1){
+        if (data.values[i,3] &amp;lt;= Range.values[j+1]) 
+          {
+          Counter.matrix[2,j]=Counter.matrix[2,j]+1;
+          Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
+          }
+      }
+      else if (j &amp;gt; 1 &amp;amp; j &amp;lt; NIntervals){
+        if (data.values[i,3] &amp;gt; Range.values[j] &amp;amp; data.values[i,3] &amp;lt;= Range.values[j+1]) 
+        {
+        Counter.matrix[2,j]=Counter.matrix[2,j]+1;
+        Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
+        }   
+      }
+      else if (j == NIntervals){
+        if (data.values[i,3] &amp;gt; Range.values[j]) 
+        {
+        Counter.matrix[2,j]=Counter.matrix[2,j]+1;
+        Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
+        }
+      }
+    }
+  }
+  
+  # End the loop
+
+  # Compute the percentage in each interval with respect  to the total area
+
+  for (i in 1:NIntervals) {
+    Counter.matrix[1,i]=Range.values[i];
+    Counter.matrix[3,i]=100*Counter.matrix[2,i]/NElements;
+    Counter.matrix[5,i]=100*Counter.matrix[4,i]/sum(data.values[,2]);
+  }
+
+  # Store the vector of intervals for the model f in the matrix of intervals
+
+  data.intervals[f,]=Counter.matrix[5,];
+
+}
+
+data.intervals=as.data.frame(data.intervals);
+row.names(data.intervals)=file.name;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Save data and remove variables&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;write.csv(data.intervals,&amp;#39;matrix-of-intervals.csv&amp;#39;);
+rm(NIntervals, FTupper, NElements, i, j, f, file.name, NFiles, Range.values, Counter.matrix, data.values)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following steps are necessary to carry the PCA with the newly generated variables&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;install the following packages if required&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;if (!require(&amp;#39;factoextra&amp;#39;)) devtools::install_github(&amp;quot;kassambara/factoextra&amp;quot;); library(&amp;#39;factoextra&amp;#39;)
+## Loading required package: factoextra
+## Loading required package: ggplot2
+## Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+if (!require(&amp;#39;ggpubr&amp;#39;)) devtools::install_github(&amp;quot;kassambara/ggpubr&amp;quot;); library(&amp;#39;ggpubr&amp;#39;)
+## Loading required package: ggpubr
+if (!require(&amp;#39;FactoMineR&amp;#39;)) install.packages(&amp;#39;FactoMiner&amp;#39;); library(&amp;#39;FactoMineR&amp;#39;)
+## Loading required package: FactoMineR&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;read the intervals&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;stress.distrib = read.csv(&amp;quot;matrix-of-intervals.csv&amp;quot;, row.names=1, header = TRUE, sep = &amp;quot;,&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;compute PCA&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;col.number = ncol(stress.distrib)
+PCA.stress &amp;lt;- PCA(stress.distrib[,1:col.number],  graph = FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Define the parameters and generate the biplot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# colors by group
+group.colors = row.names(stress.distrib)
+
+#colors by variable
+interval.number = nrow(PCA.stress$var$coord)
+interval.vector = seq(from = 1, to = interval.number, by=1 )
+interval.colors = interval.vector
+interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot;green&amp;quot;,&amp;quot;chartreuse&amp;quot;,&amp;quot;yellow&amp;quot;,&amp;quot;gold&amp;quot;,&amp;quot;orange&amp;quot;,&amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Biplot: variables coloured by contribution to PCs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fviz_pca_biplot(PCA.stress, 
+                mean.point=F,                     # 
+                axes.linetype = &amp;quot;solid&amp;quot;,
+                
+                # Fill individuals by groups
+                geom.ind=c(&amp;quot;point&amp;quot;, &amp;quot;text&amp;quot;),
+                pointshape = 21, 
+                pointsize = 5,            
+                col.ind= &amp;quot;black&amp;quot;,                 # 
+                fill.ind = group.colors,          # 
+                alpha.ind = 1,                    # 
+                
+                # Color variable by intervals
+                geom.var = &amp;quot;arrow&amp;quot;,
+                col.var = interval.colors,
+                arrowsize = 0.5,
+                
+                repel = TRUE) +                   # Avoid label overplotting
+  
+  
+  #fill_palette(group.palette) +
+  gradient_color(interval.palette)+
+  labs(x = &amp;quot;PC1&amp;quot;, y = &amp;quot;PC2&amp;quot;)+
+  
+  
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>African palaeoecology</title>
+      <link>/project/african_paleoecology/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/african_paleoecology/</guid>
+      <description>&lt;p&gt;##African palaeoecology##&lt;/p&gt;
+&lt;p&gt;A great number of unsolved palaeoenvironmental questions concerning hominins relate to their emergence during the Miocene and early radiation through the Pliocene. Understanding the relationship between ecosystem dynamics and hominin palaeobiology is fundamental to test hypotheses that attempt to elucidate the influence of the environment on the morphological and behavioural adaptations of early hominins. The mammalian fossil record offers critical evidence about the context of human evolution by providing comprehensive information on faunal change through time. The analysis of this outstanding fossil record can provide essential insights about the interaction of environmental change and mammalian evolution, including processes that likely affected hominin evolution. Hence, I am currently collaborating with different colleagues to better understand this key time periods. To develop this line of research I was recently awarded both a Leverhulme Early Career Fellowship and two Boise Funds for Palaeanthropological Research. I am currently working on the following sub-topic:&lt;/p&gt;
+&lt;p&gt;•	Development of new dental ecometrics to reconstruct the African late Miocene/early Pliocene environment:  As teeth are the most common mammalian remains found in the fossil record, many studies have used them as source of palaeoecological information. Among the promising approaches applied to interpreting palaeoclimate from dental remains, there is a method known as ‘dental ecometrics’. This refers to the study of tooth functional traits that have a relationship with climate or environmental gradients at the community level. This research will generate innovative automated ecometric models to reconstruct the paleoenvironments of the African late Miocene/earliest Pliocene using more complex 3D dental variables and machine-learning regression methods. I was awarded a Boise Fund grant to carry out this project, and I am applying for a Synthesis Access project in the following weeks, to strengthen my comparative sample.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modularity of the Wrist in Extant Hominids</title>
+      <link>/publication/bucchi2020_pre/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bucchi2020_pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New morpho-functional tools</title>
+      <link>/project/new_tools/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/new_tools/</guid>
+      <description>&lt;p&gt;##New tools to analyse primate form and function in an evolutionary framework##&lt;/p&gt;
+&lt;p&gt;Analysing the correlation between form and ecological function is not only relevant to understanding the morphological diversity observed in extant species, but also because it allows us to infer past behaviours in palaeobiological contexts. Given the inherent difficulty of this topic, to elucidate the association between form and function in an ecological and evolutionary context it is necessary to coherently apply a combination of diverse methods, derived from several disciplines such as evolutionary biology, quantitative genetics, biomechanics, phylogenetic comparative techniques, multivariate statistics and ecology, among others. I am collaborating with different colleagues to develop tools and workflows in the following sub-topics:&lt;/p&gt;
+&lt;p&gt;•	Combining finite element analysis (FEA), geometric morphometrics (GM) and phylogenetic comparative methods (PCMs): One of my long-standing methodological aims is to understand the relationship between form and ecological function in diverse skeletal elements belonging to different primate clades taking into account their phylogenetic relatedness and using state-of-the-art in silico techniques. My aim is to provide an understanding of the role of functional performance in the evolution of morphological form in different anthropoid groups and ascertain the influence of ecological function on skeletal morphology. Therefore, I have been developing different pipelines to combine GM to quantify shape, FEA to analyse function, and PCMs to contextualise the obtained results in an evolutionary and ecomorphological framework2,3,5,6,8–11. These workflows allow me to explicitly test hypotheses regarding the role of functional factors in the evolution of morphological diversity.&lt;/p&gt;
+&lt;p&gt;•	New statistical tools to analyse FEA outputs: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework12.&lt;/p&gt;
+&lt;p&gt;•	Taxonomic applications of machine-learning algorithms to analyse fragmentary palaeoanthropological materials: I have recently started a new collaboration to analyse Kenyan paleoanthropological fragmentary remains that although highly important, remain difficult to diagnose due to their fragmented nature. Hence, we have started to analyse these fossils using 3D morphometrics and a sophisticated battery of machine-learning classification algorithms in order to provide a taxonomic identity to these remains&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primate morphology</title>
+      <link>/project/primate_morphology/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/primate_morphology/</guid>
+      <description>&lt;p&gt;##Primate evolutionary morphology##&lt;/p&gt;
+&lt;p&gt;An important part of my research has been devoted to the study of the key adaptations defining different stages of anthropoid evolution. I am interested in the selective pressures responsible for specific evolutionary transitions, in particular (but not limited to) the split between the lineages leading to humans and apes, and the adaptive radiation of New World monkeys. For some of this work I was awarded two scholarships by the Chilean National Research and Development Agency, as well as a European Synthesis Grant. This work can be further divided into the following topics:&lt;/p&gt;
+&lt;p&gt;•	Adaptive radiation of New World monkeys: Platyrrhines are a diverse group of primates that presently occupy a broad range of tropical-equatorial environments in the Americas. I am particularly interested in the phenotypic adaptations, the main drivers of diversification, the role and importance of abiotic and biotic factors, and the processes that underlie the adaptive radiation of this highly diverse group, since their origin ~35-45 million years ago. I use 3D morphometrics and phylogenetic comparative analyses to identify major shifts in phenotypic evolution (in different anatomical structures) through time and to determine whether phenotypic shifts are synchronous with key geological, climatic or other environmental changes.&lt;/p&gt;
+&lt;p&gt;•	Primate post-cranial adaptive evolution: As a result of the varying demands and constraints of the diverse ecological niches where primates live, their behaviours are congruently complex, plastic and diverse, which means that the relationship between a particular morphology and certain behaviour are not straightforward. Consequently, I want to understand the evolution of primate locomotor behaviours and their anatomical correlates, and how we can apply this knowledge to the fossil record. My research is hypothesis-driven and relies on an interdisciplinary approach that integrates experimental methods with traditional and state-of-the-art morphometrics, computational biomechanics, and may use data acquired from live animals, cadaveric materials, extant and fossil skeletons, and 3D imaging (e.g. CT data).&lt;/p&gt;
+&lt;p&gt;•	The evolution of the ape and human hands: Inferring the locomotor behaviour of the last common ancestor (LCA) of African apes and humans is still a divisive subject. An African great-ape-like ancestor using knuckle-walking is the most parsimonious hypothesis for the LCA, despite diverse conflicting lines of evidence. Using morphometrics, computational biomechanics, and phylogenetic comparative methods, my colleagues and I have been working in modelling the evolution of human and ape hand morphology6,7. This is fundamental to understand the origins of the modern human hand and its precision grip capabilities, tool use, and the locomotor repertoire of the LCA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
       <link>/publication/getting/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
@@ -87,10 +308,19 @@
     </item>
     
     <item>
+      <title>Collecting data in Nairobi</title>
+      <link>/post/collecting_data_nairobi/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/post/collecting_data_nairobi/</guid>
+      <description>&lt;p&gt;Whilst the field season may be over, work on the Gorongosa fossil collection continues. I have been working on photogrammetry for many of the Gorongosa fossils and building 3D models of them. I recently spent several weeks at the Nairobi National Museum in Kenya studying comparative collections and scanning material for comparison.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
+      <link>/og/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
+      <guid>/og/writing-technical-content/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -338,9 +568,9 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>/og/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>/og/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -610,18 +840,10 @@ Three
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <link>/og/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
+      <guid>/og/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -631,10 +853,18 @@ Three
     </item>
     
     <item>
+      <title>Paleo-Primate project</title>
+      <link>/project/pppg/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/pppg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>/og/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>/og/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
@@ -784,9 +1014,9 @@ Three
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <link>/og/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/og/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 

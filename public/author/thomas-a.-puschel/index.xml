@@ -5,12 +5,20 @@
     <link>/author/thomas-a.-puschel/</link>
       <atom:link href="/author/thomas-a.-puschel/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas A. Püschel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/author/thomas-a.-puschel/avatar_hub63a7d599c42a087c1d68046132e0b93_5498908_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Thomas A. Püschel</title>
       <link>/author/thomas-a.-puschel/</link>
     </image>
+    
+    <item>
+      <title>Modularity of the Wrist in Extant Hominids</title>
+      <link>/publication/bucchi2020_pre/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bucchi2020_pre/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
@@ -45,10 +53,19 @@
     </item>
     
     <item>
+      <title>Collecting data in Nairobi</title>
+      <link>/post/collecting_data_nairobi/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/post/collecting_data_nairobi/</guid>
+      <description>&lt;p&gt;Whilst the field season may be over, work on the Gorongosa fossil collection continues. I have been working on photogrammetry for many of the Gorongosa fossils and building 3D models of them. I recently spent several weeks at the Nairobi National Museum in Kenya studying comparative collections and scanning material for comparison.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>/og/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>/og/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -167,9 +184,9 @@ date: 2019-09-01
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>/og/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>/og/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
