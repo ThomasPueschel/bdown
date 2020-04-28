@@ -27,6 +27,8 @@ publishDate: "2020-04-25T00:00:00Z"
 slides: 
 summary: platyrrhine, semi-terrestriality, machine-learning, geometric morphometrics, finite element analysis,Paralouatta, talus
 tags:
+- New tools
+- Primate morphology
 title: Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox
 url_pdf: files/pdf/feart-08-00079-3.pdf
 url_project: ""

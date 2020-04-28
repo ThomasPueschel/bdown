@@ -42,7 +42,9 @@ social:
 - icon: researchgate
   icon_pack: fab
   link: https://www.researchgate.net/profile/Thomas_Pueschel
-
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-2231-2297
 superuser: true
 title: Thomas A. Püschel
 user_groups:

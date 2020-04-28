@@ -2,8 +2,9 @@
 date: "2020-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: https://bit.ly/2xd0UE5
+  caption: A possible way to combine FEA + GM + PMCs https://bit.ly/2xd0UE5
   focal_point: Smart
+  author: admin
 links:
 - icon: twitter
   icon_pack: fab
