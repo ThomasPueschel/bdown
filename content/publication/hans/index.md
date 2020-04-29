@@ -23,6 +23,12 @@ publishDate: "2017-01-01T00:00:00Z"
 slides: 
 summary: Xenarthra, Mylodontidae, Morphology, Upper Pleistocene, Chile
 tags:
+- skull
+- post-cranium
+- morphometrics
+- mandible
+- palaeontology
+
 title: Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile
 url_pdf: "files/pdf/glosso.pdf"
 url_project: ""

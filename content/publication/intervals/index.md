@@ -25,6 +25,9 @@ publishDate: "2017-09-13T00:00:00Z"
 slides: 
 summary: Biomechanics, Finite element analysis, Cingulata, Armadillos, Chewing mechanics, Multivariate analysis
 tags:
+- New tools
+- comparative methods
+- FEA
 title: The intervals method a new approach to analyse finite element outputs using multivariate statistics
 url_pdf: "files/pdf/peerj-3793.pdf"
 url_project: ""

@@ -28,13 +28,21 @@ links:
 location: 
 math: true
 projects:
-- internal-project
+- Primate morphology
 publishDate: "2019-04-10T00:00:00Z"
 summary: AAPA 2020 podium presentation
-tags: []
+tags:
+- New tools
+- Primate morphology
+- post-cranium
+- morphometrics
+- comparative methods
+- FEA
+- machine-learning
 title: Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox
 url_code: ""
 url_pdf: "files/pdf/AAPA_2020.pdf"
 url_video: "https://youtu.be/xrUag96oTrs"
 ---
+Find the paper [here]({{< ref "/publication/getting/index.md" >}})
 

@@ -24,6 +24,8 @@ publishDate: "2014-12-19T00:00:00Z"
 slides: 
 summary: flowers, island, morphometrics, petals, Chile, seeds, tree
 tags:
+- morphometrics
+
 title: Analysing the Floral Elements of the Lost Tree of Easter Island A Morphometric Comparison between the Remaining Ex-Situ Lines of the Endemic Extinct Species Sophora toromiro
 url_pdf: "files/pdf/toromiro.pdf"
 url_project: ""

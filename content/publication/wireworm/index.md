@@ -26,6 +26,8 @@ publishDate: "2014-07-08T00:00:00Z"
 slides: 
 summary: larvae, invasive species, morphometrics, Croatia, soil ecology
 tags:
+- morphometrics
+- insects
 title: Ecomorphological Variation of the Wireworm Cephalic Capsule Studying the Interaction of Environment and Geometric Shape
 url_pdf: "files/pdf/wire.pdf"
 url_project: ""

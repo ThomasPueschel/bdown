@@ -28,6 +28,10 @@ publishDate: "2018-08-27T00:00:00Z"
 slides: 
 summary: Carabid beetles, Beneficial insects, Fluctuating asymmetry, Geometric morphometrics, IPM practices
 tags:
+tags:
+- morphometrics
+- fluctuating asymmetry
+- insects
 title: Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of Pterostichus melas melas (Coleptera Carabidae)
 url_pdf: "files/pdf/benitez2018.pdf"
 ---

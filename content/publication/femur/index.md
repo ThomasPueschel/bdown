@@ -22,6 +22,10 @@ publishDate: "2014-03-31T00:00:00Z"
 slides: 
 summary: Bone Functional Adaptation, Geometric Morphometrics, Hunter-Gatherers, Farmers, Principal Component Analysis, Discriminant Analysis
 tags:
+- morphometrics
+- Primate morphology
+- post-cranium
+
 title: Femoral Functional Adaptation A Comparison Between Hunter Gatherers and Farmers Using Geometric Morphometrics
 url_pdf: "files/pdf/art42.pdf"
 url_project: ""

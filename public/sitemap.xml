@@ -83,7 +83,37 @@
   </url>
   
   <url>
+    <loc>/tag/hand/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/integration/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mandible/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/modularity/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/bucchi2020_pre/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/morphometrics/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,6 +129,11 @@
   
   <url>
     <loc>/tag/palaeoecology/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/post-cranium/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,6 +163,11 @@
   </url>
   
   <url>
+    <loc>/tag/skull/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/thomas-a.-puschel/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -143,6 +183,11 @@
   </url>
   
   <url>
+    <loc>/tag/comparative-methods/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/getting/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
@@ -154,6 +199,11 @@
   
   <url>
     <loc>/author/justin-gladman/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/palaeontology/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -174,6 +224,16 @@
   
   <url>
     <loc>/publication/broad-scale/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hominin/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hominins/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,6 +348,11 @@
   </url>
   
   <url>
+    <loc>/tag/fluctuating-asymmetry/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/benitez_2018/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
@@ -299,6 +364,11 @@
   
   <url>
     <loc>/author/hugo-benitez/</loc>
+    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/insects/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -483,12 +553,12 @@
   </url>
   
   <url>
-    <loc>/publication/benitez2015/</loc>
+    <loc>/author/hector-vargas/</loc>
     <lastmod>2015-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/hector-vargas/</loc>
+    <loc>/publication/benitez2015/</loc>
     <lastmod>2015-05-23T00:00:00+00:00</lastmod>
   </url>
   

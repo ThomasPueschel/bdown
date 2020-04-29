@@ -23,6 +23,9 @@ publishDate: "2016-11-10T00:00:00Z"
 slides: 
 summary: Artificial Cranial Modification, Pre-Hispanic Atacama, Geometric Morphometrics, Multiple Correspondence Analysis
 tags:
+- morphometrics
+- skull
+- Primate morphology
 title: Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity
 url_pdf: "files/pdf/Bucchietal.pdf"
 url_project: ""

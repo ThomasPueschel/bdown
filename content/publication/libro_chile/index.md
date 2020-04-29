@@ -26,6 +26,9 @@ publishDate: "2016-01-01T00:00:00Z"
 slides: 
 summary: Book chapter on the biological origins of Chilean people
 tags:
+- morphometrics
+- skull 
+- Primate morphology
 title: Origen y evolución de la población chilena el punto de vista biológico. in Prehistoria en Chile Desde sus Primeros Habitantes hasta los Incas 
 url_pdf: "files/pdf/libro_chile.pdf"
 url_project: ""

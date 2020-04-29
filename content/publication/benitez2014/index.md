@@ -22,6 +22,11 @@ publishDate: "2014-12-01T00:00:00Z"
 slides: 
 summary: Geometric morphometrics; Evolutionary biology; Integration; Modularity; Fluctuating asymmetry; Sexual dimorphism
 tags:
+- morphometrics
+- modularity
+- integration
+- fluctuating asymmetry
+- skull
 title: Modelling Shape Variance Geometric Morphometric Applications in Evolutionary Biology
 url_pdf: "files/pdf/art41.pdf"
 url_project: ""

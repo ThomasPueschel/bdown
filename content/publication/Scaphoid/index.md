@@ -26,6 +26,14 @@ publishDate: "2020-02-26T00:00:00Z"
 slides: 
 summary:  carpals, biomechanicas, scaphoid, centrale, hominoidea
 tags:
+- New tools
+- Primate morphology
+- post-cranium
+- comparative methods
+- FEA
+- palaeontology
+- hand
+- hominin
 title: The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution
 url_pdf: "files/pdf/scaphoid.pdf"
 url_project: ""

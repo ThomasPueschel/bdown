@@ -21,6 +21,12 @@ publishDate: "2014-03-01T00:00:00Z"
 slides: 
 summary: Modularity, Morphological Integration, Geometric Morphometrics
 tags:
+- morphometrics
+- modularity
+- integration
+- Primate morphology
+- skull
+
 title:  Modularity and Morphological Integration in Human Skulls a Geometric Morphometric Approach
 url_pdf: "files/pdf/art48.pdf"
 url_project: ""

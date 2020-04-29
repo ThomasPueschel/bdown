@@ -25,6 +25,12 @@ publishDate: "2017-08-29T00:00:00Z"
 slides: 
 summary: New World monkeys, Talar morphology, Geometric morphometrics, Locomotor mode percentages, Phylogenetic comparative methods, Body mass prediction
 tags:
+- Primate morphology
+- post-cranium
+- morphometrics
+- comparative methods
+- FEA
+- palaeontology
 title: The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives
 url_pdf: "files/pdf/JHE.pdf"
 url_project: ""

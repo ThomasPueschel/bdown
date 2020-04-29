@@ -434,7 +434,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
         </li>
 
         
@@ -654,21 +654,21 @@
 
 <div id="tutorial-how-to-use-r-to-analyse-data-from-fea-using-the-intervals-method" class="section level2">
 <h2>Tutorial: How to use R to analyse data from FEA using the intervals’ method</h2>
-<p>We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods. As a case study, several armadillo mandibles are analysed, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:</p>
+<p>We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods.</p>
+<p>In the provided example, four armadillo mandibles are studied. They correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:</p>
 <p><em>Ca. unicinctus</em>: Specialist insectivore</p>
 <p><em>Ch. truncatus</em>: Generalist insectivore-fossorial</p>
 <p><em>D. novemcinctus</em>: Generalist insectivore</p>
 <p><em>Ca. tatouay</em>: Generalist insectivore-fossorial</p>
-<p>Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them. In the provided example, four armadillo mandibles will be analysed which correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time.</p>
 <p>When using this method, please cite the following reference: Marcé-Nogué, J., De Esteban-Trivigno, S., Püschel, T.A., Fortuny, J., 2017. The intervals method: a new approach to analyse finite element outputs using multivariate statistics. PeerJ 5, e3793. <a href="https://doi.org/10.7717/peerj.3793" class="uri">https://doi.org/10.7717/peerj.3793</a></p>
-<p>The R scripts and data files to run the method outlined below can be download from <a href="https://figshare.com/articles/intervals-method-files_rar/12025866" class="uri">https://figshare.com/articles/intervals-method-files_rar/12025866</a></p>
-<p>Let’s get started!</p>
+<p>The R scripts and data files to run the example described below can be download from <a href="https://figshare.com/articles/intervals-method-files_rar/12025866" class="uri">https://figshare.com/articles/intervals-method-files_rar/12025866</a></p>
+<p>Let’s get started! Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them.</p>
 <ol style="list-style-type: decimal">
 <li>Set the input parameters for the method (these values are defined by the user):
 Fixed Upper Threshold FTupper</li>
 </ol>
 <pre class="r"><code>FTupper = 0.1;</code></pre>
-<p>Number of intervals: NIntervals</p>
+<p>Number of intervals: NIntervals (we recommend to define this value using the convergence procedure explained in <a href="https://doi.org/10.7717/peerj.3793" class="uri">https://doi.org/10.7717/peerj.3793</a>)</p>
 <pre class="r"><code>NIntervals = 25;</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Read the data.
@@ -1057,6 +1057,23 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/new_tools/">New morpho-functional tools</a></li>
+      
+      <li><a href="/publication/getting/">Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</a></li>
+      
+      <li><a href="/publication/broad-scale/">Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</a></li>
+      
+      <li><a href="/publication/scaphoid/">The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</a></li>
+      
+      <li><a href="/talk/example/">Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox</a></li>
+      
+    </ul>
+  </div>
   
 
 

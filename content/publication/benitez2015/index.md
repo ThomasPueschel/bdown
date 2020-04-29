@@ -21,9 +21,12 @@ publication_types:
 - "2"
 publishDate: "2015-05-23T00:00:00Z"
 slides: 
-summary: Geometric morphometrics, Fluctuatingasymmetry, Directional asymmetry, Geometridae, Wingshape
+summary: Geometric morphometrics, Fluctuating asymmetry, Directional asymmetry, Geometridae, Wingshape
 tags:
-title:
+- morphometrics
+- fluctuating asymmetry
+- insects
+title: Left–right asymmetry and morphological consequences of a host shift in the oligophagous Neotropical moth Macaria mirthae (Lepidoptera Geometridae)
 url_pdf: "files/pdf/benitez2015.pdf"
 url_project: ""
 ---

@@ -24,6 +24,12 @@ publishDate: "2017-08-21T00:00:00Z"
 slides: 
 summary: biomechanics, FEA, shape, mandible, primates
 tags:
+- New tools
+- Primate morphology
+- mandible
+- morphometrics
+- comparative methods
+- FEA
 title: A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet
 url_pdf: "files/pdf/man_sci.pdf"
 url_project: ""

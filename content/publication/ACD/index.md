@@ -23,7 +23,12 @@ publication_types:
 publishDate: "2020-01-24T00:00:00Z"
 slides: 
 summary: Artificial deformed skulls, modularity, integration, morphometrics
-tag: 
+tags: 
+- morphometrics
+- modularity
+- integration
+- skull
+- Primate morphology
 title: Morphological consequences of artificial cranial deformation Modularity and integration
 url_pdf: files/pdf/Puschel_ACD.pdf
 url_project: ""

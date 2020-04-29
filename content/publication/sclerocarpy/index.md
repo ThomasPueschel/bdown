@@ -26,6 +26,12 @@ publishDate: "2018-04-17T00:00:00Z"
 slides: 
 summary: finite element analysis, geometric morphometrics, lower jaw, pitheciids, seed predation
 tags:
+- Primate morphology
+- mandible
+- morphometrics
+- comparative methods
+- FEA
+- skull
 title: Analyzing the sclerocarpy adaptations of the Pitheciidae mandible
 url_pdf: "files/pdf/ajp22759.pdf"
 url_project: ""

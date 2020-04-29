@@ -6,7 +6,7 @@ date: "2020-01-20T00:00:00Z"
 draft: false
 featured: false
 image:
-  caption: 'Image credit: (3D models of a bovid fossil tooth (top), hyrax mandible (bottom), pictured alongside myself collecting data in Nairobi)'
+  caption: '3D models of a bovid fossil tooth (top), hyrax mandible (bottom), pictured alongside myself collecting data in Nairobi'
   focal_point: ""
   placement: 2
   preview_only: false

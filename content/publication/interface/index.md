@@ -26,6 +26,14 @@ publishDate: "2018-09-26T00:00:00Z"
 slides: 
 summary: Platyrrhini, finite-element modelling,morphometrics, talus, statistical learning, positional behaviour
 tags:
+- New tools
+- Primate morphology
+- post-cranium
+- morphometrics
+- comparative methods
+- FEA
+- machine-learning
+- palaeontology
 title: Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology
 url_pdf: files/pdf/rsif.pdf
 url_project: ""

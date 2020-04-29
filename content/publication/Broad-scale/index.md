@@ -25,6 +25,15 @@ publishDate: "2020-04-22T00:00:00Z"
 slides: 
 summary: shape, biomechanical performance, mandibles, primates, hominins
 tags:
+- morphometrics
+- FEA
+- mandible
+- skull
+- New tools
+- Primate morphology
+- hominins
+- machine-learning
+- palaeontology
 title: Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage
 url_pdf: "files/pdf/broad_scale.pdf"
 url_project: ""

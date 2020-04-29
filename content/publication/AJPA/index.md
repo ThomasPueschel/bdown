@@ -22,7 +22,12 @@ publication_types:
 publishDate: "2016-10-16T00:00:00Z"
 slides: 
 summary: shape, biomechanical performance, scapulae, hominoidea
-tags:
+tags: 
+- morphometrics
+- comparative methods
+- FEA
+- primate morphology
+- post-cranium
 title: Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis
 url_pdf: "files/pdf/ajpa22882.pdf"
 url_project: ""

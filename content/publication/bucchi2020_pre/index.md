@@ -24,6 +24,11 @@ publishDate: "2020-04-27T00:00:00Z"
 slides: 
 summary: modularity, trait covariation, wrist, hominids 
 tags:
+- morphometrics
+- modularity
+- integration
+- Primate morphology
+- hand
 title: Modularity of the Wrist in Extant Hominids
 url_pdf: "files/pdf/preprint_bucchi.pdf"
 url_project: ""

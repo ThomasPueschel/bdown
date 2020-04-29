@@ -29,6 +29,12 @@ summary: platyrrhine, semi-terrestriality, machine-learning, geometric morphomet
 tags:
 - New tools
 - Primate morphology
+- post-cranium
+- morphometrics
+- comparative methods
+- FEA
+- machine-learning
+- palaeontology
 title: Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox
 url_pdf: files/pdf/feart-08-00079-3.pdf
 url_project: ""

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>palaeontology | Thomas A. Püschel</title>
+    <link>/tag/palaeontology/</link>
+      <atom:link href="/tag/palaeontology/index.xml" rel="self" type="application/rss+xml" />
+    <description>palaeontology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>palaeontology</title>
+      <link>/tag/palaeontology/</link>
+    </image>
+    
+    <item>
+      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
+      <link>/publication/getting/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/getting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
+      <link>/publication/broad-scale/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/broad-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</title>
+      <link>/publication/scaphoid/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/scaphoid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
+      <link>/publication/interface/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
+      <link>/publication/jhe/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/jhe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile</title>
+      <link>/publication/hans/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/hans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

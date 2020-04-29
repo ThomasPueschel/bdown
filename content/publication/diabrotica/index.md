@@ -26,6 +26,10 @@ publishDate: "2014-06-24T00:00:00Z"
 slides: 
 summary: Wing shape, Centroid size, Morphological integration, Modularity, Diabrotica
 tags:
+- morphometrics
+- integration
+- modularity
+- insects
 title: Morphological integration and modularity in Diabrotica virgifera virgifera LeConte (Coleoptera Chrysomelidae) hind wings
 url_pdf: "files/pdf/diabrotica.pdf"
 url_project: ""

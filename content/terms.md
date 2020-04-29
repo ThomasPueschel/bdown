@@ -9,5 +9,24 @@ header:
 share: false
 title: Terms
 ---
+## Media owner:
+
+Dr. Thomas A. Püschel
+
+Leverhulme Early Career Fellow
+Primate Models for Behavioural Evolution
+Institute of Cognitive and Evolutionary Anthropology
+University of Oxford, 64 Banbury Road
+OX2 6PN, Oxford
+
+
+## Website:
+
+Website Content: Thomas A. Püschel, if no other author is provided: Thomas A. Püschel. 
+
+Declaration about the editorial policy:
+
+The content of this website is my personal opinion. The purpose of this website is not commercial.
+
 
 ...

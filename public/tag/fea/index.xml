@@ -22,21 +22,21 @@
 
 &lt;div id=&#34;tutorial-how-to-use-r-to-analyse-data-from-fea-using-the-intervals-method&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Tutorial: How to use R to analyse data from FEA using the intervals’ method&lt;/h2&gt;
-&lt;p&gt;We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods. As a case study, several armadillo mandibles are analysed, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:&lt;/p&gt;
+&lt;p&gt;We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods.&lt;/p&gt;
+&lt;p&gt;In the provided example, four armadillo mandibles are studied. They correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ca. unicinctus&lt;/em&gt;: Specialist insectivore&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ch. truncatus&lt;/em&gt;: Generalist insectivore-fossorial&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;D. novemcinctus&lt;/em&gt;: Generalist insectivore&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ca. tatouay&lt;/em&gt;: Generalist insectivore-fossorial&lt;/p&gt;
-&lt;p&gt;Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them. In the provided example, four armadillo mandibles will be analysed which correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time.&lt;/p&gt;
 &lt;p&gt;When using this method, please cite the following reference: Marcé-Nogué, J., De Esteban-Trivigno, S., Püschel, T.A., Fortuny, J., 2017. The intervals method: a new approach to analyse finite element outputs using multivariate statistics. PeerJ 5, e3793. &lt;a href=&#34;https://doi.org/10.7717/peerj.3793&#34; class=&#34;uri&#34;&gt;https://doi.org/10.7717/peerj.3793&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The R scripts and data files to run the method outlined below can be download from &lt;a href=&#34;https://figshare.com/articles/intervals-method-files_rar/12025866&#34; class=&#34;uri&#34;&gt;https://figshare.com/articles/intervals-method-files_rar/12025866&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Let’s get started!&lt;/p&gt;
+&lt;p&gt;The R scripts and data files to run the example described below can be download from &lt;a href=&#34;https://figshare.com/articles/intervals-method-files_rar/12025866&#34; class=&#34;uri&#34;&gt;https://figshare.com/articles/intervals-method-files_rar/12025866&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let’s get started! Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them.&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Set the input parameters for the method (these values are defined by the user):
 Fixed Upper Threshold FTupper&lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;FTupper = 0.1;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Number of intervals: NIntervals&lt;/p&gt;
+&lt;p&gt;Number of intervals: NIntervals (we recommend to define this value using the convergence procedure explained in &lt;a href=&#34;https://doi.org/10.7717/peerj.3793&#34; class=&#34;uri&#34;&gt;https://doi.org/10.7717/peerj.3793&lt;/a&gt;)&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NIntervals = 25;&lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Read the data.
@@ -186,6 +186,218 @@ interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot
 &lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>New morpho-functional tools</title>
+      <link>/project/new_tools/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/new_tools/</guid>
+      <description>&lt;h2 id=&#34;new-tools-to-analyse-primate-form-and-function-in-an-evolutionary-framework&#34;&gt;New tools to analyse primate form and function in an evolutionary framework&lt;/h2&gt;
+&lt;p&gt;Analysing the correlation between form and ecological function is not only relevant to understanding the morphological diversity observed in extant species, but also because it allows us to infer past behaviours in palaeobiological contexts. Given the inherent difficulty of this topic, to elucidate the association between form and function in an ecological and evolutionary context it is necessary to coherently apply a combination of diverse methods, derived from several disciplines such as evolutionary biology, quantitative genetics, biomechanics, phylogenetic comparative techniques, multivariate statistics and ecology, among others. I am collaborating with different colleagues to develop tools and workflows in the following sub-topics:&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;Combining finite element analysis (FEA), geometric morphometrics (GM) and phylogenetic comparative methods (PCMs)&lt;/strong&gt;: One of my long-standing methodological aims is to understand the relationship between form and ecological function in diverse skeletal elements belonging to different primate clades taking into account their phylogenetic relatedness and using state-of-the-art in silico techniques. My aim is to provide an understanding of the role of functional performance in the evolution of morphological form in different anthropoid groups and ascertain the influence of ecological function on skeletal morphology. Therefore, I have been developing different pipelines to combine GM to quantify shape, FEA to analyse function, and PCMs to contextualise the obtained results in an evolutionary and ecomorphological framework. These workflows allow me to explicitly test hypotheses regarding the role of functional factors in the evolution of morphological diversity.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-principal-component-analyses-of-shape-and-stress-data-httpsdoiorg103389feart202000079&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/frontiers2.jpg&#34; data-caption=&#34;Principal component analyses of shape and stress data. https://doi.org/10.3389/feart.2020.00079&#34;&gt;
+
+
+  &lt;img src=&#34;/img/frontiers2.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Principal component analyses of shape and stress data. &lt;a href=&#34;https://doi.org/10.3389/feart.2020.00079&#34;&gt;https://doi.org/10.3389/feart.2020.00079&lt;/a&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;•	&lt;strong&gt;New statistical tools to analyse FEA outputs&lt;/strong&gt;: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework. &lt;a href=&#34;/files/tutorial_intervals.Rmd&#34; target=&#34;_blank&#34;&gt; Click here to know more.&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-pcas-of-interval-data-httpsdoiorg107717peerj3793&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/INTER.jpg&#34; data-caption=&#34;PCAs of interval data. https://doi.org/10.7717/peerj.3793&#34;&gt;
+
+
+  &lt;img src=&#34;/img/INTER.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    PCAs of interval data. &lt;a href=&#34;https://doi.org/10.7717/peerj.3793&#34;&gt;https://doi.org/10.7717/peerj.3793&lt;/a&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;•	&lt;strong&gt;Taxonomic applications of machine-learning algorithms to analyse fragmentary palaeoanthropological materials&lt;/strong&gt;: I have recently started a new collaboration to analyse Kenyan paleoanthropological fragmentary remains that although highly important, remain difficult to diagnose due to their fragmented nature. Hence, we have started to analyse these fossils using 3D morphometrics and a sophisticated battery of machine-learning classification algorithms in order to provide a taxonomic identity to these remains.&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;Development of new dental ecometrics to reconstruct the African late Miocene/early Pliocene environment&lt;/strong&gt;:  As teeth are the most common mammalian remains found in the fossil record, many studies have used them as source of palaeoecological information. Among the promising approaches applied to interpreting palaeoclimate from dental remains, there is a method known as ‘dental ecometrics’. This refers to the study of tooth functional traits that have a relationship with climate or environmental gradients at the community level. This research will generate innovative automated ecometric models to reconstruct the paleoenvironments of the African late Miocene/earliest Pliocene using more complex 3D dental variables and machine-learning regression methods. I was awarded a Boise Fund grant to carry out this project.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antelope-species-richness-in-sub-saharan-africa&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/bovid.jpg&#34; data-caption=&#34;Antelope species richness in Sub-Saharan Africa&#34;&gt;
+
+
+  &lt;img src=&#34;/img/bovid.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Antelope species richness in Sub-Saharan Africa
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
+      <link>/publication/getting/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/getting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
+      <link>/publication/broad-scale/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/broad-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</title>
+      <link>/publication/scaphoid/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/scaphoid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual ecomorphology</title>
+      <link>/talk/ibero/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/ibero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox</title>
+      <link>/talk/example/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;p&gt;Find the paper 
+&lt;a href=&#34;/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
+      <link>/publication/interface/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing the sclerocarpy adaptations of the Pitheciidae mandible</title>
+      <link>/publication/sclerocarpy/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sclerocarpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
+      <link>/publication/intervals/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/intervals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
+      <link>/publication/jhe/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/jhe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
+      <link>/publication/mandible_diet/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/mandible_diet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
+      <link>/publication/ajpa/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ajpa/</guid>
+      <description></description>
     </item>
     
   </channel>
