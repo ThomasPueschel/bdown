@@ -23,7 +23,7 @@ interests:
 - Phylogenetic comparative methods
 - Palaeoecology
 organizations:
-- name: Primate Models for Behavioural Evolution Lab
+- name: Primate Models for Behavioural Evolution Lab - Oxford University
   url: "https://primobevolab.web.ox.ac.uk/"
 role: Leverhulme Early Career Fellow
 social:
