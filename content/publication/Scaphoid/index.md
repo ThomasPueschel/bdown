@@ -14,10 +14,10 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Link to paper
+- name: Online version
   url:  https://doi.org/10.1038/s41598-020-60590-6
 projects:
-- internal-project
+- Primate morphology
 publication: In *Scientific Reports* 10, 1–7 (2020)
 publication_short: 
 publication_types:

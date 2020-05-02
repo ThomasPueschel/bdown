@@ -15,10 +15,10 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Link to paper
+- name: Online version
   url: https://doi.org/10.3389/feart.2020.00079
 projects:
-- internal-project
+- New tools
 publication: In *Frontiers in Earth Science*, 8, (2020)
 publication_short: 
 publication_types:

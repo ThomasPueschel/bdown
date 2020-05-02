@@ -15,7 +15,7 @@ links:
 - name: Online version
   url:  https://www.nature.com/articles/s41598-017-08161-0
 projects:
-- internal-project
+- New tools
 publication: In *Scientific Reports* 7, 8364 (2017)
 publication_short: 
 publication_types:

@@ -16,7 +16,7 @@ links:
 - name: Online version
   url:  https://www.sciencedirect.com/science/article/pii/S0047248417303202
 projects:
-- internal-project
+- Primate morphology
 publication: In *Journal of Human Evolution* 111, 179–201 (2017)
 publication_short: 
 publication_types:

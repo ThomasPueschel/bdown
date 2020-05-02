@@ -16,6 +16,7 @@ links:
 - name: Online version
   url: https://www.preprints.org/manuscript/202004.0474/v1
 projects:
+- Primate morphology
 publication: In *Preprints* 2020040474, (2020)
 publication_short: 
 publication_types:

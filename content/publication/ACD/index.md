@@ -15,7 +15,7 @@ links:
 - name: Online version
   url: https://doi.org/10.1371/journal.pone.0227362
 projects:
-- internal-project
+- Primate morphology
 publication: In *PlOS One* 15, e0227362 (2020)
 publication_short: 
 publication_types:

@@ -14,7 +14,7 @@ links:
 - name: Online version
   url:  https://doi.org/10.1002/ajpa.22882
 projects:
-- internal-project
+- New tools
 publication: In *American Journal of Physical Anthropology* 159,325–341 (2016)
 publication_short: 
 publication_types:

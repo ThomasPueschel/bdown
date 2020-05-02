@@ -7,7 +7,7 @@ authors:
 - admin
 date: "2020-05-01T00:00:00Z"
 doi: "https://doi.org/10.1101/2020.04.30.070326"
-featured: true
+featured: false
 image:
   caption: '(https://doi.org/10.1101/2020.04.30.070326 )'
   focal_point: ""
@@ -16,7 +16,7 @@ links:
 - name: Link to paper
   url: https://doi.org/10.3389/feart.2020.00079
 projects:
-- primate morphology
+- Primate morphology
 publication: In *bioRxiv*, (2020)
 publication_short: 
 publication_types:

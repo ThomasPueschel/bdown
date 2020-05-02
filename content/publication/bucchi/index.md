@@ -15,6 +15,7 @@ links:
 - name: Online version
   url:  https://revistadeantropologia.uchile.cl/index.php/RCA/article/view/45146
 projects:
+- Primate morphology
 publication: In *Revista Chilena de Antropología* 34, 19-30 (2016)
 publication_short: 
 publication_types:

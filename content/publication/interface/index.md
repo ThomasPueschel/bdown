@@ -17,7 +17,7 @@ links:
 - name: Online version
   url: https://royalsocietypublishing.org/doi/full/10.1098/rsif.2018.0520
 projects:
-- internal-project
+- New tools
 publication: In *J. R. Soc. Interface* 15, 20180520 (2018)
 publication_short: 
 publication_types:

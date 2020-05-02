@@ -17,7 +17,7 @@ links:
 - name: Online version
   url:  https://onlinelibrary.wiley.com/doi/abs/10.1002/ajp.22759
 projects:
-- internal-project
+- Primate morphology
 publication: In *American Journal of Primatology* 159,325–341 (2016)
 publication_short: 
 publication_types:

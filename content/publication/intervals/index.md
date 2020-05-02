@@ -16,7 +16,7 @@ links:
 - name: Online version
   url: https://peerj.com/articles/3793/
 projects:
-- internal-project
+- New tools
 publication: In *PeerJ* 5,e3793 (2017)
 publication_short: 
 publication_types:

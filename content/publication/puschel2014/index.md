@@ -13,6 +13,7 @@ links:
 - name: Online version
   url: https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S0717-95022014000100048
 projects:
+- Primate morphology
 publication: In *International Journal of Morphology* 32(1),299-304 (2014)
 publication_short: 
 publication_types:
