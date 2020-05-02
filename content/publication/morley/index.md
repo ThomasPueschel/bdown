@@ -28,6 +28,7 @@ tags:
 - Primate morphology
 - hand
 - morphometrics
+- post-cranium
 title: Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics
 url_pdf: files/pdf/Morley_bioarxiv.pdf
 url_project: ""
