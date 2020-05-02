@@ -8,7 +8,7 @@ date: "2015-05-23T00:00:00Z"
 doi: " http://dx.doi.org/10.1007/s10841-015-9782-5"
 featured: false
 image:
-  caption: ' http://dx.doi.org/10.1007/s10841-015-9782-5'
+  caption: 'http://dx.doi.org/10.1007/s10841-015-9782-5'
   focal_point: ""
   preview_only: false
 links:

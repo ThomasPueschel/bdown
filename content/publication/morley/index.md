@@ -9,7 +9,7 @@ date: "2020-05-01T00:00:00Z"
 doi: "https://doi.org/10.1101/2020.04.30.070326"
 featured: false
 image:
-  caption: '(https://doi.org/10.1101/2020.04.30.070326 )'
+  caption: 'https://doi.org/10.1101/2020.04.30.070326'
   focal_point: ""
   preview_only: false
 links:

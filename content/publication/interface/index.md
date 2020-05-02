@@ -10,7 +10,7 @@ date: "2018-09-26T00:00:00Z"
 doi: "https://doi.org/10.1098/rsif.2018.0520"
 featured: false
 image:
-  caption: '(https://doi.org/10.1098/rsif.2018.0520)'
+  caption: 'https://doi.org/10.1098/rsif.2018.0520'
   focal_point: ""
   preview_only: false
 links:

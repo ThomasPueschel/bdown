@@ -3,10 +3,10 @@ abstract: Morphological Integration and modularity are concepts that refer to th
 authors:
 - admin
 date: "2014-03-01T00:00:00Z"
-doi: "http://dx.doi.org/10.4067/S0717-95022014000100048  "
+doi: "http://dx.doi.org/10.4067/S0717-95022014000100048"
 featured: false
 image:
-  caption: 'http://dx.doi.org/10.4067/S0717-95022014000100048  '
+  caption: 'http://dx.doi.org/10.4067/S0717-95022014000100048'
   focal_point: ""
   preview_only: false
 links:

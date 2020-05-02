@@ -9,7 +9,7 @@ date: "2014-12-19T00:00:00Z"
 doi: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115548"
 featured: false
 image:
-  caption: ' https://doi.org/10.1371/journal.pone.0115548'
+  caption: 'https://doi.org/10.1371/journal.pone.0115548'
   focal_point: ""
   preview_only: false
 links:

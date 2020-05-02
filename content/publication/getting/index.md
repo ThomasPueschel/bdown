@@ -11,7 +11,7 @@ date: "2020-04-25T00:00:00Z"
 doi: "https://doi.org/10.3389/feart.2020.00079"
 featured: true
 image:
-  caption: '(https://doi.org/10.3389/feart.2020.00079)'
+  caption: 'https://doi.org/10.3389/feart.2020.00079'
   focal_point: ""
   preview_only: false
 links:

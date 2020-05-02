@@ -29,7 +29,7 @@ tags:
 - morphometrics
 - skull 
 - Primate morphology
-title: Origen y evolución de la población chilena el punto de vista biológico. in Prehistoria en Chile Desde sus Primeros Habitantes hasta los Incas 
+title: Origen y evolución de la población chilena el punto de vista biológico.
 url_pdf: "files/pdf/libro_chile.pdf"
 url_project: ""
 ---
