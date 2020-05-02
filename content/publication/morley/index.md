@@ -14,7 +14,7 @@ image:
   preview_only: false
 links:
 - name: Online version
-  url: https://doi.org/10.3389/feart.2020.00079
+  url: https://doi.org/https://doi.org/10.1101/2020.04.30.070326
 projects:
 - Primate morphology
 publication: In *bioRxiv*, (2020)
