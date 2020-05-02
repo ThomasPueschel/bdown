@@ -13,7 +13,7 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Link to paper
+- name: Online version
   url: https://doi.org/10.3389/feart.2020.00079
 projects:
 - Primate morphology
