@@ -17,13 +17,13 @@ links:
   url: https://doi.org/10.3389/feart.2020.00079
 projects:
 - primate morphology
-publication: In *bioarxiv*,(2020)
+publication: In *bioRxiv*, (2020)
 publication_short: 
 publication_types:
 - "3"
 publishDate: "2020-05-01T00:00:00Z"
 slides: 
-summary: MC1, 3D geometric morphometrics, Semi-landmarks, Hominins, African apes
+summary: MC1, 3D geometric morphometrics, semi-landmarks, hominins, African apes
 tags:
 - Primate morphology
 - hand
