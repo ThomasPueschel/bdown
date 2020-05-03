@@ -68,6 +68,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
+<a href="https://twitter.com/ThomasPuschel?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ThomasPuschel</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="800" data-height="300" data-theme="dark" href="https://twitter.com/ThomasPuschel?ref_src=twsrc%5Etfw">Tweets by ThomasPuschel</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
