@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Recent and Upcoming Talks"
+title = "Talks and Social Media"
 subtitle = ""
 
 [content]
@@ -68,3 +68,6 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+<a class="twitter-timeline" data-width="800" data-height="300" data-theme="dark" href="https://twitter.com/ThomasPuschel?ref_src=twsrc%5Etfw">Tweets by ThomasPuschel</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
