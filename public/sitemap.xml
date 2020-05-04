@@ -428,6 +428,16 @@
   </url>
   
   <url>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/phd/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/josep-fortuny/</loc>
     <lastmod>2017-09-13T00:00:00+00:00</lastmod>
   </url>
@@ -640,6 +650,16 @@
   <url>
     <loc>/publication/puschel2014/</loc>
     <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/msc/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bsc/</loc>
+    <lastmod>2012-12-28T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
