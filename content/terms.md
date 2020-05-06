@@ -22,11 +22,10 @@ OX2 6PN, Oxford
 
 ## Website:
 
-Website Content: Thomas A. Püschel, if no other author is provided: Thomas A. Püschel. 
+Website Content: Thomas A. Püschel (unless other author is specifically provided).
 
 Declaration about the editorial policy:
 
-The content of this website is my personal opinion. The purpose of this website is not commercial.
+All the content of this website is my personal opinion. The purpose of this website is not commercial.
 
 
-...
