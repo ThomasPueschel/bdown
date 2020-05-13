@@ -25,7 +25,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/ThomasPuschel
-location: 
+location: Los Angeles
 math: true
 projects:
 - Primate morphology
