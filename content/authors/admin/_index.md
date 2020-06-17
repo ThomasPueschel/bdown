@@ -15,8 +15,9 @@ education:
     year: 2011
 email: ""
 interests:
+- Vertebrate Palaeontology
+- Mammalian evolution
 - Primate evolution
-- Palaeontology
 - Palaeoanthropology
 - Morphometrics
 - Biomechanics
