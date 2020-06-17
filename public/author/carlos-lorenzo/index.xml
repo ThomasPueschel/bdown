@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carlos Lorenzo | Thomas A. Püschel</title>
-    <link>/author/carlos-lorenzo/</link>
-      <atom:link href="/author/carlos-lorenzo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/carlos-lorenzo/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/carlos-lorenzo/index.xml" rel="self" type="application/rss+xml" />
     <description>Carlos Lorenzo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Carlos Lorenzo</title>
-      <link>/author/carlos-lorenzo/</link>
+      <link>https://www.thomaspuschel.com/author/carlos-lorenzo/</link>
     </image>
     
     <item>
       <title>Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics</title>
-      <link>/publication/morley/</link>
+      <link>https://www.thomaspuschel.com/publication/morley/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/morley/</guid>
+      <guid>https://www.thomaspuschel.com/publication/morley/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modularity of the Wrist in Extant Hominids</title>
-      <link>/publication/bucchi2020_pre/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi2020_pre/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi2020_pre/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi2020_pre/</guid>
       <description></description>
     </item>
     

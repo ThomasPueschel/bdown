@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew T Chamberlain | Thomas A. Püschel</title>
-    <link>/author/andrew-t-chamberlain/</link>
-      <atom:link href="/author/andrew-t-chamberlain/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/andrew-t-chamberlain/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/andrew-t-chamberlain/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrew T Chamberlain</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Andrew T Chamberlain</title>
-      <link>/author/andrew-t-chamberlain/</link>
+      <link>https://www.thomaspuschel.com/author/andrew-t-chamberlain/</link>
     </image>
     
     <item>
       <title>The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</title>
-      <link>/publication/scaphoid/</link>
+      <link>https://www.thomaspuschel.com/publication/scaphoid/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/scaphoid/</guid>
+      <guid>https://www.thomaspuschel.com/publication/scaphoid/</guid>
       <description></description>
     </item>
     

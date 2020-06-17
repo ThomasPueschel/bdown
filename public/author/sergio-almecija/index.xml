@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sergio Almécija | Thomas A. Püschel</title>
-    <link>/author/sergio-almecija/</link>
-      <atom:link href="/author/sergio-almecija/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/sergio-almecija/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/sergio-almecija/index.xml" rel="self" type="application/rss+xml" />
     <description>Sergio Almécija</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Sergio Almécija</title>
-      <link>/author/sergio-almecija/</link>
+      <link>https://www.thomaspuschel.com/author/sergio-almecija/</link>
     </image>
     
     <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
-      <link>/publication/getting/</link>
+      <link>https://www.thomaspuschel.com/publication/getting/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/getting/</guid>
+      <guid>https://www.thomaspuschel.com/publication/getting/</guid>
       <description></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ana Bucchi | Thomas A. Püschel</title>
-    <link>/author/ana-bucchi/</link>
-      <atom:link href="/author/ana-bucchi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/ana-bucchi/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/ana-bucchi/index.xml" rel="self" type="application/rss+xml" />
     <description>Ana Bucchi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Ana Bucchi</title>
-      <link>/author/ana-bucchi/</link>
+      <link>https://www.thomaspuschel.com/author/ana-bucchi/</link>
     </image>
     
     <item>
       <title>Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics</title>
-      <link>/publication/morley/</link>
+      <link>https://www.thomaspuschel.com/publication/morley/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/morley/</guid>
+      <guid>https://www.thomaspuschel.com/publication/morley/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modularity of the Wrist in Extant Hominids</title>
-      <link>/publication/bucchi2020_pre/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi2020_pre/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi2020_pre/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi2020_pre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity</title>
-      <link>/publication/bucchi/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi/</guid>
       <description></description>
     </item>
     

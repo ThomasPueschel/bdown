@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thomas Kaiser | Thomas A. Püschel</title>
-    <link>/author/thomas-kaiser/</link>
-      <atom:link href="/author/thomas-kaiser/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/thomas-kaiser/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/thomas-kaiser/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Kaiser</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas Kaiser</title>
-      <link>/author/thomas-kaiser/</link>
+      <link>https://www.thomaspuschel.com/author/thomas-kaiser/</link>
     </image>
     
     <item>
       <title>Analyzing the sclerocarpy adaptations of the Pitheciidae mandible</title>
-      <link>/publication/sclerocarpy/</link>
+      <link>https://www.thomaspuschel.com/publication/sclerocarpy/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sclerocarpy/</guid>
+      <guid>https://www.thomaspuschel.com/publication/sclerocarpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
-      <link>/publication/mandible_diet/</link>
+      <link>https://www.thomaspuschel.com/publication/mandible_diet/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/mandible_diet/</guid>
+      <guid>https://www.thomaspuschel.com/publication/mandible_diet/</guid>
       <description></description>
     </item>
     
