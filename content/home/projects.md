@@ -26,10 +26,6 @@ subtitle = ""
   #   tag = "*"
     
   [[content.filter_button]]
-    name = "Paleo-Primate Project"
-    tag = "PPPG"    
-  
-  [[content.filter_button]]
     name = "Primate morphology"
     tag = "Primate morphology"
     
@@ -40,6 +36,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "African Miocene mammals"
     tag = "mammals"    
+    
+  [[content.filter_button]]
+    name = "Paleo-Primate Project"
+    tag = "PPPG"       
   
   # [[content.filter_button]]
   #   name = "African palaeoecology"
