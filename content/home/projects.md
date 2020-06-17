@@ -35,7 +35,7 @@ subtitle = ""
     
   [[content.filter_button]]
     name = "African Miocene mammals"
-    tag = "mammals"    
+    tag = "mammals"   
     
   [[content.filter_button]]
     name = "Paleo-Primate Project"
