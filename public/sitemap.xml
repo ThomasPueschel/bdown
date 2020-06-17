@@ -128,6 +128,16 @@
   </url>
   
   <url>
+    <loc>/tag/african-miocene-mammals/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/african-miocene-mammals/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/african_paleoecology/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -144,6 +154,11 @@
   
   <url>
     <loc>/tag/machine-learning/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mammals/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
   

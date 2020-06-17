@@ -36,6 +36,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "New tools"
     tag = "New tools"
+    
+  [[content.filter_button]]
+    name = "African Miocene mammals"
+    tag = "mammals"    
   
   # [[content.filter_button]]
   #   name = "African palaeoecology"

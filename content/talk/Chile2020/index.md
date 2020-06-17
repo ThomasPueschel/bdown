@@ -1,5 +1,5 @@
 ---
-abstract: On 11th June 2020, I will lead Acción Conciencia's first Ñuble and Biobio (Chile) high school talks with a conversation on human paleontology and the scientific career for high school students "Una breve introducción a la paleontologia humana". The Acción Conciencia are a group of professionals and students passionate about promoting science and research. Working for evidence-based policies, gender equality and the democratization of knowledge. You can follow their Facebook page  and view the video stream of my talk [here](https://www.facebook.com/accion.conciencia.biobio) [in Spanish].
+abstract: On 11th June 2020, I will lead Acción Conciencia's first Ñuble and Biobio (Chile) talks with a conversation on human paleontology and the scientific career for high school students "Una breve introducción a la paleontologia humana". The Acción Conciencia are a group of professionals and students passionate about promoting science and research. Working for evidence-based policies, gender equality and the democratization of knowledge. You can follow their Facebook page  and view the video stream of my talk [here](https://www.facebook.com/accion.conciencia.biobio) [in Spanish].
 address:
   city: 
   country: 

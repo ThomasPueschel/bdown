@@ -8,7 +8,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/ThomasPuschel
 summary: An important part of my research has been devoted to the study of the key adaptations defining different stages of anthropoid morphological evolution.
 tags:
 - Primate morphology
