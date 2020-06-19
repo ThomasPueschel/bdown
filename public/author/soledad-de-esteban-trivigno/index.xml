@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soledad De Esteban-Trivigno | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/soledad-de-esteban-trivigno/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/soledad-de-esteban-trivigno/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/soledad-de-esteban-trivigno/</link>
+      <atom:link href="/author/soledad-de-esteban-trivigno/index.xml" rel="self" type="application/rss+xml" />
     <description>Soledad De Esteban-Trivigno</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Soledad De Esteban-Trivigno</title>
-      <link>https://www.thomaspuschel.com/author/soledad-de-esteban-trivigno/</link>
+      <link>/author/soledad-de-esteban-trivigno/</link>
     </image>
     
     <item>
       <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
-      <link>https://www.thomaspuschel.com/publication/intervals/</link>
+      <link>/publication/intervals/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/intervals/</guid>
+      <guid>/publication/intervals/</guid>
       <description></description>
     </item>
     

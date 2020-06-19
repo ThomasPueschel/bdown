@@ -7,7 +7,7 @@ education:
   - course: PhD in Adaptive Organismal Biology
     institution: The University of Manchester
     year: 2018
-  - course: MSc in Human Evolution
+  - course: MSc in Anatomy and Evolution
     institution: The University of York, Hull York Medical School
     year: 2013
   - course: BSc in Biological Anthropology

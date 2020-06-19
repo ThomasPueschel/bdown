@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent Talks | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/talk/</link>
-      <atom:link href="https://www.thomaspuschel.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Recent Talks</title>
-      <link>https://www.thomaspuschel.com/talk/</link>
+      <link>/talk/</link>
     </image>
     
     <item>
       <title>A discussion of human paleontology and the scientific career for high school students</title>
-      <link>https://www.thomaspuschel.com/talk/chile2020/</link>
+      <link>/talk/chile2020/</link>
       <pubDate>Thu, 11 Jun 2020 16:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/chile2020/</guid>
+      <guid>/talk/chile2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual ecomorphology</title>
-      <link>https://www.thomaspuschel.com/talk/ibero2020/</link>
+      <link>/talk/ibero2020/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/ibero2020/</guid>
+      <guid>/talk/ibero2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox</title>
-      <link>https://www.thomaspuschel.com/talk/aapa2020/</link>
+      <link>/talk/aapa2020/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/aapa2020/</guid>
+      <guid>/talk/aapa2020/</guid>
       <description>&lt;p&gt;Find the paper 
-&lt;a href=&#34;https://www.thomaspuschel.com/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

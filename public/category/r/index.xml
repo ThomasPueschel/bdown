@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/category/r/</link>
-      <atom:link href="https://www.thomaspuschel.com/category/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/r/</link>
+      <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
-      <link>https://www.thomaspuschel.com/category/r/</link>
+      <link>/category/r/</link>
     </image>
     
     <item>
       <title>Intervals&#39; method tutorial</title>
-      <link>https://www.thomaspuschel.com/post/tutorial_intervals/</link>
+      <link>/post/tutorial_intervals/</link>
       <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
-      <guid>https://www.thomaspuschel.com/post/tutorial_intervals/</guid>
+      <guid>/post/tutorial_intervals/</guid>
       <description>
 
 
@@ -183,16 +183,16 @@ interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
   )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://www.thomaspuschel.com/og/2015-07-23-r-rmarkdown/</link>
+      <link>/og/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://www.thomaspuschel.com/og/2015-07-23-r-rmarkdown/</guid>
+      <guid>/og/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -229,7 +229,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://www.thomaspuschel.com/OG/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/OG/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/post/</link>
-      <atom:link href="https://www.thomaspuschel.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>https://www.thomaspuschel.com/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Intervals&#39; method tutorial</title>
-      <link>https://www.thomaspuschel.com/post/tutorial_intervals/</link>
+      <link>/post/tutorial_intervals/</link>
       <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
-      <guid>https://www.thomaspuschel.com/post/tutorial_intervals/</guid>
+      <guid>/post/tutorial_intervals/</guid>
       <description>
 
 
@@ -183,16 +183,16 @@ interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
   )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Collecting data in Nairobi</title>
-      <link>https://www.thomaspuschel.com/post/collecting_data_nairobi/</link>
+      <link>/post/collecting_data_nairobi/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/post/collecting_data_nairobi/</guid>
+      <guid>/post/collecting_data_nairobi/</guid>
       <description>&lt;p&gt;Whilst the field season may be over, work on the Gorongosa fossil collection continues. I have been working on photogrammetry for many of the Gorongosa fossils and building 3D models of them. I recently spent several weeks at the Nairobi National Museum in Kenya studying comparative collections and scanning material for comparison.&lt;/p&gt;
 </description>
     </item>

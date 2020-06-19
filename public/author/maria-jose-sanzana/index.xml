@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Jose Sanzana | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/maria-jose-sanzana/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/maria-jose-sanzana/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/maria-jose-sanzana/</link>
+      <atom:link href="/author/maria-jose-sanzana/index.xml" rel="self" type="application/rss+xml" />
     <description>Maria Jose Sanzana</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Dec 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Maria Jose Sanzana</title>
-      <link>https://www.thomaspuschel.com/author/maria-jose-sanzana/</link>
+      <link>/author/maria-jose-sanzana/</link>
     </image>
     
     <item>
       <title>Analysing the Floral Elements of the Lost Tree of Easter Island A Morphometric Comparison between the Remaining Ex-Situ Lines of the Endemic Extinct Species Sophora toromiro</title>
-      <link>https://www.thomaspuschel.com/publication/toromiro/</link>
+      <link>/publication/toromiro/</link>
       <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/toromiro/</guid>
+      <guid>/publication/toromiro/</guid>
       <description></description>
     </item>
     

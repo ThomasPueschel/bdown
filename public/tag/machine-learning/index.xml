@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine-learning | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/tag/machine-learning/</link>
-      <atom:link href="https://www.thomaspuschel.com/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/machine-learning/</link>
+      <atom:link href="/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>machine-learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>machine-learning</title>
-      <link>https://www.thomaspuschel.com/tag/machine-learning/</link>
+      <link>/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>New morpho-functional tools</title>
-      <link>https://www.thomaspuschel.com/project/new_tools/</link>
+      <link>/project/new_tools/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/project/new_tools/</guid>
+      <guid>/project/new_tools/</guid>
       <description>&lt;h2 id=&#34;new-tools-to-analyse-primate-form-and-function-in-an-evolutionary-framework&#34;&gt;New tools to analyse primate form and function in an evolutionary framework&lt;/h2&gt;
 &lt;p&gt;Analysing the correlation between form and ecological function is not only relevant to understanding the morphological diversity observed in extant species, but also because it allows us to infer past behaviours in palaeobiological contexts. Given the inherent difficulty of this topic, to elucidate the association between form and function in an ecological and evolutionary context it is necessary to coherently apply a combination of diverse methods, derived from several disciplines such as evolutionary biology, quantitative genetics, biomechanics, phylogenetic comparative techniques, multivariate statistics and ecology, among others. I am collaborating with different colleagues to develop tools and workflows in the following sub-topics:&lt;/p&gt;
 &lt;p&gt;•	&lt;strong&gt;Combining finite element analysis (FEA), geometric morphometrics (GM) and phylogenetic comparative methods (PCMs)&lt;/strong&gt;: One of my long-standing methodological aims is to understand the relationship between form and ecological function in diverse skeletal elements belonging to different primate clades taking into account their phylogenetic relatedness and using state-of-the-art in silico techniques. My aim is to provide an understanding of the role of functional performance in the evolution of morphological form in different anthropoid groups and ascertain the influence of ecological function on skeletal morphology. Therefore, I have been developing different pipelines to combine GM to quantify shape, FEA to analyse function, and PCMs to contextualise the obtained results in an evolutionary and ecomorphological framework. These workflows allow me to explicitly test hypotheses regarding the role of functional factors in the evolution of morphological diversity.&lt;/p&gt;
@@ -40,10 +40,10 @@
 &lt;figure id=&#34;figure-principal-component-analyses-of-shape-and-stress-data-httpsdoiorg103389feart202000079&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/frontiers2.jpg&#34; data-caption=&#34;Principal component analyses of shape and stress data. https://doi.org/10.3389/feart.2020.00079&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/frontiers2.jpg&#34; data-caption=&#34;Principal component analyses of shape and stress data. https://doi.org/10.3389/feart.2020.00079&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/frontiers2.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/frontiers2.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -56,7 +56,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;•	&lt;strong&gt;New statistical tools to analyse FEA outputs&lt;/strong&gt;: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework. &lt;a href=&#34;https://www.thomaspuschel.com/files/tutorial_intervals.Rmd&#34; target=&#34;_blank&#34;&gt; Click here to know more.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;New statistical tools to analyse FEA outputs&lt;/strong&gt;: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework. &lt;a href=&#34;/files/tutorial_intervals.Rmd&#34; target=&#34;_blank&#34;&gt; Click here to know more.&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -77,10 +77,10 @@
 &lt;figure id=&#34;figure-pcas-of-interval-data-httpsdoiorg107717peerj3793&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/INTER.jpg&#34; data-caption=&#34;PCAs of interval data. https://doi.org/10.7717/peerj.3793&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/INTER.jpg&#34; data-caption=&#34;PCAs of interval data. https://doi.org/10.7717/peerj.3793&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/INTER.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/INTER.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -115,10 +115,10 @@
 &lt;figure id=&#34;figure-antelope-species-richness-in-sub-saharan-africa&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/bovid.jpg&#34; data-caption=&#34;Antelope species richness in Sub-Saharan Africa&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/bovid.jpg&#34; data-caption=&#34;Antelope species richness in Sub-Saharan Africa&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/bovid.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/bovid.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -136,43 +136,43 @@
     
     <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
-      <link>https://www.thomaspuschel.com/publication/getting/</link>
+      <link>/publication/getting/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/getting/</guid>
+      <guid>/publication/getting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
-      <link>https://www.thomaspuschel.com/publication/broad-scale/</link>
+      <link>/publication/broad-scale/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/broad-scale/</guid>
+      <guid>/publication/broad-scale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual ecomorphology</title>
-      <link>https://www.thomaspuschel.com/talk/ibero2020/</link>
+      <link>/talk/ibero2020/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/ibero2020/</guid>
+      <guid>/talk/ibero2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox</title>
-      <link>https://www.thomaspuschel.com/talk/aapa2020/</link>
+      <link>/talk/aapa2020/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/aapa2020/</guid>
+      <guid>/talk/aapa2020/</guid>
       <description>&lt;p&gt;Find the paper 
-&lt;a href=&#34;https://www.thomaspuschel.com/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
-      <link>https://www.thomaspuschel.com/publication/interface/</link>
+      <link>/publication/interface/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/interface/</guid>
+      <guid>/publication/interface/</guid>
       <description></description>
     </item>
     

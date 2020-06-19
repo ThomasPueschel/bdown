@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hans P. Püschel | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/hans-p.-puschel/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/hans-p.-puschel/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/hans-p.-puschel/</link>
+      <atom:link href="/author/hans-p.-puschel/index.xml" rel="self" type="application/rss+xml" />
     <description>Hans P. Püschel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Hans P. Püschel</title>
-      <link>https://www.thomaspuschel.com/author/hans-p.-puschel/</link>
+      <link>/author/hans-p.-puschel/</link>
     </image>
     
     <item>
       <title>Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile</title>
-      <link>https://www.thomaspuschel.com/publication/hans/</link>
+      <link>/publication/hans/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/hans/</guid>
+      <guid>/publication/hans/</guid>
       <description></description>
     </item>
     

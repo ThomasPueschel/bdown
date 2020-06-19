@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RenataBažok | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/renatabazok/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/renatabazok/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/renatabazok/</link>
+      <atom:link href="/author/renatabazok/index.xml" rel="self" type="application/rss+xml" />
     <description>RenataBažok</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>RenataBažok</title>
-      <link>https://www.thomaspuschel.com/author/renatabazok/</link>
+      <link>/author/renatabazok/</link>
     </image>
     
     <item>
       <title>Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of Pterostichus melas melas (Coleptera Carabidae)</title>
-      <link>https://www.thomaspuschel.com/publication/benitez_2018/</link>
+      <link>/publication/benitez_2018/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/benitez_2018/</guid>
+      <guid>/publication/benitez_2018/</guid>
       <description></description>
     </item>
     

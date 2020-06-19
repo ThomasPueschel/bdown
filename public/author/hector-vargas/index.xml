@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Héctor Vargas | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/hector-vargas/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/hector-vargas/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/hector-vargas/</link>
+      <atom:link href="/author/hector-vargas/index.xml" rel="self" type="application/rss+xml" />
     <description>Héctor Vargas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 May 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Héctor Vargas</title>
-      <link>https://www.thomaspuschel.com/author/hector-vargas/</link>
+      <link>/author/hector-vargas/</link>
     </image>
     
     <item>
       <title>Left–right asymmetry and morphological consequences of a host shift in the oligophagous Neotropical moth Macaria mirthae (Lepidoptera Geometridae)</title>
-      <link>https://www.thomaspuschel.com/publication/benitez2015/</link>
+      <link>/publication/benitez2015/</link>
       <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/benitez2015/</guid>
+      <guid>/publication/benitez2015/</guid>
       <description></description>
     </item>
     

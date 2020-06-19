@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PPPG | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/tag/pppg/</link>
-      <atom:link href="https://www.thomaspuschel.com/tag/pppg/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/pppg/</link>
+      <atom:link href="/tag/pppg/index.xml" rel="self" type="application/rss+xml" />
     <description>PPPG</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>PPPG</title>
-      <link>https://www.thomaspuschel.com/tag/pppg/</link>
+      <link>/tag/pppg/</link>
     </image>
     
     <item>
       <title>Paleo-Primate project</title>
-      <link>https://www.thomaspuschel.com/project/pppg/</link>
+      <link>/project/pppg/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/project/pppg/</guid>
+      <guid>/project/pppg/</guid>
       <description></description>
     </item>
     

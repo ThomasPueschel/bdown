@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intervals | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/tag/intervals/</link>
-      <atom:link href="https://www.thomaspuschel.com/tag/intervals/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/intervals/</link>
+      <atom:link href="/tag/intervals/index.xml" rel="self" type="application/rss+xml" />
     <description>Intervals</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Intervals</title>
-      <link>https://www.thomaspuschel.com/tag/intervals/</link>
+      <link>/tag/intervals/</link>
     </image>
     
     <item>
       <title>Intervals&#39; method tutorial</title>
-      <link>https://www.thomaspuschel.com/post/tutorial_intervals/</link>
+      <link>/post/tutorial_intervals/</link>
       <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
-      <guid>https://www.thomaspuschel.com/post/tutorial_intervals/</guid>
+      <guid>/post/tutorial_intervals/</guid>
       <description>
 
 
@@ -183,7 +183,7 @@ interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
   )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

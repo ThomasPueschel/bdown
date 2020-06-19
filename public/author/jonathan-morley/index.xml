@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jonathan Morley | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/jonathan-morley/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/jonathan-morley/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/jonathan-morley/</link>
+      <atom:link href="/author/jonathan-morley/index.xml" rel="self" type="application/rss+xml" />
     <description>Jonathan Morley</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Jonathan Morley</title>
-      <link>https://www.thomaspuschel.com/author/jonathan-morley/</link>
+      <link>/author/jonathan-morley/</link>
     </image>
     
     <item>
       <title>Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics</title>
-      <link>https://www.thomaspuschel.com/publication/morley/</link>
+      <link>/publication/morley/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/morley/</guid>
+      <guid>/publication/morley/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mandible | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/tag/mandible/</link>
-      <atom:link href="https://www.thomaspuschel.com/tag/mandible/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/mandible/</link>
+      <atom:link href="/tag/mandible/index.xml" rel="self" type="application/rss+xml" />
     <description>mandible</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>mandible</title>
-      <link>https://www.thomaspuschel.com/tag/mandible/</link>
+      <link>/tag/mandible/</link>
     </image>
     
     <item>
       <title>African Miocene mammals</title>
-      <link>https://www.thomaspuschel.com/project/african-miocene-mammals/</link>
+      <link>/project/african-miocene-mammals/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/project/african-miocene-mammals/</guid>
+      <guid>/project/african-miocene-mammals/</guid>
       <description>&lt;h2 id=&#34;african-miocene-mammals&#34;&gt;African Miocene mammals&lt;/h2&gt;
 &lt;p&gt;Much of our understanding of vertebrate evolution and human origins in the late Cenozoic of Africa derives from Miocene and Pliocene fossil localities distributed along the East African Rift System (EARS). In particular, the Miocene is a fascinating time period that compared with the epochs that followed, it is outstandingly long. It lasted from about 23 million to 5 million years ago, which logically means that the world changed far more over this time period than it did during the following epochs. Interestingly, most of the mammal species that were alive during the Miocene are at least roughly classifiable to modern mammalian groups. However, it is also important to keep in mind that it was also an of epoch characterised by change, with many older forms of mammal still surviving, only to die out before the Miocene’s end.&lt;/p&gt;
 
@@ -39,10 +39,10 @@
 &lt;figure id=&#34;figure-3d-photogrammetry-models-of-two-of-the-hyracoid-remains-found-in-gorongosa&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/hyracoids.jpg&#34; data-caption=&#34;3D photogrammetry models of two of the hyracoid remains found in Gorongosa&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/hyracoids.jpg&#34; data-caption=&#34;3D photogrammetry models of two of the hyracoid remains found in Gorongosa&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/hyracoids.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/hyracoids.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -61,9 +61,9 @@
     
     <item>
       <title>Primate morphology</title>
-      <link>https://www.thomaspuschel.com/project/primate_morphology/</link>
+      <link>/project/primate_morphology/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/project/primate_morphology/</guid>
+      <guid>/project/primate_morphology/</guid>
       <description>&lt;h2 id=&#34;primate-evolutionary-morphology&#34;&gt;Primate evolutionary morphology&lt;/h2&gt;
 &lt;p&gt;An important part of my research has been devoted to the study of the key adaptations defining different stages of anthropoid evolution. I am interested in the selective pressures responsible for specific evolutionary transitions, in particular (but not limited to) the split between the lineages leading to humans and apes, and the adaptive radiation of New World monkeys. For some of this work I was awarded two scholarships by the Chilean National Research and Development Agency, as well as a European Synthesis Grant. This work can be further divided into the following topics:&lt;/p&gt;
 &lt;p&gt;•	&lt;strong&gt;Adaptive radiation of New World monkeys&lt;/strong&gt;: Platyrrhines are a diverse group of primates that presently occupy a broad range of tropical-equatorial environments in the Americas. I am particularly interested in the phenotypic adaptations, the main drivers of diversification, the role and importance of abiotic and biotic factors, and the processes that underlie the adaptive radiation of this highly diverse group, since their origin ~35-45 million years ago. I use 3D morphometrics and phylogenetic comparative analyses to identify major shifts in phenotypic evolution (in different anatomical structures) through time and to determine whether phenotypic shifts are synchronous with key geological, climatic or other environmental changes.&lt;/p&gt;
@@ -87,10 +87,10 @@
 &lt;figure id=&#34;figure-traitgram-of-a-talar-centroid-size-and-b-body-mass-of-the-40-extant-platyrrhine-species-httpsdoiorg101016jjhevol201707015&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/Fig7.jpg&#34; data-caption=&#34;Traitgram of a) talar centroid size and b) body mass of the 40 extant platyrrhine species https://doi.org/10.1016/j.jhevol.2017.07.015&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Fig7.jpg&#34; data-caption=&#34;Traitgram of a) talar centroid size and b) body mass of the 40 extant platyrrhine species https://doi.org/10.1016/j.jhevol.2017.07.015&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/Fig7.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Fig7.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -124,10 +124,10 @@
 &lt;figure id=&#34;figure-platyrrhine-phylomorphospace-the-first-two-morphometric-pcs-and-stress-values-mwm-as-vertical-z-axis-one-of-the-models-closest-to-the-mean-shape-was-warped-to-match-the-multivariate-mean-using-the-thin-plate-spline-method-and-then-the-obtained-average-model-was-warped-to-represent-the-variation-along-the-pc-axes-in-addition-the-von-mises-stress-maps-of-two-extreme-models-are-displayed-to-facilitate-the-understanding-of-the-z-axis-httpdxdoiorg101098rsif20180520&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/bio-mech.png&#34; data-caption=&#34;Platyrrhine phylomorphospace: the first two morphometric PCs and stress values (MWM) as vertical z-axis. One of the models closest to the mean shape was warped to match the multivariate mean using the thin-plate spline method, and then the obtained average model was warped to represent the variation along the PC axes. In addition, the von Mises stress maps of two extreme models are displayed to facilitate the understanding of the z-axis http://dx.doi.org/10.1098/rsif.2018.0520&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/bio-mech.png&#34; data-caption=&#34;Platyrrhine phylomorphospace: the first two morphometric PCs and stress values (MWM) as vertical z-axis. One of the models closest to the mean shape was warped to match the multivariate mean using the thin-plate spline method, and then the obtained average model was warped to represent the variation along the PC axes. In addition, the von Mises stress maps of two extreme models are displayed to facilitate the understanding of the z-axis http://dx.doi.org/10.1098/rsif.2018.0520&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/bio-mech.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/bio-mech.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -161,10 +161,10 @@
 &lt;figure id=&#34;figure-biomechanical-hand-posture-models-describing-the-variation-found-between-pan-and-gorilla-httpsdoiorg101038s41598-020-60590-6&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; data-caption=&#34;Biomechanical hand posture models describing the variation found between Pan and Gorilla https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/knuckle.jpg&#34; data-caption=&#34;Biomechanical hand posture models describing the variation found between Pan and Gorilla https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/knuckle.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -198,10 +198,10 @@
 &lt;figure id=&#34;figure-values-of-the-percentile-m50-of-the-von-mises-stress-for-both-extinct-and-extant-primate-species-a-composite-phylogeny-includind-molecular-data-from-extant-primates-and-morphological-information-from-fossils-has-been-plotted-next-to-the-von-mises-stress-distribution-of-all-the-analysed-specimens-under-the-four-different-bite-cases-httpsdoiorg101038s41598-020-63739-5&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; data-caption=&#34;Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/broad.jpg&#34; data-caption=&#34;Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;
 
 
-  &lt;img src=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/broad.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -219,41 +219,41 @@
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
-      <link>https://www.thomaspuschel.com/publication/broad-scale/</link>
+      <link>/publication/broad-scale/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/broad-scale/</guid>
+      <guid>/publication/broad-scale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual ecomorphology</title>
-      <link>https://www.thomaspuschel.com/talk/ibero2020/</link>
+      <link>/talk/ibero2020/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/talk/ibero2020/</guid>
+      <guid>/talk/ibero2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analyzing the sclerocarpy adaptations of the Pitheciidae mandible</title>
-      <link>https://www.thomaspuschel.com/publication/sclerocarpy/</link>
+      <link>/publication/sclerocarpy/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/sclerocarpy/</guid>
+      <guid>/publication/sclerocarpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
-      <link>https://www.thomaspuschel.com/publication/mandible_diet/</link>
+      <link>/publication/mandible_diet/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/mandible_diet/</guid>
+      <guid>/publication/mandible_diet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile</title>
-      <link>https://www.thomaspuschel.com/publication/hans/</link>
+      <link>/publication/hans/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/hans/</guid>
+      <guid>/publication/hans/</guid>
       <description></description>
     </item>
     

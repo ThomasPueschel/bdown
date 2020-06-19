@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7 | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/publication-type/7/</link>
-      <atom:link href="https://www.thomaspuschel.com/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication-type/7/</link>
+      <atom:link href="/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>7</title>
-      <link>https://www.thomaspuschel.com/publication-type/7/</link>
+      <link>/publication-type/7/</link>
     </image>
     
     <item>
       <title>Morpho-functional analyses of the primate skeleton applying 3D geometric morphometrics, finite element analysis and phylogenetic comparative methods to assess ecomorphological questions in extant and extinct anthropoids</title>
-      <link>https://www.thomaspuschel.com/publication/phd/</link>
+      <link>/publication/phd/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/phd/</guid>
+      <guid>/publication/phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Biomechanical modelling of Human Femora a comparison between Agriculturalists and Hunter-Gatherers using FEA, GMM and Beam Theory</title>
-      <link>https://www.thomaspuschel.com/publication/msc/</link>
+      <link>/publication/msc/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/msc/</guid>
+      <guid>/publication/msc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deformación Intencional del Cráneo en los Oasis de San Pedro de Atacama un Enfoque Morfométrico Geométrico</title>
-      <link>https://www.thomaspuschel.com/publication/bsc/</link>
+      <link>/publication/bsc/</link>
       <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/bsc/</guid>
+      <guid>/publication/bsc/</guid>
       <description></description>
     </item>
     

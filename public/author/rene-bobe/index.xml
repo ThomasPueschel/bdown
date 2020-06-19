@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>René Bobe | Thomas A. Püschel</title>
-    <link>https://www.thomaspuschel.com/author/rene-bobe/</link>
-      <atom:link href="https://www.thomaspuschel.com/author/rene-bobe/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/rene-bobe/</link>
+      <atom:link href="/author/rene-bobe/index.xml" rel="self" type="application/rss+xml" />
     <description>René Bobe</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>René Bobe</title>
-      <link>https://www.thomaspuschel.com/author/rene-bobe/</link>
+      <link>/author/rene-bobe/</link>
     </image>
     
     <item>
       <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
-      <link>https://www.thomaspuschel.com/publication/interface/</link>
+      <link>/publication/interface/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/interface/</guid>
+      <guid>/publication/interface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
-      <link>https://www.thomaspuschel.com/publication/jhe/</link>
+      <link>/publication/jhe/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.thomaspuschel.com/publication/jhe/</guid>
+      <guid>/publication/jhe/</guid>
       <description></description>
     </item>
     
