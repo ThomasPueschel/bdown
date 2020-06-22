@@ -42,6 +42,7 @@ tags:
 title: Virtual ecomorphology
 url_code: ""
 url_pdf: "files/pdf/virtual_ecomorphology.pdf"
+url_video: "https://youtu.be/o6cP9PUm5WM"
 
 ---
 
