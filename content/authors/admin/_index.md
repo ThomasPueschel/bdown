@@ -37,9 +37,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=v8oXbxgAAAAJ
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/ThomasPueschel
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ThomasPueschel
 - icon: researchgate
   icon_pack: fab
   link: https://www.researchgate.net/profile/Thomas_Pueschel
