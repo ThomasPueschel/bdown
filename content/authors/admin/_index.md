@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+bio: I am a palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
 education:
   courses:
   - course: PhD in Adaptive Organismal Biology
@@ -53,5 +53,5 @@ user_groups:
 - Visitors
 ---
 
-I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+I am a palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
 
