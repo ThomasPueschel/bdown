@@ -7,7 +7,7 @@ authors:
 - William I Sellers
 date: "2017-08-29T00:00:00Z"
 doi: "https://doi.org/10.1016/j.jhevol.2017.07.015"
-featured: false
+featured: true
 image:
   caption: 'https://doi.org/10.1016/j.jhevol.2017.07.015'
   focal_point: ""
