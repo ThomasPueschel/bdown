@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Tutorial: How to use R to analyse data from FEA using the intervals’ method We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.">
+  <meta name="description" content="Tutorial: How to use R to analyse data from FEA using the intervals’ method  Part2: Convergence procedure to estimate an appropiate number of intervals This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/tutorial_intervals/">
+  <link rel="alternate" hreflang="en-us" href="/post/convergence_procedure/">
 
   
 
@@ -255,7 +255,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/tutorial_intervals/">
+  <link rel="canonical" href="/post/convergence_procedure/">
 
   
   
@@ -274,9 +274,9 @@
   <meta property="twitter:creator" content="@ThomasPuschel">
   
   <meta property="og:site_name" content="Thomas A. Püschel">
-  <meta property="og:url" content="/post/tutorial_intervals/">
-  <meta property="og:title" content="Intervals&#39; method tutorial | Thomas A. Püschel">
-  <meta property="og:description" content="Tutorial: How to use R to analyse data from FEA using the intervals’ method We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework."><meta property="og:image" content="/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/post/convergence_procedure/">
+  <meta property="og:title" content="Intervals&#39; method tutorial Part2 | Thomas A. Püschel">
+  <meta property="og:description" content="Tutorial: How to use R to analyse data from FEA using the intervals’ method  Part2: Convergence procedure to estimate an appropiate number of intervals This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables."><meta property="og:image" content="/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -306,9 +306,9 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/tutorial_intervals/"
+    "@id": "/post/convergence_procedure/"
   },
-  "headline": "Intervals' method tutorial",
+  "headline": "Intervals' method tutorial Part2",
   
   "datePublished": "2020-04-26T21:13:14-05:00",
   "dateModified": "2020-04-26T21:13:14-05:00",
@@ -326,7 +326,7 @@
       "url": "/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Tutorial: How to use R to analyse data from FEA using the intervals’ method We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework."
+  "description": "Tutorial: How to use R to analyse data from FEA using the intervals’ method  Part2: Convergence procedure to estimate an appropiate number of intervals This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables."
 }
 </script>
 
@@ -344,7 +344,7 @@
 
 
 
-  <title>Intervals&#39; method tutorial | Thomas A. Püschel</title>
+  <title>Intervals&#39; method tutorial Part2 | Thomas A. Püschel</title>
 
 </head>
 
@@ -619,7 +619,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Intervals&#39; method tutorial</h1>
+  <h1>Intervals&#39; method tutorial Part2</h1>
 
   
 
@@ -647,7 +647,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    2 min read
   </span>
   
 
@@ -688,172 +688,67 @@
 
     <div class="article-style">
       
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <div id="tutorial-how-to-use-r-to-analyse-data-from-fea-using-the-intervals-method" class="section level2">
 <h2>Tutorial: How to use R to analyse data from FEA using the intervals’ method</h2>
-<p>We have developed a new method, named the intervals’ method, to analyse data from finite element models in a comparative multivariate framework.The intervals’ method consists of generating a set of variables, each one defined by an interval of stress values. Each variable is expressed as a percentage of the area of the model occupied by those stress values. Afterwards these newly generated variables can be analysed using multivariate methods.</p>
-<p>In the provided example, four armadillo mandibles are studied. They correspond to some of the individuals that were analysed in the paper where the Intervals’ method was introduced for the first time, showing that the proposed method is useful to distinguish and characterise biomechanical differences related to diet/ecomorphology:</p>
-<p><em>Ca. unicinctus</em>: Specialist insectivore</p>
-<p><em>Ch. truncatus</em>: Generalist insectivore-fossorial</p>
-<p><em>D. novemcinctus</em>: Generalist insectivore</p>
-<p><em>Ca. tatouay</em>: Generalist insectivore-fossorial</p>
-<p>When using this method, please cite the following reference: Marcé-Nogué, J., De Esteban-Trivigno, S., Püschel, T.A., Fortuny, J., 2017. The intervals method: a new approach to analyse finite element outputs using multivariate statistics. PeerJ 5, e3793. <a href="https://doi.org/10.7717/peerj.3793" class="uri">https://doi.org/10.7717/peerj.3793</a></p>
-<p>The R scripts and data files to run the example described below can be download from <a href="https://figshare.com/articles/intervals-method-files_rar/12025866" class="uri">https://figshare.com/articles/intervals-method-files_rar/12025866</a></p>
-<p>Let’s get started! Below you will find all the necessary steps to obtain the desired number of interval variables and to carry out a PCA using them.</p>
-<ol style="list-style-type: decimal">
-<li>Set the input parameters for the method (these values are defined by the user):
-Fixed Upper Threshold FTupper</li>
-</ol>
-<pre class="r"><code>FTupper = 0.1;</code></pre>
-<p>Number of intervals: NIntervals (we recommend to define this value using the convergence procedure explained in <a href="https://doi.org/10.7717/peerj.3793" class="uri">https://doi.org/10.7717/peerj.3793</a>)</p>
-<pre class="r"><code>NIntervals = 25;</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li>Read the data.
-The data must be stored as .csv files in the same folder of the script
-Each .csv file must contain three rows with: a) the number of the element, b) area/volume of the element and c) von mises stress, respectively.</li>
-</ol>
-<pre class="r"><code>file.name = list.files(pattern=&quot;*.csv&quot;)
-NFiles = length(file.name)</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li>Create the matrix of intervals
-Each row with the area percentage for each interval and each file of the matrix
-with the different models included</li>
-</ol>
-<pre class="r"><code>data.intervals = matrix(file.name,ncol = NIntervals, nrow = NFiles)
+</div>
+<div id="part2-convergence-procedure-to-estimate-an-appropiate-number-of-intervals" class="section level1">
+<h1>Part2: Convergence procedure to estimate an appropiate number of intervals</h1>
+<p>This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables. We have provided the different files for the example using different numbers of intervals (i.e., N= 5, 10, 15, 25, 50, 75 and 100). When analysing your own data, you will need to create your .csv files with different number of intervals by changing the value of the ‘NIntervals’ object used in the previous tutorial (also available as the “01-intervals-method-script” in <a href="https://figshare.com/articles/intervals-method-files_rar/12025866">figshare</a> and then run the script for each one of the cases.</p>
+</div>
+<div id="read-all-the-files-included-in-the-convergence" class="section level1">
+<h1>1) Read all the files included in the convergence</h1>
+<pre class="r"><code>#SCALE = T to use the correlation matrix
+#SCALE = F to use the variance-covariance matrix
 
-for (f in 1:NFiles) {
+intervals.data.5 &lt;- read.csv(&quot;matrix-of-intervals-5.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.10 &lt;- read.csv(&quot;matrix-of-intervals-10.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.15 &lt;- read.csv(&quot;matrix-of-intervals-15.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.25 &lt;- read.csv(&quot;matrix-of-intervals-25.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.50 &lt;- read.csv(&quot;matrix-of-intervals-50.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.75 &lt;- read.csv(&quot;matrix-of-intervals-75.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
+intervals.data.100 &lt;- read.csv(&quot;matrix-of-intervals-100.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)</code></pre>
+</div>
+<div id="compute-pcas-for-each-one-of-the-cases" class="section level1">
+<h1>2) Compute PCAs for each one of the cases</h1>
+<pre class="r"><code>PCA.5 &lt;- prcomp(intervals.data.5[, 1:5], scale = T)
+PCA.10 &lt;- prcomp(intervals.data.10[, 1:10], scale = T)
+PCA.15 &lt;- prcomp(intervals.data.15[, 1:15], scale = T)
+PCA.25 &lt;- prcomp(intervals.data.25[, 1:25], scale = T)
+PCA.50 &lt;- prcomp(intervals.data.50[, 1:50], scale = T)
+PCA.75 &lt;- prcomp(intervals.data.75[, 1:75], scale = T)
+PCA.100 &lt;- prcomp(intervals.data.100[, 1:100], scale = T)</code></pre>
+</div>
+<div id="calculate-te-r-squared-values-for-convergence-procedure" class="section level1">
+<h1>3) Calculate te R-squared values for convergence procedure</h1>
+<p>PC1 convergence:</p>
+<pre class="r"><code>Rvalues.pc1 &lt;- c(
+  summary(lm(PCA.10$x[, 1] ~ PCA.15$x[, 1]))$r.squared,
+  summary(lm(PCA.15$x[, 1] ~ PCA.25$x[, 1]))$r.squared,
+  summary(lm(PCA.25$x[, 1] ~ PCA.50$x[, 1]))$r.squared,
+  summary(lm(PCA.50$x[, 1] ~ PCA.75$x[, 1]))$r.squared,
+  summary(lm(PCA.75$x[, 1] ~ PCA.100$x[, 1]))$r.squared
+)</code></pre>
+<p>PC2 convergence:</p>
+<pre class="r"><code>Rvalues.pc2 &lt;- c(
+  summary(lm(PCA.10$x[, 2] ~ PCA.15$x[, 2]))$r.squared,
+  summary(lm(PCA.15$x[, 2] ~ PCA.25$x[, 2]))$r.squared,
+  summary(lm(PCA.25$x[, 2] ~ PCA.50$x[, 2]))$r.squared,
+  summary(lm(PCA.50$x[, 2] ~ PCA.75$x[, 2]))$r.squared,
+  summary(lm(PCA.75$x[, 2] ~ PCA.100$x[, 2]))$r.squared
+)</code></pre>
+<p>Table with results: R-squared values</p>
+<pre class="r"><code>data.pca &lt;- data.frame(Rvalues.pc1, Rvalues.pc2)
+names(data.pca) &lt;- c(&quot;PC1&quot;, &quot;PC2&quot;)
+rownames(data.pca) &lt;- c(&quot;PCA 10 vs. PCA 15&quot;, &quot;PCA 15 vs. PCA 25&quot;, &quot;PCA 25 vs. PCA 50&quot;, &quot;PCA 50 vs. PCA 75&quot;, &quot;PCA 75 vs. PCA 100&quot;)
 
-  data.values = data.matrix(read.csv(file.name[f], header = TRUE, sep = &quot;,&quot;));
-
-  # Get the number of mesh elements of the model
-
-  NElements = nrow(data.values);
-
-  # Create the internal matrix to store the intervals and other data
-
-  Counter.matrix = matrix(0,ncol = NIntervals, nrow = 5);
-
-  # Compute the range values for each interval (Tlower and Tupper)
-
-  Range.values = seq(0, FTupper, by=FTupper/(NIntervals-1));
-
-  # Start the Loop
-
-  for (i in 1:NElements) {
-    for (j in 1:NIntervals) {
-      if (j == 1){
-        if (data.values[i,3] &lt;= Range.values[j+1]) 
-          {
-          Counter.matrix[2,j]=Counter.matrix[2,j]+1;
-          Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
-          }
-      }
-      else if (j &gt; 1 &amp; j &lt; NIntervals){
-        if (data.values[i,3] &gt; Range.values[j] &amp; data.values[i,3] &lt;= Range.values[j+1]) 
-        {
-        Counter.matrix[2,j]=Counter.matrix[2,j]+1;
-        Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
-        }   
-      }
-      else if (j == NIntervals){
-        if (data.values[i,3] &gt; Range.values[j]) 
-        {
-        Counter.matrix[2,j]=Counter.matrix[2,j]+1;
-        Counter.matrix[4,j]=Counter.matrix[4,j]+data.values[i,2];
-        }
-      }
-    }
-  }
-  
-  # End the loop
-
-  # Compute the percentage in each interval with respect  to the total area
-
-  for (i in 1:NIntervals) {
-    Counter.matrix[1,i]=Range.values[i];
-    Counter.matrix[3,i]=100*Counter.matrix[2,i]/NElements;
-    Counter.matrix[5,i]=100*Counter.matrix[4,i]/sum(data.values[,2]);
-  }
-
-  # Store the vector of intervals for the model f in the matrix of intervals
-
-  data.intervals[f,]=Counter.matrix[5,];
-
-}
-
-data.intervals=as.data.frame(data.intervals);
-row.names(data.intervals)=file.name;</code></pre>
-<ol start="4" style="list-style-type: decimal">
-<li>Save data and remove variables</li>
-</ol>
-<pre class="r"><code>write.csv(data.intervals,&#39;matrix-of-intervals.csv&#39;);
-rm(NIntervals, FTupper, NElements, i, j, f, file.name, NFiles, Range.values, Counter.matrix, data.values)</code></pre>
-<p>The following steps are necessary to carry the PCA with the newly generated variables</p>
-<ol start="5" style="list-style-type: decimal">
-<li>install the following packages if required</li>
-</ol>
-<pre class="r"><code>if (!require(&#39;factoextra&#39;)) devtools::install_github(&quot;kassambara/factoextra&quot;); library(&#39;factoextra&#39;)
-## Loading required package: factoextra
-## Loading required package: ggplot2
-## Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
-if (!require(&#39;ggpubr&#39;)) devtools::install_github(&quot;kassambara/ggpubr&quot;); library(&#39;ggpubr&#39;)
-## Loading required package: ggpubr
-if (!require(&#39;FactoMineR&#39;)) install.packages(&#39;FactoMiner&#39;); library(&#39;FactoMineR&#39;)
-## Loading required package: FactoMineR</code></pre>
-<ol start="6" style="list-style-type: decimal">
-<li>read the intervals</li>
-</ol>
-<pre class="r"><code>stress.distrib = read.csv(&quot;matrix-of-intervals.csv&quot;, row.names=1, header = TRUE, sep = &quot;,&quot;)</code></pre>
-<ol start="7" style="list-style-type: decimal">
-<li>compute PCA</li>
-</ol>
-<pre class="r"><code>col.number = ncol(stress.distrib)
-PCA.stress &lt;- PCA(stress.distrib[,1:col.number],  graph = FALSE)</code></pre>
-<ol start="8" style="list-style-type: decimal">
-<li>Define the parameters and generate the biplot</li>
-</ol>
-<pre class="r"><code># colors by group
-group.colors = row.names(stress.distrib)
-
-#colors by variable
-interval.number = nrow(PCA.stress$var$coord)
-interval.vector = seq(from = 1, to = interval.number, by=1 )
-interval.colors = interval.vector
-interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;chartreuse&quot;,&quot;yellow&quot;,&quot;gold&quot;,&quot;orange&quot;,&quot;red&quot;)</code></pre>
-<ol start="9" style="list-style-type: decimal">
-<li>Biplot: variables coloured by contribution to PCs</li>
-</ol>
-<pre class="r"><code>fviz_pca_biplot(PCA.stress, 
-                mean.point=F,                     # 
-                axes.linetype = &quot;solid&quot;,
-                
-                # Fill individuals by groups
-                geom.ind=c(&quot;point&quot;, &quot;text&quot;),
-                pointshape = 21, 
-                pointsize = 5,            
-                col.ind= &quot;black&quot;,                 # 
-                fill.ind = group.colors,          # 
-                alpha.ind = 1,                    # 
-                
-                # Color variable by intervals
-                geom.var = &quot;arrow&quot;,
-                col.var = interval.colors,
-                arrowsize = 0.5,
-                
-                repel = TRUE) +                   # Avoid label overplotting
-  
-  
-  #fill_palette(group.palette) +
-  gradient_color(interval.palette)+
-  labs(x = &quot;PC1&quot;, y = &quot;PC2&quot;)+
-  
-  
-  theme(
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank(),
-  )</code></pre>
-<p><img src="/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png" width="672" /></p>
+rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, intervals.data.50, intervals.data.75, intervals.data.100)</code></pre>
+</div>
+<div id="plot-the-pcas-and-the-r-squared-values" class="section level1">
+<h1>4) Plot the PCAs and the R-squared values</h1>
+<p><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-1.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-2.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-3.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-4.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-5.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-6.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-7.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-8.png" width="672" /></p>
 </div>
 
     </div>
@@ -883,7 +778,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/tutorial_intervals/&amp;text=Intervals&amp;#39;%20method%20tutorial" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/convergence_procedure/&amp;text=Intervals&amp;#39;%20method%20tutorial%20Part2" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -896,7 +791,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/tutorial_intervals/&amp;t=Intervals&amp;#39;%20method%20tutorial" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/convergence_procedure/&amp;t=Intervals&amp;#39;%20method%20tutorial%20Part2" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -909,7 +804,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="mailto:?subject=Intervals&amp;#39;%20method%20tutorial&amp;body=/post/tutorial_intervals/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Intervals&amp;#39;%20method%20tutorial%20Part2&amp;body=/post/convergence_procedure/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -922,7 +817,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/tutorial_intervals/&amp;title=Intervals&amp;#39;%20method%20tutorial" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/convergence_procedure/&amp;title=Intervals&amp;#39;%20method%20tutorial%20Part2" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -935,7 +830,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Intervals&amp;#39;%20method%20tutorial%20/post/tutorial_intervals/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Intervals&amp;#39;%20method%20tutorial%20Part2%20/post/convergence_procedure/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -948,7 +843,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/tutorial_intervals/&amp;title=Intervals&amp;#39;%20method%20tutorial" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/convergence_procedure/&amp;title=Intervals&amp;#39;%20method%20tutorial%20Part2" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1117,7 +1012,7 @@ interval.palette = c(&quot;blue&quot;,&quot;cyan&quot;,&quot;green&quot;,&quot;c
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/convergence_procedure/">Intervals&#39; method tutorial Part2</a></li>
+      <li><a href="/post/tutorial_intervals/">Intervals&#39; method tutorial</a></li>
       
       <li><a href="/project/new_tools/">New morpho-functional tools</a></li>
       
