@@ -12,12 +12,13 @@ knitr::opts_chunk$set(collapse  = TRUE)
 ```
 
 ## Tutorial: How to use R to analyse data from FEA using the intervals’ method
+
 # Part2: Convergence procedure to estimate an appropiate number of intervals
 
 This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables. We have provided the different files for the example using different numbers of intervals (i.e., N= 5, 10, 15, 25, 50, 75 and 100). When analysing your own data, you will need to create your .csv files with different number of intervals by changing the value of the ‘NIntervals’ object used in the previous tutorial (also available  as the “01-intervals-method-script” in  [figshare](https://figshare.com/articles/intervals-method-files_rar/12025866) and then run the script for each one of the cases.
 
 
-# 1) Read all the files included in the convergence
+1) Read all the files included in the convergence
  
 
 ```{r import data}
@@ -33,7 +34,7 @@ intervals.data.75 <- read.csv("matrix-of-intervals-75.csv", row.names = 1, heade
 intervals.data.100 <- read.csv("matrix-of-intervals-100.csv", row.names = 1, header = TRUE, sep = ",")
 ```
 
-# 2) Compute PCAs for each one of the cases
+2) Compute PCAs for each one of the cases
 
 ```{r PCAs}
 PCA.5 <- prcomp(intervals.data.5[, 1:5], scale = T)
@@ -45,7 +46,7 @@ PCA.75 <- prcomp(intervals.data.75[, 1:75], scale = T)
 PCA.100 <- prcomp(intervals.data.100[, 1:100], scale = T)
 ```
 
-# 3) Calculate te R-squared values for convergence procedure
+3) Calculate te R-squared values for convergence procedure
 
 PC1 convergence:
 ```{r}
@@ -79,7 +80,7 @@ rownames(data.pca) <- c("PCA 10 vs. PCA 15", "PCA 15 vs. PCA 25", "PCA 25 vs. PC
 rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, intervals.data.50, intervals.data.75, intervals.data.100)
 ```
 
-# 4) Plot the PCAs and the R-squared values
+4) Plot the PCAs and the R-squared values
 ```{r echo=FALSE, warning=FALSE}
 plot(PCA.5$x[, 1], PCA.5$x[, 2], pch = 19, cex = 1.5, xlab = "", ylab = "", asp = T, main = "A) PCA 5 intervals", xlim = rev(range(PCA.5$x[, 1])), ylim = (range(PCA.5$x[, 2])))
 plot(PCA.10$x[, 1], PCA.10$x[, 2], pch = 19, cex = 1.5, xlab = "", ylab = "", asp = T, main = "B) PCA 10 intervals", xlim = rev(range(PCA.10$x[, 1])), ylim = rev(range(PCA.10$x[, 2])))

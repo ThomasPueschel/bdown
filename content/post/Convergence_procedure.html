@@ -16,9 +16,9 @@ tags: ["FEA", "Intervals"]
 <div id="part2-convergence-procedure-to-estimate-an-appropiate-number-of-intervals" class="section level1">
 <h1>Part2: Convergence procedure to estimate an appropiate number of intervals</h1>
 <p>This script corresponds to the convergence procedure used to estimate an appropiate number of interval variables. We have provided the different files for the example using different numbers of intervals (i.e., N= 5, 10, 15, 25, 50, 75 and 100). When analysing your own data, you will need to create your .csv files with different number of intervals by changing the value of the ‘NIntervals’ object used in the previous tutorial (also available as the “01-intervals-method-script” in <a href="https://figshare.com/articles/intervals-method-files_rar/12025866">figshare</a> and then run the script for each one of the cases.</p>
-</div>
-<div id="read-all-the-files-included-in-the-convergence" class="section level1">
-<h1>1) Read all the files included in the convergence</h1>
+<ol style="list-style-type: decimal">
+<li>Read all the files included in the convergence</li>
+</ol>
 <pre class="r"><code>#SCALE = T to use the correlation matrix
 #SCALE = F to use the variance-covariance matrix
 
@@ -29,9 +29,9 @@ intervals.data.25 &lt;- read.csv(&quot;matrix-of-intervals-25.csv&quot;, row.nam
 intervals.data.50 &lt;- read.csv(&quot;matrix-of-intervals-50.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
 intervals.data.75 &lt;- read.csv(&quot;matrix-of-intervals-75.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)
 intervals.data.100 &lt;- read.csv(&quot;matrix-of-intervals-100.csv&quot;, row.names = 1, header = TRUE, sep = &quot;,&quot;)</code></pre>
-</div>
-<div id="compute-pcas-for-each-one-of-the-cases" class="section level1">
-<h1>2) Compute PCAs for each one of the cases</h1>
+<ol start="2" style="list-style-type: decimal">
+<li>Compute PCAs for each one of the cases</li>
+</ol>
 <pre class="r"><code>PCA.5 &lt;- prcomp(intervals.data.5[, 1:5], scale = T)
 PCA.10 &lt;- prcomp(intervals.data.10[, 1:10], scale = T)
 PCA.15 &lt;- prcomp(intervals.data.15[, 1:15], scale = T)
@@ -39,9 +39,9 @@ PCA.25 &lt;- prcomp(intervals.data.25[, 1:25], scale = T)
 PCA.50 &lt;- prcomp(intervals.data.50[, 1:50], scale = T)
 PCA.75 &lt;- prcomp(intervals.data.75[, 1:75], scale = T)
 PCA.100 &lt;- prcomp(intervals.data.100[, 1:100], scale = T)</code></pre>
-</div>
-<div id="calculate-te-r-squared-values-for-convergence-procedure" class="section level1">
-<h1>3) Calculate te R-squared values for convergence procedure</h1>
+<ol start="3" style="list-style-type: decimal">
+<li>Calculate te R-squared values for convergence procedure</li>
+</ol>
 <p>PC1 convergence:</p>
 <pre class="r"><code>Rvalues.pc1 &lt;- c(
   summary(lm(PCA.10$x[, 1] ~ PCA.15$x[, 1]))$r.squared,
@@ -64,8 +64,8 @@ names(data.pca) &lt;- c(&quot;PC1&quot;, &quot;PC2&quot;)
 rownames(data.pca) &lt;- c(&quot;PCA 10 vs. PCA 15&quot;, &quot;PCA 15 vs. PCA 25&quot;, &quot;PCA 25 vs. PCA 50&quot;, &quot;PCA 50 vs. PCA 75&quot;, &quot;PCA 75 vs. PCA 100&quot;)
 
 rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, intervals.data.50, intervals.data.75, intervals.data.100)</code></pre>
-</div>
-<div id="plot-the-pcas-and-the-r-squared-values" class="section level1">
-<h1>4) Plot the PCAs and the R-squared values</h1>
-<p><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-1.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-2.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-3.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-4.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-5.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-6.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-7.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-8.png" width="672" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Plot the PCAs and the R-squared values
+<img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-1.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-2.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-3.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-4.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-5.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-6.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-7.png" width="672" /><img src="/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-8.png" width="672" /></li>
+</ol>
 </div>
