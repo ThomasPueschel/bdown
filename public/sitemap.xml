@@ -18,12 +18,82 @@
   </url>
   
   <url>
-    <loc>/talk/chile2020/</loc>
-    <lastmod>2020-06-11T16:00:00+00:00</lastmod>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ana-bucchi/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/carlos-lorenzo/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/fea/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/palevol/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hand/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hominin/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hominins/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jordi-marce-nogue/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/primate-morphology/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/thomas-a.-puschel/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/chile2020/</loc>
     <lastmod>2020-06-11T16:00:00+00:00</lastmod>
   </url>
   
@@ -33,37 +103,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-11T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/ana-bucchi/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/carlos-lorenzo/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/morley/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/hand/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,27 +128,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/thomas-a.-puschel/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-26T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/fea/</loc>
     <lastmod>2020-04-26T21:13:14-05:00</lastmod>
   </url>
   
@@ -213,11 +238,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/biren-a.-patel/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
@@ -229,11 +249,6 @@
   
   <url>
     <loc>/publication/getting/</loc>
-    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jordi-marce-nogue/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -264,16 +279,6 @@
   
   <url>
     <loc>/publication/broad-scale/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/hominin/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/hominins/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
