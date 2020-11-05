@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Germán Manríquez | Thomas A. Püschel</title>
-    <link>/author/german-manriquez/</link>
-      <atom:link href="/author/german-manriquez/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/german-manriquez/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/german-manriquez/index.xml" rel="self" type="application/rss+xml" />
     <description>Germán Manríquez</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Germán Manríquez</title>
-      <link>/author/german-manriquez/</link>
+      <link>https://www.thomaspuschel.com/author/german-manriquez/</link>
     </image>
     
     <item>
       <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
-      <link>/publication/acd/</link>
+      <link>https://www.thomaspuschel.com/publication/acd/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/acd/</guid>
+      <guid>https://www.thomaspuschel.com/publication/acd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity</title>
-      <link>/publication/bucchi/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Origen y evolución de la población chilena el punto de vista biológico.</title>
-      <link>/publication/libro_chile/</link>
+      <link>https://www.thomaspuschel.com/publication/libro_chile/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/libro_chile/</guid>
+      <guid>https://www.thomaspuschel.com/publication/libro_chile/</guid>
       <description></description>
     </item>
     

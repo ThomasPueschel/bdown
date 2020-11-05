@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>William I Sellers | Thomas A. Püschel</title>
-    <link>/author/william-i-sellers/</link>
-      <atom:link href="/author/william-i-sellers/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/william-i-sellers/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/william-i-sellers/index.xml" rel="self" type="application/rss+xml" />
     <description>William I Sellers</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>William I Sellers</title>
-      <link>/author/william-i-sellers/</link>
+      <link>https://www.thomaspuschel.com/author/william-i-sellers/</link>
     </image>
     
     <item>
       <title>The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</title>
-      <link>/publication/scaphoid/</link>
+      <link>https://www.thomaspuschel.com/publication/scaphoid/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/scaphoid/</guid>
+      <guid>https://www.thomaspuschel.com/publication/scaphoid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
-      <link>/publication/interface/</link>
+      <link>https://www.thomaspuschel.com/publication/interface/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/interface/</guid>
+      <guid>https://www.thomaspuschel.com/publication/interface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analyzing the sclerocarpy adaptations of the Pitheciidae mandible</title>
-      <link>/publication/sclerocarpy/</link>
+      <link>https://www.thomaspuschel.com/publication/sclerocarpy/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sclerocarpy/</guid>
+      <guid>https://www.thomaspuschel.com/publication/sclerocarpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
-      <link>/publication/jhe/</link>
+      <link>https://www.thomaspuschel.com/publication/jhe/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/jhe/</guid>
+      <guid>https://www.thomaspuschel.com/publication/jhe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
-      <link>/publication/ajpa/</link>
+      <link>https://www.thomaspuschel.com/publication/ajpa/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/ajpa/</guid>
+      <guid>https://www.thomaspuschel.com/publication/ajpa/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Martin Friess | Thomas A. Püschel</title>
-    <link>/author/martin-friess/</link>
-      <atom:link href="/author/martin-friess/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/author/martin-friess/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/martin-friess/index.xml" rel="self" type="application/rss+xml" />
     <description>Martin Friess</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Martin Friess</title>
-      <link>/author/martin-friess/</link>
+      <link>https://www.thomaspuschel.com/author/martin-friess/</link>
     </image>
     
     <item>
       <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
-      <link>/publication/acd/</link>
+      <link>https://www.thomaspuschel.com/publication/acd/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/acd/</guid>
+      <guid>https://www.thomaspuschel.com/publication/acd/</guid>
       <description></description>
     </item>
     

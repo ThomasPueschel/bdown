@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thomas A. Püschel</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/</link>
+      <atom:link href="https://www.thomaspuschel.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas A. Püschel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas A. Püschel</title>
-      <link>/</link>
+      <link>https://www.thomaspuschel.com/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <link>https://www.thomaspuschel.com/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
+      <guid>https://www.thomaspuschel.com/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <link>https://www.thomaspuschel.com/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
+      <guid>https://www.thomaspuschel.com/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,33 +56,33 @@
     
     <item>
       <title>Finite element analysis of the proximal phalanx of the thumb in Hominoidea during simulated stone tool use</title>
-      <link>/publication/palevol/</link>
+      <link>https://www.thomaspuschel.com/publication/palevol/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/palevol/</guid>
+      <guid>https://www.thomaspuschel.com/publication/palevol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A discussion of human paleontology and the scientific career for high school students</title>
-      <link>/talk/chile2020/</link>
+      <link>https://www.thomaspuschel.com/talk/chile2020/</link>
       <pubDate>Thu, 11 Jun 2020 16:00:00 +0000</pubDate>
-      <guid>/talk/chile2020/</guid>
+      <guid>https://www.thomaspuschel.com/talk/chile2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics</title>
-      <link>/publication/morley/</link>
+      <link>https://www.thomaspuschel.com/publication/morley/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/morley/</guid>
+      <guid>https://www.thomaspuschel.com/publication/morley/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intervals&#39; method tutorial</title>
-      <link>/post/tutorial_intervals/</link>
+      <link>https://www.thomaspuschel.com/post/tutorial_intervals/</link>
       <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
-      <guid>/post/tutorial_intervals/</guid>
+      <guid>https://www.thomaspuschel.com/post/tutorial_intervals/</guid>
       <description>
 
 
@@ -249,18 +249,18 @@ interval.palette = c(&amp;quot;blue&amp;quot;,&amp;quot;cyan&amp;quot;,&amp;quot
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
   )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/tutorial_intervals_files/figure-html/Intervals%20PCA-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Intervals&#39; method tutorial Part2</title>
-      <link>/post/convergence_procedure/</link>
+      <link>https://www.thomaspuschel.com/post/convergence_procedure/</link>
       <pubDate>Sun, 26 Apr 2020 21:13:14 -0500</pubDate>
-      <guid>/post/convergence_procedure/</guid>
+      <guid>https://www.thomaspuschel.com/post/convergence_procedure/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.thomaspuschel.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;tutorial-how-to-use-r-to-analyse-data-from-fea-using-the-intervals-method&#34; class=&#34;section level2&#34;&gt;
@@ -319,7 +319,7 @@ rownames(data.pca) &amp;lt;- c(&amp;quot;PCA 10 vs. PCA 15&amp;quot;, &amp;quot;
 rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, intervals.data.50, intervals.data.75, intervals.data.100)&lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Plot the PCAs and the R-squared values
-&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-2.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-3.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-4.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-5.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-6.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-7.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-8.png&#34; width=&#34;672&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-2.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-3.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-4.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-5.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-6.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-7.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://www.thomaspuschel.com/post/Convergence_procedure_files/figure-html/unnamed-chunk-4-8.png&#34; width=&#34;672&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -327,56 +327,20 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
     
     <item>
       <title>African Miocene mammals</title>
-      <link>/project/african-miocene-mammals/</link>
+      <link>https://www.thomaspuschel.com/project/african-miocene-mammals/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/african-miocene-mammals/</guid>
+      <guid>https://www.thomaspuschel.com/project/african-miocene-mammals/</guid>
       <description>&lt;h2 id=&#34;african-miocene-mammals&#34;&gt;African Miocene mammals&lt;/h2&gt;
 &lt;p&gt;Much of our understanding of vertebrate evolution and human origins in the late Cenozoic of Africa derives from Miocene and Pliocene fossil localities distributed along the East African Rift System (EARS). In particular, the Miocene is a fascinating time period that compared with the epochs that followed, it is outstandingly long. It lasted from about 23 million to 5 million years ago, which logically means that the world changed far more over this time period than it did during the following epochs. Interestingly, most of the mammal species that were alive during the Miocene are at least roughly classifiable to modern mammalian groups. However, it is also important to keep in mind that it was also an of epoch characterised by change, with many older forms of mammal still surviving, only to die out before the Miocene’s end.&lt;/p&gt;
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-3d-photogrammetry-models-of-two-of-the-hyracoid-remains-found-in-gorongosa&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/hyracoids.jpg&#34; data-caption=&#34;3D photogrammetry models of two of the hyracoid remains found in Gorongosa&#34;&gt;
-
-
-  &lt;img src=&#34;/img/hyracoids.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    3D photogrammetry models of two of the hyracoid remains found in Gorongosa
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
 &lt;p&gt;Climatic and environmental factors are strong drivers of evolution, and it is expected that these processes played a central role in these evolutionary changes observed during this epoch. Consequently, several hypotheses have been advanced to relate climate and environmental fluctuations with important events in the evolution of different mammalian lineages. However, many of these hypotheses are limited by the biogeographic gap dividing South and East African paleontological sites located in the EARS. Even though this area has crucially contributed to our understanding of vertebrate and human evolution in the late Cenozoic of Africa, the distribution of fossil sites along the rift is extremely biased towards its northern areas, and the types of palaeoenvironments are predominantly circumscribed to fluvial and lacustrine locations. Fortunately, the situation is now changing as a consequence of the finding of several fossiliferous sites located within Gorongosa National Park, Mozambique at the southernmost point of the EARS. Fossils from these sites comprise dicot trees, palms, invertebrates, reptiles, fishes, invertebrates, and mammals. Mammals are more abundant than other vertebrates, even though most specimens are fragmentary postcranial elements, as well as dental elements. This emerging fossil record, as well as the sedimentological reconstruction of this location, suggest a palaeoenvironmental mosaic of estuarine-riverine forest/woodland systems, thus representing the first coastal Miocene habitat identified in the EARS. This unique setting can allow us to assess currently untested hypotheses such as those that predict that hominoids originated in coastal forest settings, as well as those proposing that deltaic components were fundamental during human evolution. The emerging mammalian record from these areas can certainly provide fundamental information about the interaction of environmental change and mammalian evolution, including processes that likely affected hominin evolution. Fossil mammals represent a unique source of information about the Earth’s past, since individual species and entire assemblages can expose the distinctive characteristics of the mammalian community in a given place and time, thus playing a fundamental role in our understanding of how lifeforms evolved in different settings over geological time.  During the 2019 field season in Gorongosa, more than 400 fossils were found. Therefore, I am currently describing and identifying these new fossil findings, as well as comparing them with Miocene fossil materials from other African regions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>African palaeoecology</title>
-      <link>/project/african_paleoecology/</link>
+      <link>https://www.thomaspuschel.com/project/african_paleoecology/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/african_paleoecology/</guid>
+      <guid>https://www.thomaspuschel.com/project/african_paleoecology/</guid>
       <description>&lt;p&gt;##African palaeoecology##&lt;/p&gt;
 &lt;p&gt;A great number of unsolved palaeoenvironmental questions concerning hominins relate to their emergence during the Miocene and early radiation through the Pliocene. Understanding the relationship between ecosystem dynamics and hominin palaeobiology is fundamental to test hypotheses that attempt to elucidate the influence of the environment on the morphological and behavioural adaptations of early hominins. The mammalian fossil record offers critical evidence about the context of human evolution by providing comprehensive information on faunal change through time. The analysis of this outstanding fossil record can provide essential insights about the interaction of environmental change and mammalian evolution, including processes that likely affected hominin evolution. Hence, I am currently collaborating with different colleagues to better understand this key time periods. To develop this line of research I was recently awarded both a Leverhulme Early Career Fellowship and two Boise Funds for Palaeanthropological Research. I am currently working on the following sub-topic:&lt;/p&gt;
 &lt;p&gt;•	Development of new dental ecometrics to reconstruct the African late Miocene/early Pliocene environment:  As teeth are the most common mammalian remains found in the fossil record, many studies have used them as source of palaeoecological information. Among the promising approaches applied to interpreting palaeoclimate from dental remains, there is a method known as ‘dental ecometrics’. This refers to the study of tooth functional traits that have a relationship with climate or environmental gradients at the community level. This research will generate innovative automated ecometric models to reconstruct the paleoenvironments of the African late Miocene/earliest Pliocene using more complex 3D dental variables and machine-learning regression methods. I was awarded a Boise Fund grant to carry out this project, and I am applying for a Synthesis Access project in the following weeks, to strengthen my comparative sample.&lt;/p&gt;
@@ -385,17 +349,17 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
     
     <item>
       <title>Modularity of the Wrist in Extant Hominids</title>
-      <link>/publication/bucchi2020_pre/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi2020_pre/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi2020_pre/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi2020_pre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New morpho-functional tools</title>
-      <link>/project/new_tools/</link>
+      <link>https://www.thomaspuschel.com/project/new_tools/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/new_tools/</guid>
+      <guid>https://www.thomaspuschel.com/project/new_tools/</guid>
       <description>&lt;h2 id=&#34;new-tools-to-analyse-primate-form-and-function-in-an-evolutionary-framework&#34;&gt;New tools to analyse primate form and function in an evolutionary framework&lt;/h2&gt;
 &lt;p&gt;Analysing the correlation between form and ecological function is not only relevant to understanding the morphological diversity observed in extant species, but also because it allows us to infer past behaviours in palaeobiological contexts. Given the inherent difficulty of this topic, to elucidate the association between form and function in an ecological and evolutionary context it is necessary to coherently apply a combination of diverse methods, derived from several disciplines such as evolutionary biology, quantitative genetics, biomechanics, phylogenetic comparative techniques, multivariate statistics and ecology, among others. I am collaborating with different colleagues to develop tools and workflows in the following sub-topics:&lt;/p&gt;
 &lt;p&gt;•	&lt;strong&gt;Combining finite element analysis (FEA), geometric morphometrics (GM) and phylogenetic comparative methods (PCMs)&lt;/strong&gt;: One of my long-standing methodological aims is to understand the relationship between form and ecological function in diverse skeletal elements belonging to different primate clades taking into account their phylogenetic relatedness and using state-of-the-art in silico techniques. My aim is to provide an understanding of the role of functional performance in the evolution of morphological form in different anthropoid groups and ascertain the influence of ecological function on skeletal morphology. Therefore, I have been developing different pipelines to combine GM to quantify shape, FEA to analyse function, and PCMs to contextualise the obtained results in an evolutionary and ecomorphological framework. These workflows allow me to explicitly test hypotheses regarding the role of functional factors in the evolution of morphological diversity.&lt;/p&gt;
@@ -419,10 +383,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-principal-component-analyses-of-shape-and-stress-data-httpsdoiorg103389feart202000079&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/frontiers2.jpg&#34; data-caption=&#34;Principal component analyses of shape and stress data. https://doi.org/10.3389/feart.2020.00079&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/frontiers2.jpg&#34; data-caption=&#34;Principal component analyses of shape and stress data. https://doi.org/10.3389/feart.2020.00079&#34;&gt;
 
 
-  &lt;img src=&#34;/img/frontiers2.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/frontiers2.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -435,7 +399,7 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 
 &lt;/figure&gt;
 
-&lt;p&gt;•	&lt;strong&gt;New statistical tools to analyse FEA outputs&lt;/strong&gt;: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework. &lt;a href=&#34;/files/tutorial_intervals.Rmd&#34; target=&#34;_blank&#34;&gt; Click here to know more.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;New statistical tools to analyse FEA outputs&lt;/strong&gt;: In computational biomechanics, FEA has become increasingly popular because of its ability to show the biomechanical behaviour of anatomical structures. The results obtained using FEA are commonly expressed as colour maps or as summary statistics, but they do not easily enable a quantitative performance comparison between similar structures, and do not fully exploit the results obtained from FEA. We have are developing different techniques to enable the quantitative comparison of FEA results from several specimens in a multivariate statistical framework. &lt;a href=&#34;https://www.thomaspuschel.com/files/tutorial_intervals.Rmd&#34; target=&#34;_blank&#34;&gt; Click here to know more.&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -456,10 +420,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-pcas-of-interval-data-httpsdoiorg107717peerj3793&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/INTER.jpg&#34; data-caption=&#34;PCAs of interval data. https://doi.org/10.7717/peerj.3793&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/INTER.jpg&#34; data-caption=&#34;PCAs of interval data. https://doi.org/10.7717/peerj.3793&#34;&gt;
 
 
-  &lt;img src=&#34;/img/INTER.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/INTER.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -494,10 +458,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-antelope-species-richness-in-sub-saharan-africa&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/bovid.jpg&#34; data-caption=&#34;Antelope species richness in Sub-Saharan Africa&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/bovid.jpg&#34; data-caption=&#34;Antelope species richness in Sub-Saharan Africa&#34;&gt;
 
 
-  &lt;img src=&#34;/img/bovid.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/bovid.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -515,9 +479,9 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
     
     <item>
       <title>Primate morphology</title>
-      <link>/project/primate_morphology/</link>
+      <link>https://www.thomaspuschel.com/project/primate_morphology/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/primate_morphology/</guid>
+      <guid>https://www.thomaspuschel.com/project/primate_morphology/</guid>
       <description>&lt;h2 id=&#34;primate-evolutionary-morphology&#34;&gt;Primate evolutionary morphology&lt;/h2&gt;
 &lt;p&gt;An important part of my research has been devoted to the study of the key adaptations defining different stages of anthropoid evolution. I am interested in the selective pressures responsible for specific evolutionary transitions, in particular (but not limited to) the split between the lineages leading to humans and apes, and the adaptive radiation of New World monkeys. For some of this work I was awarded two scholarships by the Chilean National Research and Development Agency, as well as a European Synthesis Grant. This work can be further divided into the following topics:&lt;/p&gt;
 &lt;p&gt;•	&lt;strong&gt;Adaptive radiation of New World monkeys&lt;/strong&gt;: Platyrrhines are a diverse group of primates that presently occupy a broad range of tropical-equatorial environments in the Americas. I am particularly interested in the phenotypic adaptations, the main drivers of diversification, the role and importance of abiotic and biotic factors, and the processes that underlie the adaptive radiation of this highly diverse group, since their origin ~35-45 million years ago. I use 3D morphometrics and phylogenetic comparative analyses to identify major shifts in phenotypic evolution (in different anatomical structures) through time and to determine whether phenotypic shifts are synchronous with key geological, climatic or other environmental changes.&lt;/p&gt;
@@ -541,10 +505,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-traitgram-of-a-talar-centroid-size-and-b-body-mass-of-the-40-extant-platyrrhine-species-httpsdoiorg101016jjhevol201707015&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Fig7.jpg&#34; data-caption=&#34;Traitgram of a) talar centroid size and b) body mass of the 40 extant platyrrhine species https://doi.org/10.1016/j.jhevol.2017.07.015&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/Fig7.jpg&#34; data-caption=&#34;Traitgram of a) talar centroid size and b) body mass of the 40 extant platyrrhine species https://doi.org/10.1016/j.jhevol.2017.07.015&#34;&gt;
 
 
-  &lt;img src=&#34;/img/Fig7.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/Fig7.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -578,10 +542,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-platyrrhine-phylomorphospace-the-first-two-morphometric-pcs-and-stress-values-mwm-as-vertical-z-axis-one-of-the-models-closest-to-the-mean-shape-was-warped-to-match-the-multivariate-mean-using-the-thin-plate-spline-method-and-then-the-obtained-average-model-was-warped-to-represent-the-variation-along-the-pc-axes-in-addition-the-von-mises-stress-maps-of-two-extreme-models-are-displayed-to-facilitate-the-understanding-of-the-z-axis-httpdxdoiorg101098rsif20180520&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/bio-mech.png&#34; data-caption=&#34;Platyrrhine phylomorphospace: the first two morphometric PCs and stress values (MWM) as vertical z-axis. One of the models closest to the mean shape was warped to match the multivariate mean using the thin-plate spline method, and then the obtained average model was warped to represent the variation along the PC axes. In addition, the von Mises stress maps of two extreme models are displayed to facilitate the understanding of the z-axis http://dx.doi.org/10.1098/rsif.2018.0520&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/bio-mech.png&#34; data-caption=&#34;Platyrrhine phylomorphospace: the first two morphometric PCs and stress values (MWM) as vertical z-axis. One of the models closest to the mean shape was warped to match the multivariate mean using the thin-plate spline method, and then the obtained average model was warped to represent the variation along the PC axes. In addition, the von Mises stress maps of two extreme models are displayed to facilitate the understanding of the z-axis http://dx.doi.org/10.1098/rsif.2018.0520&#34;&gt;
 
 
-  &lt;img src=&#34;/img/bio-mech.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/bio-mech.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -615,10 +579,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-biomechanical-hand-posture-models-describing-the-variation-found-between-pan-and-gorilla-httpsdoiorg101038s41598-020-60590-6&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/knuckle.jpg&#34; data-caption=&#34;Biomechanical hand posture models describing the variation found between Pan and Gorilla https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; data-caption=&#34;Biomechanical hand posture models describing the variation found between Pan and Gorilla https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;
 
 
-  &lt;img src=&#34;/img/knuckle.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -652,10 +616,10 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
 &lt;figure id=&#34;figure-values-of-the-percentile-m50-of-the-von-mises-stress-for-both-extinct-and-extant-primate-species-a-composite-phylogeny-includind-molecular-data-from-extant-primates-and-morphological-information-from-fossils-has-been-plotted-next-to-the-von-mises-stress-distribution-of-all-the-analysed-specimens-under-the-four-different-bite-cases-httpsdoiorg101038s41598-020-63739-5&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/broad.jpg&#34; data-caption=&#34;Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; data-caption=&#34;Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;
 
 
-  &lt;img src=&#34;/img/broad.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -673,50 +637,50 @@ rm(intervals.data.5, intervals.data.10, intervals.data.15, intervals.data.25, in
     
     <item>
       <title>Getting Its Feet on the Ground Elucidating Paralouatta’s Semi-Terrestriality Using the Virtual Morpho-Functional Toolbox</title>
-      <link>/publication/getting/</link>
+      <link>https://www.thomaspuschel.com/publication/getting/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/getting/</guid>
+      <guid>https://www.thomaspuschel.com/publication/getting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
-      <link>/publication/broad-scale/</link>
+      <link>https://www.thomaspuschel.com/publication/broad-scale/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/broad-scale/</guid>
+      <guid>https://www.thomaspuschel.com/publication/broad-scale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The biomechanical importance of the scaphoid-centrale fusion during simulated knuckle-walking and its implications for human locomotor evolution</title>
-      <link>/publication/scaphoid/</link>
+      <link>https://www.thomaspuschel.com/publication/scaphoid/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/scaphoid/</guid>
+      <guid>https://www.thomaspuschel.com/publication/scaphoid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
-      <link>/publication/acd/</link>
+      <link>https://www.thomaspuschel.com/publication/acd/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/acd/</guid>
+      <guid>https://www.thomaspuschel.com/publication/acd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collecting data in Nairobi</title>
-      <link>/post/collecting_data_nairobi/</link>
+      <link>https://www.thomaspuschel.com/post/collecting_data_nairobi/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/post/collecting_data_nairobi/</guid>
+      <guid>https://www.thomaspuschel.com/post/collecting_data_nairobi/</guid>
       <description>&lt;p&gt;Whilst the field season may be over, work on the Gorongosa fossil collection continues. I have been working on photogrammetry for many of the Gorongosa fossils and building 3D models of them. I recently spent several weeks at the Nairobi National Museum in Kenya studying comparative collections and scanning material for comparison.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Writing technical content in Academic</title>
-      <link>/og/writing-technical-content/</link>
+      <link>https://www.thomaspuschel.com/og/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/og/writing-technical-content/</guid>
+      <guid>https://www.thomaspuschel.com/og/writing-technical-content/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -948,27 +912,27 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     
     <item>
       <title>Virtual ecomorphology</title>
-      <link>/talk/ibero2020/</link>
+      <link>https://www.thomaspuschel.com/talk/ibero2020/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ibero2020/</guid>
+      <guid>https://www.thomaspuschel.com/talk/ibero2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elucidating Paralouatta’s semi-terrestriality using the virtual morpho-functional toolbox</title>
-      <link>/talk/aapa2020/</link>
+      <link>https://www.thomaspuschel.com/talk/aapa2020/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/aapa2020/</guid>
+      <guid>https://www.thomaspuschel.com/talk/aapa2020/</guid>
       <description>&lt;p&gt;Find the paper 
-&lt;a href=&#34;/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.thomaspuschel.com/publication/getting/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/og/jupyter/</link>
+      <link>https://www.thomaspuschel.com/og/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/og/jupyter/</guid>
+      <guid>https://www.thomaspuschel.com/og/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1015,9 +979,9 @@ date: 2019-09-01
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://www.thomaspuschel.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://www.thomaspuschel.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -1149,133 +1113,89 @@ Three
     
     <item>
       <title>Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology</title>
-      <link>/publication/interface/</link>
+      <link>https://www.thomaspuschel.com/publication/interface/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/interface/</guid>
+      <guid>https://www.thomaspuschel.com/publication/interface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of Pterostichus melas melas (Coleptera Carabidae)</title>
-      <link>/publication/benitez_2018/</link>
+      <link>https://www.thomaspuschel.com/publication/benitez_2018/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/benitez_2018/</guid>
+      <guid>https://www.thomaspuschel.com/publication/benitez_2018/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;There are several places on this website that requires you to identify yourself:&lt;/p&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;By filling out the contact form I get your name, email address and your text. I will delete all mail sent in this way after 12 months. Your contact details will not be shared with third parties without your expressed concern.&lt;/p&gt;
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-&lt;p&gt;The only personal information collected while you visit this site is non-identifying information, such as browser type and operating system. This information is collected by 
-&lt;a href=&#34;https://analytics.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt; for measuring visitor traffic to this site.&lt;/p&gt;
-&lt;p&gt;For each visitor to reach the site, Google Analytics collects the following non-personally identifiable information, including but not limited to browser type, version and language, operating system, pages viewed while browsing the site, page access times and referring website address. This information is presented to me as aggregated reports.&lt;/p&gt;
-&lt;h2 id=&#34;social-sharing&#34;&gt;Social sharing&lt;/h2&gt;
-&lt;p&gt;If you are using the social sharing buttons on my website then the privacy policy of those websites apply:&lt;/p&gt;
-&lt;p&gt;•	
-&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;•	
-&lt;a href=&#34;https://www.facebook.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;•	
-&lt;a href=&#34;https://www.instagram.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instagram&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;•	
-&lt;a href=&#34;https://www.weibo.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weibo&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;h2 id=&#34;media-owner&#34;&gt;Media owner:&lt;/h2&gt;
-&lt;p&gt;Dr. Thomas A. Püschel&lt;/p&gt;
-&lt;p&gt;Leverhulme Early Career Fellow
-Primate Models for Behavioural Evolution
-Institute of Cognitive and Evolutionary Anthropology
-University of Oxford, 64 Banbury Road
-OX2 6PN, Oxford&lt;/p&gt;
-&lt;h2 id=&#34;website&#34;&gt;Website:&lt;/h2&gt;
-&lt;p&gt;Website Content: Thomas A. Püschel (unless other author is specifically provided).&lt;/p&gt;
-&lt;p&gt;Declaration about the editorial policy:&lt;/p&gt;
-&lt;p&gt;All the content of this website is my personal opinion. The purpose of this website is not commercial.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Analyzing the sclerocarpy adaptations of the Pitheciidae mandible</title>
-      <link>/publication/sclerocarpy/</link>
+      <link>https://www.thomaspuschel.com/publication/sclerocarpy/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sclerocarpy/</guid>
+      <guid>https://www.thomaspuschel.com/publication/sclerocarpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morpho-functional analyses of the primate skeleton applying 3D geometric morphometrics, finite element analysis and phylogenetic comparative methods to assess ecomorphological questions in extant and extinct anthropoids</title>
-      <link>/publication/phd/</link>
+      <link>https://www.thomaspuschel.com/publication/phd/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/phd/</guid>
+      <guid>https://www.thomaspuschel.com/publication/phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The intervals method a new approach to analyse finite element outputs using multivariate statistics</title>
-      <link>/publication/intervals/</link>
+      <link>https://www.thomaspuschel.com/publication/intervals/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/intervals/</guid>
+      <guid>https://www.thomaspuschel.com/publication/intervals/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The evolution of the platyrrhine talus A comparative analysis of the phenetic affinities of the Miocene platyrrhines with their modern relatives</title>
-      <link>/publication/jhe/</link>
+      <link>https://www.thomaspuschel.com/publication/jhe/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/jhe/</guid>
+      <guid>https://www.thomaspuschel.com/publication/jhe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A biomechanical approach to understand the ecomorphological relationship between primate mandibles and diet</title>
-      <link>/publication/mandible_diet/</link>
+      <link>https://www.thomaspuschel.com/publication/mandible_diet/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/mandible_diet/</guid>
+      <guid>https://www.thomaspuschel.com/publication/mandible_diet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Taxonomic comments of a Glossotherium specimen from the Pleistocene of Central Chile</title>
-      <link>/publication/hans/</link>
+      <link>https://www.thomaspuschel.com/publication/hans/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/hans/</guid>
+      <guid>https://www.thomaspuschel.com/publication/hans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity</title>
-      <link>/publication/bucchi/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Standing on the Shoulders of Apes Analyzing the Form and Function of the Hominoid Scapula Using Geometric Morphometrics and Finite Element Analysis</title>
-      <link>/publication/ajpa/</link>
+      <link>https://www.thomaspuschel.com/publication/ajpa/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/ajpa/</guid>
+      <guid>https://www.thomaspuschel.com/publication/ajpa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/og/internal-project/</link>
+      <link>https://www.thomaspuschel.com/og/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/og/internal-project/</guid>
+      <guid>https://www.thomaspuschel.com/og/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -1286,17 +1206,17 @@ OX2 6PN, Oxford&lt;/p&gt;
     
     <item>
       <title>Paleo-Primate project</title>
-      <link>/project/pppg/</link>
+      <link>https://www.thomaspuschel.com/project/pppg/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/pppg/</guid>
+      <guid>https://www.thomaspuschel.com/project/pppg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>/og/getting-started/</link>
+      <link>https://www.thomaspuschel.com/og/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/og/getting-started/</guid>
+      <guid>https://www.thomaspuschel.com/og/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
@@ -1438,17 +1358,17 @@ OX2 6PN, Oxford&lt;/p&gt;
     
     <item>
       <title>Origen y evolución de la población chilena el punto de vista biológico.</title>
-      <link>/publication/libro_chile/</link>
+      <link>https://www.thomaspuschel.com/publication/libro_chile/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/libro_chile/</guid>
+      <guid>https://www.thomaspuschel.com/publication/libro_chile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/og/2015-07-23-r-rmarkdown/</link>
+      <link>https://www.thomaspuschel.com/og/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/og/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://www.thomaspuschel.com/og/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -1485,7 +1405,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/OG/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://www.thomaspuschel.com/OG/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -1496,73 +1416,73 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Left–right asymmetry and morphological consequences of a host shift in the oligophagous Neotropical moth Macaria mirthae (Lepidoptera Geometridae)</title>
-      <link>/publication/benitez2015/</link>
+      <link>https://www.thomaspuschel.com/publication/benitez2015/</link>
       <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/benitez2015/</guid>
+      <guid>https://www.thomaspuschel.com/publication/benitez2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysing the Floral Elements of the Lost Tree of Easter Island A Morphometric Comparison between the Remaining Ex-Situ Lines of the Endemic Extinct Species Sophora toromiro</title>
-      <link>/publication/toromiro/</link>
+      <link>https://www.thomaspuschel.com/publication/toromiro/</link>
       <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/toromiro/</guid>
+      <guid>https://www.thomaspuschel.com/publication/toromiro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Shape Variance Geometric Morphometric Applications in Evolutionary Biology</title>
-      <link>/publication/benitez2014/</link>
+      <link>https://www.thomaspuschel.com/publication/benitez2014/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/benitez2014/</guid>
+      <guid>https://www.thomaspuschel.com/publication/benitez2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecomorphological Variation of the Wireworm Cephalic Capsule Studying the Interaction of Environment and Geometric Shape</title>
-      <link>/publication/wireworm/</link>
+      <link>https://www.thomaspuschel.com/publication/wireworm/</link>
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/wireworm/</guid>
+      <guid>https://www.thomaspuschel.com/publication/wireworm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morphological integration and modularity in Diabrotica virgifera virgifera LeConte (Coleoptera Chrysomelidae) hind wings</title>
-      <link>/publication/diabrotica/</link>
+      <link>https://www.thomaspuschel.com/publication/diabrotica/</link>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/diabrotica/</guid>
+      <guid>https://www.thomaspuschel.com/publication/diabrotica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Femoral Functional Adaptation A Comparison Between Hunter Gatherers and Farmers Using Geometric Morphometrics</title>
-      <link>/publication/femur/</link>
+      <link>https://www.thomaspuschel.com/publication/femur/</link>
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/femur/</guid>
+      <guid>https://www.thomaspuschel.com/publication/femur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modularity and Morphological Integration in Human Skulls a Geometric Morphometric Approach</title>
-      <link>/publication/puschel2014/</link>
+      <link>https://www.thomaspuschel.com/publication/puschel2014/</link>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/puschel2014/</guid>
+      <guid>https://www.thomaspuschel.com/publication/puschel2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Biomechanical modelling of Human Femora a comparison between Agriculturalists and Hunter-Gatherers using FEA, GMM and Beam Theory</title>
-      <link>/publication/msc/</link>
+      <link>https://www.thomaspuschel.com/publication/msc/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/msc/</guid>
+      <guid>https://www.thomaspuschel.com/publication/msc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deformación Intencional del Cráneo en los Oasis de San Pedro de Atacama un Enfoque Morfométrico Geométrico</title>
-      <link>/publication/bsc/</link>
+      <link>https://www.thomaspuschel.com/publication/bsc/</link>
       <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/bsc/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bsc/</guid>
       <description></description>
     </item>
     
