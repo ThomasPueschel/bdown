@@ -5,12 +5,20 @@
     <link>https://www.thomaspuschel.com/tag/new-tools/</link>
       <atom:link href="https://www.thomaspuschel.com/tag/new-tools/index.xml" rel="self" type="application/rss+xml" />
     <description>New tools</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>New tools</title>
       <link>https://www.thomaspuschel.com/tag/new-tools/</link>
     </image>
+    
+    <item>
+      <title>Paleontología virtual un conjunto de herramientas emergente para análisis morfo-funcionales en contextos evolutivos</title>
+      <link>https://www.thomaspuschel.com/talk/socchianat/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/talk/socchianat/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>New morpho-functional tools</title>
