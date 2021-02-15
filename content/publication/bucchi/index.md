@@ -27,7 +27,7 @@ tags:
 - morphometrics
 - skull
 - Primate morphology
-title: Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin A Quantitative Approach to Its Role as a Marker of Social Identity
+title: Artificial Cranial Modification in San Pedro de Atacama and the Loa Basin a Quantitative Approach to its Role as a Marker of Social Identity
 url_pdf: "files/pdf/Bucchietal.pdf"
 url_project: ""
 ---

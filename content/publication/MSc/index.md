@@ -11,7 +11,7 @@ image:
   preview_only: false
 links:
 - name: Online version
-  url:  https://www.york.ac.uk/archaeology/postgraduate-study/taught-postgrads/mas ers-courses/human-anatomy-and-evolution/
+  url: https://www.hyms.ac.uk/postgraduate-taught-degrees/msc-in-human-anatomy-and-evolution
 projects:
 - Primate morphology
 publication: In *MSc thesis*, The University of York, Hull York Medical School, (2013)

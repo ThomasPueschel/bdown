@@ -1,5 +1,5 @@
 ---
-abstract: This study evaluated the use of fluctuating asymmetry (FA) of shape, as a bio-indicator developmental stability (DS) in multiple populations of two different agricultural productions a) perennial (orchard) and b) annual (arable) crops on the carabid beetle Pterostichus melas melas (Creutzer, 1799) morphology. Shape variation and FA levels were estimated using geometric morphometrics. The results obtained using geometric morphometric analyses such as regressions (FA scores vs Shape) and partial least squares showed that carabids that inhabited the perennial agro-ecosystem seem to have adapted to the strong anthropogenic influence (i.e. IPM practices) at the phenotypic level, while the carabids inhabiting annual agro-ecosystems experience more unstable environments and their phenotypes seem to have been changed more recently. It was expected that phenotypes of the annual agro-ecosystems would be more variable than the long-established ones. Different IPM practices in agro-ecosystems generate different disturbance degrees in insect communities, and these effects can be successfully quantified by applying geometric morphometric techniques.
+abstract: This study evaluated the use of fluctuating asymmetry (FA) of shape, as a bio-indicator developmental stability (DS) in multiple populations of two different agricultural productions a) perennial (orchard) and b) annual (arable) crops on the carabid beetle *Pterostichus melas melas* (Creutzer, 1799) morphology. Shape variation and FA levels were estimated using geometric morphometrics. The results obtained using geometric morphometric analyses such as regressions (FA scores vs Shape) and partial least squares showed that carabids that inhabited the perennial agro-ecosystem seem to have adapted to the strong anthropogenic influence (i.e. IPM practices) at the phenotypic level, while the carabids inhabiting annual agro-ecosystems experience more unstable environments and their phenotypes seem to have been changed more recently. It was expected that phenotypes of the annual agro-ecosystems would be more variable than the long-established ones. Different IPM practices in agro-ecosystems generate different disturbance degrees in insect communities, and these effects can be successfully quantified by applying geometric morphometric techniques.
 authors:
 - Hugo Benítez
 - Darija Lemic
@@ -32,7 +32,7 @@ tags:
 - morphometrics
 - fluctuating asymmetry
 - insects
-title: Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of Pterostichus melas melas (Coleptera Carabidae)
+title: Fluctuating asymmetry indicates levels of disturbance between agricultural productions An example in Croatian population of *Pterostichus melas melas* (Coleoptera Carabidae)
 url_pdf: "files/pdf/benitez2018.pdf"
 ---
 
