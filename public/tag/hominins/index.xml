@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hominins | Thomas A. Püschel</title>
-    <link>/tag/hominins/</link>
-      <atom:link href="/tag/hominins/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/tag/hominins/</link>
+      <atom:link href="https://www.thomaspuschel.com/tag/hominins/index.xml" rel="self" type="application/rss+xml" />
     <description>hominins</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>hominins</title>
-      <link>/tag/hominins/</link>
+      <link>https://www.thomaspuschel.com/tag/hominins/</link>
     </image>
     
     <item>
       <title>Finite element analysis of the proximal phalanx of the thumb in Hominoidea during simulated stone tool use</title>
-      <link>/publication/palevol/</link>
+      <link>https://www.thomaspuschel.com/publication/palevol/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/palevol/</guid>
+      <guid>https://www.thomaspuschel.com/publication/palevol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broad-scale morpho-functional traits of the mandible suggest no hard food adaptation in the hominin lineage</title>
-      <link>/publication/broad-scale/</link>
+      <link>https://www.thomaspuschel.com/publication/broad-scale/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/broad-scale/</guid>
+      <guid>https://www.thomaspuschel.com/publication/broad-scale/</guid>
       <description></description>
     </item>
     

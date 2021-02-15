@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>modularity | Thomas A. Püschel</title>
-    <link>/tag/modularity/</link>
-      <atom:link href="/tag/modularity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.thomaspuschel.com/tag/modularity/</link>
+      <atom:link href="https://www.thomaspuschel.com/tag/modularity/index.xml" rel="self" type="application/rss+xml" />
     <description>modularity</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>modularity</title>
-      <link>/tag/modularity/</link>
+      <link>https://www.thomaspuschel.com/tag/modularity/</link>
     </image>
     
     <item>
       <title>Modularity of the Wrist in Extant Hominids</title>
-      <link>/publication/bucchi2020_pre/</link>
+      <link>https://www.thomaspuschel.com/publication/bucchi2020_pre/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/bucchi2020_pre/</guid>
+      <guid>https://www.thomaspuschel.com/publication/bucchi2020_pre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morphological consequences of artificial cranial deformation Modularity and integration</title>
-      <link>/publication/acd/</link>
+      <link>https://www.thomaspuschel.com/publication/acd/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/acd/</guid>
+      <guid>https://www.thomaspuschel.com/publication/acd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Shape Variance Geometric Morphometric Applications in Evolutionary Biology</title>
-      <link>/publication/benitez2014/</link>
+      <link>https://www.thomaspuschel.com/publication/benitez2014/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/benitez2014/</guid>
+      <guid>https://www.thomaspuschel.com/publication/benitez2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morphological integration and modularity in Diabrotica virgifera virgifera LeConte (Coleoptera Chrysomelidae) hind wings</title>
-      <link>/publication/diabrotica/</link>
+      <link>https://www.thomaspuschel.com/publication/diabrotica/</link>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/diabrotica/</guid>
+      <guid>https://www.thomaspuschel.com/publication/diabrotica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modularity and Morphological Integration in Human Skulls a Geometric Morphometric Approach</title>
-      <link>/publication/puschel2014/</link>
+      <link>https://www.thomaspuschel.com/publication/puschel2014/</link>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/puschel2014/</guid>
+      <guid>https://www.thomaspuschel.com/publication/puschel2014/</guid>
       <description></description>
     </item>
     
