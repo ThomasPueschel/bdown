@@ -2,7 +2,7 @@
 title: "S4. Landmark and semi-landmarks used in 'Characterizing the body morphology of the first metacarpal in the Homininae using 3D geometric morphometrics'"
 author: "Thomas A. Püschel"
 output: html_document
-date: 2021-03-23T21:13:14-05:00
+date: 2021-03-03T21:13:14-05:00
 categories: ["R"]
 tags: ["hand", "primate morphology", "morphometrics", "post-cranium"]
 ---
@@ -21,9 +21,9 @@ Link to [preprint](https://doi.org/https://doi.org/10.1101/2020.04.30.070326)
 
 >Corresponding author:
 Thomas A. Püschel
+
 >Contact:
 Email: [thomas.puschelrouliez@anthro.ox.ac.uk](mailto:thomas.puschelrouliez@anthro.ox.ac.uk)
-Web: [thomas.puschel.com](https://www.thomaspuschel.com/) 
 
 ________
 
@@ -34,8 +34,14 @@ load('table2.RData')
 
 # Landmark collection
 3D landmarks were collected to quantify the MC1’s morphology. Eight curves comprising 20 equidistant landmarks each were placed at pre-defined points on the MC1 (Figure 1). These landmarks were chosen to provide a good representation of the shaft of the bone. The first and last landmarks from each one of the eight curves were treated as fixed (i.e., 16 fixed landmarks), whereas all the rest of them (i.e., 144 landmarks) were considered as semi-landmarks. 
+```{r}
+oo<-jpeg::readJPEG("Fig1.jpg")
+plot(c(1, dim(oo)[2]), c(1, dim(oo)[1]), type ='n', xlab = "", ylab = "") #generate graph axes
+a<-rasterImage(oo, 0, 0, dim(oo)[2], dim(oo)[1]) 
+```
 
-![Figure 1. Illustration of the 16 landmarks (yellow spheres) and 144 semi-landmarks (red spheres) used in this study. The numbers of the 16 fixed landmarks and eight semi-landmark curves (C1-C8) are also plotted](Fig1.jpeg)
+<center>
+![Figure 1. Illustration of the 16 landmarks (yellow spheres) and 144 semi-landmarks (red spheres) used in this study. The numbers of the 16 fixed landmarks and eight semi-landmark curves (C1-C8) are also plotted](Fig1_png.png){ width=50% }
 
 
 # Landmark and semi-landmark definitions
