@@ -9,8 +9,8 @@ tags: ["hand", "primate morphology", "morphometrics", "post-cranium"]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+options(rgl.useNULL = TRUE) # Suppress the separate window.
 library(rgl)
-knitr::knit_hooks$set(webgl = hook_webgl)
 ```
 
 ________
@@ -60,6 +60,7 @@ rgl.bg(color = "white") # Setup the background color
 rgl.spheres(averageshape, r = 0.002, color = "red") 
 rgl.spheres(fixedlmks, r = 0.005, color = "gold") 
 shade3d(averagemesh,col='#5BBCD6', specular=1)
+rglwidget()
 
 ```
 
