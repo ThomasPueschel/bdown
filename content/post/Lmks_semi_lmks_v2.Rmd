@@ -39,9 +39,7 @@ oo<-jpeg::readJPEG("Fig1.jpg")
 plot(c(1, dim(oo)[2]), c(1, dim(oo)[1]), xlab = "", ylab = "", axes=FALSE) #generate graph axes
 a<-rasterImage(oo, 0, 0, dim(oo)[2], dim(oo)[1]) 
 ```
-
-<center>
-![Figure 1. Illustration of the 16 landmarks (yellow spheres) and 144 semi-landmarks (red spheres) used in this study. The numbers of the 16 fixed landmarks and eight semi-landmark curves (C1-C8) are also plotted](Fig1_png.png){ width=50% }
+Figure 1. Illustration of the 16 landmarks (yellow spheres) and 144 semi-landmarks (red spheres) used in this study. The numbers of the 16 fixed landmarks and eight semi-landmark curves (C1-C8) are also plotted. 
 
 
 # Landmark and semi-landmark definitions
@@ -50,7 +48,7 @@ dt %>%
   kableExtra::kbl() %>%
   kableExtra::kable_paper() %>%
   kableExtra::row_spec(c(1,18), bold = T) %>%
-  kableExtra::scroll_box(width = "500px", height = "200px")
+  kableExtra::scroll_box()
 ```
 
 # Visualize landmarks and semi-landmarks
