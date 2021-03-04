@@ -9,8 +9,9 @@ tags: ["hand", "primate morphology", "morphometrics", "post-cranium"]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-options(rgl.useNULL = TRUE) # Suppress the separate window.
+# options(rgl.useNULL = TRUE) # Suppress the separate window.
 library(rgl)
+knitr::knit_hooks$set(webgl = hook_rgl)
 ```
 
 ________
