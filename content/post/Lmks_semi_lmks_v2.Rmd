@@ -36,7 +36,7 @@ load('table2.RData')
 3D landmarks were collected to quantify the MC1’s morphology. Eight curves comprising 20 equidistant landmarks each were placed at pre-defined points on the MC1 (Figure 1). These landmarks were chosen to provide a good representation of the shaft of the bone. The first and last landmarks from each one of the eight curves were treated as fixed (i.e., 16 fixed landmarks), whereas all the rest of them (i.e., 144 landmarks) were considered as semi-landmarks. 
 ```{r}
 oo<-jpeg::readJPEG("Fig1.jpg")
-plot(c(1, dim(oo)[2]), c(1, dim(oo)[1]), type ='n', xlab = "", ylab = "") #generate graph axes
+plot(c(1, dim(oo)[2]), c(1, dim(oo)[1]), xlab = "", ylab = "", axes=FALSE) #generate graph axes
 a<-rasterImage(oo, 0, 0, dim(oo)[2], dim(oo)[1]) 
 ```
 
