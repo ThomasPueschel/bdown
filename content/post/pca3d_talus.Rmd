@@ -2,7 +2,7 @@
 title: "PCA 3D"
 author: "Thomas A. Püschel"
 output: html_document
-date: 2021-03-16T21:13:14-05:00
+date: 2021-03-15T21:13:14-05:00
 categories: ["R"]
 tags: ["morphometrics", "primate morphology", "post-cranium"]
 ---
