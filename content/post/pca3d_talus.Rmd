@@ -67,7 +67,7 @@ xlab <- paste('Principal Component 1', '(', round(variance1_m,digits=2),  '%)')
 ylab <- paste('Principal Component 2', '(', round(variance2_m,digits=2),  '%)')
 # plot PC1 vs PC2
 plot(PCA_morpho$x[,1], PCA_morpho$x[,2], pch=tmp$pch, cex=2.5, bg = tmp$colors, xlab=xlab, ylab=ylab, asp=T)#
-legend(-0.1,-0.04, bty = "n",legend= unique(tmp$Locomotion), pch=unique(tmp$pch), col=unique(tmp$colors), pt.bg=unique(tmp$colors), cex=0.5)
+legend(-0.1,-0.04, bty = "n",legend= unique(tmp$Locomotion), pch=unique(tmp$pch), col=unique(tmp$colors), pt.bg=unique(tmp$colors), cex=0.7)
 ```
 
 
@@ -112,7 +112,7 @@ for (i in 1:length(levs)) {
    #         col= group.col[i], cex = 2)
 }
 aspect3d(1,1,1)
-rglwidget(webgl=TRUE, snapshot=FALSE)
+rglwidget(snapshot=FALSE,webgl=TRUE)
 ```
 
 
