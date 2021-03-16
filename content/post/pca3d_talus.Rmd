@@ -1,0 +1,118 @@
+---
+title: "PCA 3D"
+author: "Thomas A. Püschel"
+output: html_document
+date: 2021-03-16T21:13:14-05:00
+categories: ["R"]
+tags: ["morphometrics", "primate morphology", "post-cranium"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(rgl)
+knitr::knit_hooks$set(webgl = hook_rgl)
+```
+
+________
+
+>Contact:
+Email: [thomas.puschelrouliez@anthro.ox.ac.uk](mailto:thomas.puschelrouliez@anthro.ox.ac.uk)
+Web: [thomas.puschel.com](https://www.thomaspuschel.com/) 
+
+________
+
+Yesterday I received an email asking me how did I generate the 3D plots displayed in this [preprint](https://doi.org/https://doi.org/10.1101/2020.04.30.070326) so I decided to share the process in this post. For this example I used the data from:
+
+Püschel T. A., Marcé-Nogué J., Gladman J. T., Bobe R., & Sellers W. I. (2018). [Inferring locomotor behaviours in Miocene New World monkeys using finite element analysis, geometric morphometrics and machine-learning classification techniques applied to talar morphology](https://www.thomaspuschel.com/files/pdf/rsif.pdf). *Journal of The Royal Society Interface*, 15(146), 20180520. 
+
+
+#1) Load the required packages
+```{r load packages, echo=TRUE, results='hide', message=FALSE}
+library('pca3d')
+library('geomorph')
+# for the colour palette
+library('NineteenEightyR')
+```
+
+#2) Load the data
+```{r load load, echo=TRUE, results='hide'}
+load('Talar_shape.RData')
+```
+
+```{r pre-process data, echo=FALSE, results='hide'}
+# define names
+names <-tmp[,1] 
+# Convert landmark data matrix into array
+coords <-(arrayspecs(tmp[,7:ncol(tmp)], 30, 3)) 
+dimnames(coords)[[3]] <-names
+# Procrustes superimposition 
+proc<-gpagen(coords)
+z<-two.d.array(proc$coords) 
+#arrange coordinate as a 2D array
+tmp$pch<-c(21:24)[as.numeric(as.factor(tmp$Locomotion))]
+colors<-c(malibu(n=4))
+# define colours and shapes by main locomotor mode
+tmp$colors<-colors[as.numeric(as.factor(tmp$Locomotion))]
+```
+
+#4) PCA biplot
+```{r PCA biplot, echo=TRUE}
+PCA_morpho = prcomp(z, scale=F)
+eig_m<-(PCA_morpho$sdev)^2
+eig1_m<-(PCA_morpho$sdev[1])^2
+eig2_m<-(PCA_morpho$sdev[2])^2
+variance1_m<-eig1_m*100/sum(eig_m)
+variance2_m<-eig2_m*100/sum(eig_m)
+xlab <- paste('Principal Component 1', '(', round(variance1_m,digits=2),  '%)')
+ylab <- paste('Principal Component 2', '(', round(variance2_m,digits=2),  '%)')
+# plot PC1 vs PC2
+plot(PCA_morpho$x[,1], PCA_morpho$x[,2], pch=tmp$pch, cex=2.5, bg = tmp$colors, xlab=xlab, ylab=ylab, asp=T)#
+legend(-0.1,-0.04, bty = "n",legend= unique(tmp$Locomotion), pch=unique(tmp$pch), col=unique(tmp$colors), pt.bg=unique(tmp$colors), cex=0.5)
+```
+
+
+
+#5) Interactive PCA 3D
+
+Additional information about the `rgl` package can be found [here](https://cran.r-project.org/web/packages/rgl/vignettes/rgl.html) 
+
+```{r webgl=TRUE, echo=TRUE}
+SH<-as.vector(c("sphere","cube","octahedron","tetrahedron"))
+tmp$sh<-SH[as.numeric(as.factor(tmp$Locomotion))]
+
+# Setup the background color
+rgl.bg(color = "white") 
+
+#pca 3d
+pca3d(pca=PCA_morpho, components = 1:3, col = tmp$colors, title = NULL, 
+      new = FALSE,axes.color = "black", bg = "white", radius = 3.5, 
+      group = tmp$Locomotion,shape=tmp$sh, show.axes = TRUE,show.axe.titles = TRUE,
+      axe.titles = NULL, show.plane = F,show.shadows = F, show.centroids = F,show.scale = T)
+
+
+# Groups
+groups <- as.factor(tmp$Locomotion)
+levs <- levels(groups)
+group.col <- c(malibu(4))
+#
+x<-PCA_morpho$x[,1]
+y<-PCA_morpho$x[,2]
+z<-PCA_morpho$x[,3]
+
+# Compute 95% CI ellipse for each one of the groups
+for (i in 1:length(levs)) {
+   group <- levs[i]
+   selected <- groups == group
+   xx <- x[selected]; yy <- y[selected]; zz <- z[selected]
+   ellips <- ellipse3d(cov(cbind(xx,yy,zz)), 
+                       centre=c(mean(xx), mean(yy), mean(zz)), level = 0.95) 
+   shade3d(ellips, col = group.col[i], alpha = 0.1, lit = FALSE) 
+   # show group labels
+   # texts3d(mean(xx),mean(yy), mean(zz), text = group,
+   #         col= group.col[i], cex = 2)
+}
+aspect3d(1,1,1)
+rglwidget(webgl=TRUE, snapshot=FALSE)
+```
+
+
