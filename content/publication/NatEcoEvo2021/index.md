@@ -32,7 +32,7 @@ tags:
 - palaeontology
 - hominin
 title: Divergence-time estimates for hominins provide insight into encephalization and body mass trends in human evolution
-url_pdf: "files/pdf/Püschel_et_al_2021.pdf"
+url_pdf: "files/pdf/Puschel_et_al_2021.pdf"
 url_project: ""
 ---
 
