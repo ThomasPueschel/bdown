@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joseph E. O’Reilly | Thomas A. Püschel</title>
+    <link>https://www.thomaspuschel.com/author/joseph-e.-oreilly/</link>
+      <atom:link href="https://www.thomaspuschel.com/author/joseph-e.-oreilly/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joseph E. O’Reilly</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <title>Joseph E. O’Reilly</title>
+      <link>https://www.thomaspuschel.com/author/joseph-e.-oreilly/</link>
+    </image>
+    
+    <item>
+      <title>Divergence-time estimates for hominins provide insight into encephalization and body mass trends in human evolution</title>
+      <link>https://www.thomaspuschel.com/publication/natecoevo2021/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/natecoevo2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
