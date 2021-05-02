@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I am currently collaborating on a diversity of projects that can be placed in the interface between biological anthropology, palaeontology, ecology and evolutionary biology, using cutting-edge informatic techniques. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+bio: I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I have recently joined the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
 education:
   courses:
   - course: PhD in Adaptive Organismal Biology
@@ -24,9 +24,9 @@ interests:
 - Phylogenetic comparative methods
 - Palaeoecology
 organizations:
-- name: Primate Models for Behavioural Evolution Lab - Oxford University
-  url: "https://primobevolab.web.ox.ac.uk/"
-role: Leverhulme Early Career Fellow
+- name: The Venditti group - Reading University
+  url: "https://www.reading.ac.uk/biologicalsciences/about/staff/c-d-venditti.aspx"
+role: Postdoctoral researcher
 social:
 - icon: envelope
   icon_pack: fas
@@ -53,5 +53,5 @@ user_groups:
 - Visitors
 ---
 
-I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My Leverhulme Project has taken me to Gorongosa National Park, Mozambique, where I work together with the Paleo-Primate Project Gorongosa.
+I am a palaeoprimatologist and vertebrate palaeobiologist mainly focused on primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of predictive modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. I have recently joined the Venditti group, University of Reading, within the framework of the Leverhulme project: 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
 
