@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Postdoctoral Researcher - Leverhulme Research Leadership Project"
+  company = "University of Reading"
+  company_url = "https://www.reading.ac.uk/biologicalsciences/SchoolofBiologicalSciences/Research/sbs-research-ecology.aspx"
+  location = "Reading, UK."
+  date_start = "2021-05-01"
+  date_end = ""
+  description = """Project: 'The evolutionary and biogeographical routes to hominin diversity.'"""
+  
+[[experience]]
   title = "Postdoctoral Research Officer- Leverhulme Early Career Fellowship"
   company = "School of Anthropology and Museum Ethnography, University of Oxford"
   company_url = "https://www.anthro.ox.ac.uk/"
   location = "Oxford, UK."
   date_start = "2018-10-01"
-  date_end = ""
+  date_end = "2021-05-01"
   description = """
 Project: 'This study has teeth: exploring human origins and Climate Change through time.'
   """
@@ -34,7 +43,7 @@ Project: 'This study has teeth: exploring human origins and Climate Change throu
   company_url = "https://www.sant.ox.ac.uk/"
   location = "Oxford, UK."
   date_start = "2018-10-01"
-  date_end = ""
+  date_end = "2021-05-01"
   description = """Pastoral duties at St Anthony’s College where I advise students, both at the levels of MSc and DPhil."""
   
 [[experience]]
