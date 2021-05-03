@@ -8,7 +8,7 @@ image:
 summary: Gorongosa National Park, Mozambique, represents the last unstudied link in the great African Rift that runs across eastern Africa, wherein lie the “cradles of humankind”. This project seeks to shed light on the origins and evolutionary success of the human lineage. 
 tags:
 - PPPG
-title: Paleo-Primate project
+title: Paleo-Primate Project
 reading_time: false
 share: false
 profile: false
