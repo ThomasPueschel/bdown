@@ -13,11 +13,10 @@ title: Terms
 
 Dr. Thomas A. Püschel
 
-Leverhulme Early Career Fellow
-Primate Models for Behavioural Evolution
-Institute of Cognitive and Evolutionary Anthropology
-University of Oxford, 64 Banbury Road
-OX2 6PN, Oxford
+Ecology and Evolutionary Biology Division
+School of Biological Sciences
+University of Reading
+Reading, RG6 6BX
 
 
 ## Website:

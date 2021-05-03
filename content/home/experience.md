@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Postdoctoral Researcher - Leverhulme Research Leadership Project"
-  company = "University of Reading"
+  company = "Ecology and Evolutionary Biology Division, University of Reading"
   company_url = "https://www.reading.ac.uk/biologicalsciences/SchoolofBiologicalSciences/Research/sbs-research-ecology.aspx"
   location = "Reading, UK."
   date_start = "2021-05-01"
