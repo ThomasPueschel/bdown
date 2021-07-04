@@ -5,12 +5,20 @@
     <link>https://www.thomaspuschel.com/tag/new-tools/</link>
       <atom:link href="https://www.thomaspuschel.com/tag/new-tools/index.xml" rel="self" type="application/rss+xml" />
     <description>New tools</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>New tools</title>
       <link>https://www.thomaspuschel.com/tag/new-tools/</link>
     </image>
+    
+    <item>
+      <title>Convex hull estimation of mammalian body segment parameters</title>
+      <link>https://www.thomaspuschel.com/publication/convex_hull/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/convex_hull/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Divergence-time estimates for hominins provide insight into encephalization and body mass trends in human evolution</title>
