@@ -25,7 +25,7 @@ location:  https://www.facebook.com/CerroNaviaCL
 math: true
 projects:
 - Primate morphology
-publishDate: "2019-04-10T00:00:00Z"
+publishDate: "2021-10-30T00:00:00Z"
 summary: 
 tags:
 - Primate morphology
