@@ -8,7 +8,7 @@ address:
   street: 
 all_day: false
 authors: []
-date: "2021-10-30T16:00:00Z"
+date: "2021-10-30T12:00:00Z"
 event: Talk
 event_url: https://fb.watch/9EBeCVV7Zw/
 featured: false
