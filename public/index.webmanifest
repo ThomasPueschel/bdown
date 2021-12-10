@@ -2,8 +2,8 @@
   "name": "Thomas A. Püschel",
   "short_name": "Thomas A. Püschel",
   "lang": "en-us",
-  "theme_color": "hsl(339, 90%, 68%)",
-  "background_color": "hsl(339, 90%, 68%)",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
   "icons": [{
     "src": "/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
