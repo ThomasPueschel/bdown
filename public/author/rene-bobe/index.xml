@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>René Bobe | Thomas A. Püschel</title>
+    <title>Rene Bobe | Thomas A. Püschel</title>
     <link>https://www.thomaspuschel.com/author/rene-bobe/</link>
       <atom:link href="https://www.thomaspuschel.com/author/rene-bobe/index.xml" rel="self" type="application/rss+xml" />
-    <description>René Bobe</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <description>Rene Bobe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
-      <title>René Bobe</title>
+      <title>Rene Bobe</title>
       <link>https://www.thomaspuschel.com/author/rene-bobe/</link>
     </image>
+    
+    <item>
+      <title>The first Miocene fossils from coastal woodlands in the southern East African Rift</title>
+      <link>https://www.thomaspuschel.com/publication/gorongosa/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/gorongosa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Divergence-time estimates for hominins provide insight into encephalization and body mass trends in human evolution</title>

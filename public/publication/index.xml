@@ -5,12 +5,20 @@
     <link>https://www.thomaspuschel.com/publication/</link>
       <atom:link href="https://www.thomaspuschel.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://www.thomaspuschel.com/publication/</link>
     </image>
+    
+    <item>
+      <title>The first Miocene fossils from coastal woodlands in the southern East African Rift</title>
+      <link>https://www.thomaspuschel.com/publication/gorongosa/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/gorongosa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Effects of cognitive and mental health factors on the outcomes following carpal tunnel release A systematic review and meta-analysis</title>
