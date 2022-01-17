@@ -24,7 +24,7 @@ publication_types:
 - "2"
 publishDate: "2022-01-10T00:00:00Z"
 slides: 
-summary: Artificial Cranial Modification, Pre-Hispanic Atacama, Geometric Morphometrics, Multiple Correspondence Analysis
+summary: 3D geometric morphometrics, African apes, hominins, MC1, semi-landmarks
 tags:
 - morphometrics
 - hand
