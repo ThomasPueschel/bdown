@@ -39,8 +39,12 @@ subtitle = ""
     
   [[content.filter_button]]
     name = "Paleo-Primate Project"
-    tag = "PPPG"       
-  
+    tag = "PPPG"      
+    
+ [[content.filter_button]]
+    name = "Evolutionary Anthropology"
+    tag = "Evolutionary Anthropology"    
+    
   # [[content.filter_button]]
   #   name = "African palaeoecology"
   #   tag = "palaeoecology"

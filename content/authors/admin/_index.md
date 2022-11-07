@@ -18,7 +18,7 @@ interests:
 - Primate evolution
 - Palaeoanthropology
 - Vertebrate palaeontology
-- Mammalian evolution
+- Evolutionar anthropology
 - Morphometrics
 - Biomechanics
 - Phylogenetic comparative methods

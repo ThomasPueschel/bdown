@@ -5,7 +5,7 @@
     <link>https://www.thomaspuschel.com/</link>
       <atom:link href="https://www.thomaspuschel.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas A. Püschel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas A. Püschel</title>
@@ -51,6 +51,92 @@
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Anthropology</title>
+      <link>https://www.thomaspuschel.com/project/evolutionary-anthropology/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/project/evolutionary-anthropology/</guid>
+      <description>&lt;h2 id=&#34;evolutionary-anthropology&#34;&gt;Evolutionary Anthropology&lt;/h2&gt;
+&lt;p&gt;My main academic interest relates to the study of how and why human and primate bodies have become the way they currently are. My research has focused on the morphological innovation along the human lineage, primate phylogenetics and adaptive evolution, palaeontological fieldwork in the Rift valley, and the development of new statistical and computational tools to analyse primate form and function in an evolutionary framework. This work can be further divided into the following topics:&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;Hominin phylogenetics&lt;/strong&gt;: Part of my efforts has also focused on the application of phylogenetic comparative methods in different primate groups, and the generation of ‘combined-evidence’ phylogenetic trees (i.e., a method that allows the estimation of phylogenetic trees including extant and extinct species, using anatomical, genetic, and geological information). I have been applying these methods to infer hominin relationships, as well as to estimate other parts of the primate tree.&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;Hominin phenotypic evolution&lt;/strong&gt;: My present work at the University of Reading focuses on identifying major shifts in hominin phenotypic evolution (e.g., brain expansion, bipedalism), and to determine whether these shifts are synchronous with key environmental changes. To do this we have been collecting the largest hominin dataset at the specimen level ever compiled. I am exploring this topic by analysing different anatomical traits, a sample of new hominin phylogenies that I recently inferred, and a phylogenetic comparative framework developed to test the role of climate and geography on hominin evolution.&lt;/p&gt;
+&lt;p&gt;•	&lt;strong&gt;The evolution of the ape and human hands&lt;/strong&gt;: Inferring the locomotor behaviour of the last common ancestor (LCA) of African apes and humans is still a divisive subject. An African great-ape-like ancestor using knuckle-walking is the most parsimonious hypothesis for the LCA, despite diverse conflicting lines of evidence. Using morphometrics, computational biomechanics, and phylogenetic comparative methods, my colleagues and I have been working in modelling the evolution of human and ape hand morphology. This is fundamental to understand the origins of the modern human hand and its precision grip capabilities, tool use, and the locomotor repertoire of the LCA.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-biomechanical-hand-posture-models-describing-the-variation-found-between-pan-and-gorilla-httpsdoiorg101038s41598-020-60590-6&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; data-caption=&#34;Biomechanical hand posture models describing the variation found between Pan and Gorilla https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/knuckle.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Biomechanical hand posture models describing the variation found between Pan and Gorilla &lt;a href=&#34;https://doi.org/10.1038/s41598-020-60590-6&#34;&gt;https://doi.org/10.1038/s41598-020-60590-6&lt;/a&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;•	&lt;strong&gt;Mandibular ecomorphology&lt;/strong&gt;: Diet is regarded as one of the main factors underlying the behavioural and ecological differences among living primates, and consequently primate diets have been more exhaustively documented than any other aspect of their behaviour. A substantial proportion of physiological and anatomical adaptations have as their fundamental objective the transformation of the food that animals consume. Many studies have focused on the mandibular adaptations because the lower jaw is mostly involved in food consumption, and hence it would be expected that its morphology better reflects diet adaptations.This relationship between primate mandibular form and diet has been previously analysed by applying a wide array of techniques and approaches. Nonetheless, most of these studies compared few species and/or infrequently aimed to elucidate function based on an explicit biomechanical framework. Therefore, my colleagues and I have been working to better understand this relationship using computational biomechanics and morphometrics. This is relevant not only to understand ecomorphological adaptations in extant species but also to carry out dietary reconstructions in fossil taxa.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-values-of-the-percentile-m50-of-the-von-mises-stress-for-both-extinct-and-extant-primate-species-a-composite-phylogeny-includind-molecular-data-from-extant-primates-and-morphological-information-from-fossils-has-been-plotted-next-to-the-von-mises-stress-distribution-of-all-the-analysed-specimens-under-the-four-different-bite-cases-httpsdoiorg101038s41598-020-63739-5&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; data-caption=&#34;Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.thomaspuschel.com/img/broad.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Values of the percentile M50 of the von Mises stress for both extinct and extant primate species. A composite phylogeny includind molecular data from extant primates and morphological information from fossils has been plotted next to the von Mises stress distribution of all the analysed specimens under the four different bite cases &lt;a href=&#34;https://doi.org/10.1038/s41598-020-63739-5&#34;&gt;https://doi.org/10.1038/s41598-020-63739-5&lt;/a&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 </description>
     </item>
     
