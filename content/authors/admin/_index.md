@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am an evolutionary anthropologist, palaeoprimatologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
+bio: I am an evolutionary anthropologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
 education:
   courses:
   - course: PhD in Adaptive Organismal Biology
@@ -15,10 +15,10 @@ education:
     year: 2011
 email: ""
 interests:
+- Evolutionar anthropology
 - Primate evolution
 - Palaeoanthropology
 - Vertebrate palaeontology
-- Evolutionar anthropology
 - Morphometrics
 - Biomechanics
 - Phylogenetic comparative methods
@@ -53,5 +53,5 @@ user_groups:
 - Visitors
 ---
 
-I am an evolutionary anthropologist, palaeoprimatologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
+I am an evolutionary anthropologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
 
