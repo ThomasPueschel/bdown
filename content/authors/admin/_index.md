@@ -1,7 +1,8 @@
 ---
 authors:
 - admin
-bio: I am an evolutionary anthropologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
+bio: I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford and Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate and mammalian evolution by using combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you’re interested in joining my research group, downloading publications or discuss potential collaborations, please explore the website. 
+
 education:
   courses:
   - course: PhD in Adaptive Organismal Biology
@@ -53,5 +54,5 @@ user_groups:
 - Visitors
 ---
 
-I am an evolutionary anthropologist and vertebrate palaeobiologist mainly focused on human, primate and mammalian evolution. My main interest is to study organismal evolution by reconstructing and comparing the palaeobiology of fossils to their living ecological relatives. In order to do this, I apply a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am part of the Venditti group, University of Reading, within the framework of the Leverhulme project 'The evolutionary and biogeographical routes to hominin diversity'. I am also a research affiliate at the Institute of Human Sciences, University of Oxford, where I work together with the Paleo-Primate Project Gorongosa, Mozambique.
+I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford and Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate and mammalian evolution by using combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you’re interested in joining my research group, downloading publications or discuss potential collaborations, please explore the website. 
 
