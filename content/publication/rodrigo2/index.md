@@ -2,8 +2,8 @@
 abstract: Rehabilitation teams should consider assessing catastrophizing and symptoms of anxiety and depression to identify patients at risk for work absenteeism. Addressing these variables may also be considered in return-to-work programs for individuals with upper limb disorders.
 authors:
 - Rodrigo Núñez-Cortés
-- Ander Espin, 
-- Sofía Pérez-Alenda,
+- Ander Espin
+- Sofía Pérez-Alenda
 - Rubén López-Bueno
 - Carlos Cruz-Montecinos
 - Karina Glies Vincents-Seeberg
