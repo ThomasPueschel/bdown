@@ -44,7 +44,7 @@ projects:
 publication: In *IScience* (2023)
 publication_short: 
 publication_types:
-- "3"
+- "2"
 publishDate: "2023-08-15T00:00:00Z"
 slides: 
 summary: Interdisciplinary, geology, geochemistry, paleobotany, vertebrate paleontology, paleoecology, biogeography
