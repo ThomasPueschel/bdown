@@ -18,6 +18,24 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Wendy James Associate Professor in Evolutionary Anthropology"
+  company = "Institute of Human Sciences, School of Anthropology and Museum Ethnography, University of Oxford"
+  company_url = "https://www.anthro.ox.ac.uk/"
+  location = "Oxford, UK."
+  date_start = "2023-08-01"
+  date_end = ""
+  description = ""
+  
+  [[experience]]
+  title = "Tutorial Fellow"
+  company = "St Hugh's College"
+  company_url = "https://www.st-hughs.ox.ac.uk/"
+  location = "Oxford, UK."
+  date_start = "2023-08-01"
+  date_end = ""
+  description = ""
+  
+[[experience]]
   title = "Postdoctoral Researcher - Leverhulme Research Leadership Project"
   company = "Ecology and Evolutionary Biology Division, University of Reading"
   company_url = "https://www.reading.ac.uk/biologicalsciences/SchoolofBiologicalSciences/Research/sbs-research-ecology.aspx"
