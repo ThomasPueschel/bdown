@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford and Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate and mammalian evolution by using combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you’re interested in joining my research group, downloading publications or discuss potential collaborations, please explore the website. 
+bio: I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford, as well as Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate, and mammalian evolution by using a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you are interested in joining my research group, downloading publications or discussing potential collaborations, please explore the website. 
 
 education:
   courses:
@@ -20,14 +20,13 @@ interests:
 - Primate evolution
 - Palaeoanthropology
 - Vertebrate palaeontology
+- Phylogenetic comparative methods
 - Morphometrics
 - Biomechanics
-- Phylogenetic comparative methods
-- Palaeoecology
 organizations:
-- name: The Venditti group - Reading University
-  url: "https://www.reading.ac.uk/biologicalsciences/about/staff/c-d-venditti.aspx"
-role: Postdoctoral researcher
+- name: School of Anthropology and Museum Ethnography - University of Oxford
+  url: "https://www.anthro.ox.ac.uk/"
+role: Associate Professor in Evolutionary Anthropology
 social:
 - icon: envelope
   icon_pack: fas
@@ -54,5 +53,5 @@ user_groups:
 - Visitors
 ---
 
-I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford and Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate and mammalian evolution by using combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you’re interested in joining my research group, downloading publications or discuss potential collaborations, please explore the website. 
+I am the Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford, as well as Tutorial Fellow at St. Hugh’s College. My research mainly focuses on human, primate, and mammalian evolution by using a combination of phylogenetics, 3D morphometrics, virtual biomechanical techniques, computational simulations, statistical modelling, phylogenetic comparative methods, and fieldwork. I am in the process of establishing a research group focused on these topics, so if you are interested in joining my research group, downloading publications or discussing potential collaborations, please explore the website.  
 
