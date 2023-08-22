@@ -41,7 +41,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "University of Reading"
+org_name = "University of Oxford"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -81,7 +81,7 @@ privacy_pack = false
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "t.a.puschel@reading.ac.uk"
+email = "thomas.puschel@anthro.ox.ac.uk"
 phone = ""
 
 # Address
@@ -90,11 +90,10 @@ phone = ""
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "51.4377", longitude = "-0.94115"}
-
+coordinates = {latitude = "51.763545", longitude = "-1.259879"}
 
 # Directions for visitors to locate you.
-directions = "Ecology and Evolutionary Biology, University of Reading, School of Biological Sciences · Philip Lyle Building, RG6 6BX, UK"
+directions = "Institute of Human Sciences, School of Anthropology and Museum Ethnography, University of Oxford · The Pauling Centre, 58a Banbury Rd, Park Town, Oxford, OX2 6QS, UK"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -107,7 +106,7 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [ 
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/ThomasPuschel"},
-  {icon = "telegram", icon_pack = "fab", name = "Email Me", link = "mailto:t.a.puschel@reading.ac.uk"},
+  {icon = "telegram", icon_pack = "fab", name = "Email Me", link = "mailto:thomas.puschel@anthro.ox.ac.uk"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:thomas.puschel?call"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
