@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio:  Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford, and Tutorial Fellow at St. Hugh’s College. My main academic interest relates to the study of how and why the human and primate bodies have become the way they currently are. To answer this kind of questions, I apply a combination of statistical modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My research has focused on the morphological innovation along the human lineage, primate phylogenetics and adaptive evolution, palaeontological fieldwork in the Rift valley, and the development of new tools to analyse primate form and function in an evolutionary framework. 
+bio:  Wendy James Associate Professor in Evolutionary Anthropology at the School of Anthropology and Museum Ethnography, University of Oxford, and Tutorial Fellow at St. Hugh’s College. My main academic interest relates to the study of how and why the human and primate bodies have become the way they currently are. To answer this kind of questions, I apply a combination of statistical modelling, 3D morphometrics, virtual biomechanical techniques, computational simulations, phylogenetic comparative methods, and fieldwork. My research has focused on the morphological innovation along the human lineage, primate phylogenetics and adaptive evolution, palaeontological fieldwork in the Rift valley, and the development of new tools to analyse primate form and function in an evolutionary framework.
 
 
 education:
