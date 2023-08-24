@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   company_url = "https://www.reading.ac.uk/biologicalsciences/SchoolofBiologicalSciences/Research/sbs-research-ecology.aspx"
   location = "Reading, UK."
   date_start = "2021-05-01"
-  date_end = ""
+  date_end = "2023-07-31"
   description = """Project: 'The evolutionary and biogeographical routes to hominin diversity.'"""
   
 [[experience]]
