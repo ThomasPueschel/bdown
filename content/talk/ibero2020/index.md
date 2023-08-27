@@ -23,7 +23,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/ThomasPuschel
-location: U Católica Maule
+location: U Catolica Maule
 math: true
 projects:
 - Primate morphology

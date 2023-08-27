@@ -24,14 +24,22 @@ subtitle = ""
   # [[content.filter_button]]
   #   name = "All"
   #   tag = "*"
-    
+  
+  # [[content.filter_button]]
+  #   name = "PRIMEVOLVE Lab"
+  #   tag = "PRIMEVOLVE Lab" 
+  
   [[content.filter_button]]
-    name = "Primate morphology"
-    tag = "Primate morphology"
+    name = "Evolutionary Anthropology"
+    tag = "Evolutionary Anthropology" 
     
   [[content.filter_button]]
     name = "New tools"
     tag = "New tools"
+    
+  [[content.filter_button]]
+    name = "Primate morphology"
+    tag = "Primate morphology"
     
   [[content.filter_button]]
     name = "African Miocene mammals"
@@ -40,10 +48,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Paleo-Primate Project"
     tag = "PPPG"      
-    
- [[content.filter_button]]
-    name = "Evolutionary Anthropology"
-    tag = "Evolutionary Anthropology"    
     
   # [[content.filter_button]]
   #   name = "African palaeoecology"
