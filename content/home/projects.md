@@ -26,10 +26,6 @@ subtitle = ""
   #   tag = "*"
   
   [[content.filter_button]]
-    name = "Lab"
-    tag = "Lab"
-  
-  [[content.filter_button]]
     name = "Evolutionary Anthropology"
     tag = "Evolutionary Anthropology" 
     
@@ -47,7 +43,11 @@ subtitle = ""
     
   [[content.filter_button]]
     name = "Paleo-Primate Project"
-    tag = "PPPG"      
+    tag = "PPPG"
+    
+  [[content.filter_button]]
+    name = "Lab"
+    tag = "Lab"
     
   # [[content.filter_button]]
   #   name = "African palaeoecology"
