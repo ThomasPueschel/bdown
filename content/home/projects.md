@@ -25,9 +25,9 @@ subtitle = ""
   #   name = "All"
   #   tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "PRIMEVOLVE Lab"
-  #   tag = "PRIMEVOLVE Lab" 
+  [[content.filter_button]]
+    name = "Lab"
+    tag = "Lab"
   
   [[content.filter_button]]
     name = "Evolutionary Anthropology"
