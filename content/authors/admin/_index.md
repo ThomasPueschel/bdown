@@ -16,7 +16,7 @@ education:
     year: 2011
 email: ""
 interests:
-- Evolutionar anthropology
+- Evolutionary anthropology
 - Primate evolution
 - Palaeoanthropology
 - Vertebrate palaeontology
