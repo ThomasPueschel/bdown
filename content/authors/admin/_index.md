@@ -21,8 +21,8 @@ interests:
 - Palaeoanthropology
 - Vertebrate palaeontology
 - Phylogenetic comparative methods
-- Morphometrics
 - Phylogenetics
+- Morphometrics
 - Biomechanics
 organizations:
 - name: School of Anthropology and Museum Ethnography - University of Oxford
