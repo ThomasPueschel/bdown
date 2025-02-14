@@ -32,7 +32,7 @@ tags:
 - palaeontology
 - hominin
 title: Hominin brain size increase has emerged from within-species encephalization
-url_pdf: files/pdf/püschel-et-al-2024-hominin-brain-size-increase-has-emerged-from-within-species-encephalization.pdf
+url_pdf: files/pdf/puschel-et-al-2024.pdf
 url_project: ""
 ---
 
