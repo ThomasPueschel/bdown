@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phylogenetic comparative methods | Thomas A. Püschel</title>
+    <link>https://www.thomaspuschel.com/tag/phylogenetic-comparative-methods/</link>
+      <atom:link href="https://www.thomaspuschel.com/tag/phylogenetic-comparative-methods/index.xml" rel="self" type="application/rss+xml" />
+    <description>phylogenetic comparative methods</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <title>phylogenetic comparative methods</title>
+      <link>https://www.thomaspuschel.com/tag/phylogenetic-comparative-methods/</link>
+    </image>
+    
+    <item>
+      <title>Female driven reduction of sexual dimorphism in hominins</title>
+      <link>https://www.thomaspuschel.com/publication/dimo/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/dimo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic meta-analysis implicates large brains and our unusual posture in human handedness</title>
+      <link>https://www.thomaspuschel.com/publication/handedness/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/handedness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climatic-environmental influences on hominin brain size over the last 5 million years</title>
+      <link>https://www.thomaspuschel.com/publication/clim/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/clim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
