@@ -9,7 +9,7 @@ authors:
 - Chris Venditti
 date: "2024-12-09T00:00:00Z"
 doi: "https://doi.org/10.32942/X2FS77"
-featured: True
+featured: False
 image:
   caption: '2024-12-09T00:00:00Z'
   focal_point: ""
