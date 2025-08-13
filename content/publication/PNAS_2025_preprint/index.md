@@ -7,23 +7,23 @@ authors:
 - Joanna Baker
 - Samuel Nicholson
 - Chris Venditti
-date: "2025-08-01T00:00:00Z"
-doi: "https://doi.org/10.1073/pnas.2423833122"
+date: "2024-12-09T00:00:00Z"
+doi: "https://doi.org/10.32942/X2FS77"
 featured: True
 image:
-  caption: 'https://doi.org/10.1073/pnas.2423833122'
+  caption: '2024-12-09T00:00:00Z'
   focal_point: ""
   preview_only: false
 links:
 - name: Online version
-  url:  https://doi.org/10.1073/pnas.2423833122
+  url:  https://doi.org/10.32942/X2FS77
 projects:
 - Primate morphology
-publication: In *PNAS*, 122 (32) e2423833122 (2025)
+publication: In *EcoevoRxiv*, (2024)
 publication_short: 
 publication_types:
-- "2"
-publishDate: "2024-10-01T00:00:00Z"
+- "3"
+publishDate: "2024-12-09T00:00:00Z"
 slides: 
 summary:  primates, phylogenetics, biogeography, phylogenetic comparative methods
 tags:
@@ -32,7 +32,7 @@ tags:
 - palaeontology
 - primates
 title: The radiation and geographic expansion of primates through diverse climates
-url_pdf: files/pdf/avaria-llautureo.pdf
+url_pdf: files/pdf/avaria_llautureo_etal_2024_v2_preprint.pdf
 url_project: ""
 ---
 
