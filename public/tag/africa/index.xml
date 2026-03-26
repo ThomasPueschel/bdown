@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Africa | Thomas A. Püschel</title>
+    <link>https://www.thomaspuschel.com/tag/africa/</link>
+      <atom:link href="https://www.thomaspuschel.com/tag/africa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Africa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.thomaspuschel.com/images/icon_hu1f603fc43e6c77e42e3bc72fd8fb4d4a_30883_512x512_fill_lanczos_center_2.png</url>
+      <title>Africa</title>
+      <link>https://www.thomaspuschel.com/tag/africa/</link>
+    </image>
+    
+    <item>
+      <title>The Late Pliocene to Early Pleistocene Lomekwi faunas, West Turkana, Kenya systematics, paleoecology, and biochronology</title>
+      <link>https://www.thomaspuschel.com/publication/lomekwi/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.thomaspuschel.com/publication/lomekwi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
